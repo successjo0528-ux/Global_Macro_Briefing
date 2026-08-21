@@ -1,0 +1,19 @@
+{
+  "score_threshold": 20,
+  "swell_keywords": [
+    "tga", "재무부 일반계정", "현금 잔고", "스콧 베센트", "베센트", "40조", "40 trillion",
+    "국가부채", "national debt", "부채 한도", "debt ceiling", "스테이블코인", "stablecoin",
+    "테더", "서클", "단기국채", "t-bills", "hbm", "엔비디아", "nvidia", "tsmc", "딥시크",
+    "deepseek", "전력망", "power grid", "변압기", "transformer", "smr", "원전",
+    "구리", "copper", "닥터 코퍼", "전력", "전력난", "전력 부족", "power shortage", "electricity",
+    "희토류", "히토류", "rare earth", "rare earths", "핵심광물", "critical minerals",
+    "그린란드", "greenland", "1500원", "1600원", "패권",
+    "이란", "iran", "호르무즈", "hormuz", "strait of hormuz", "중동", "middle east",
+    "우크라이나", "ukraine", "러시아 우크라이나", "russia ukraine", "지정학"
+  ],
+  "impact_keywords": [
+    "fomc", "금리 결정", "금리 인하", "금리 인상", "rate cut", "rate hike", "파월",
+    "powell", "긴급", "shock", "쇼크", "surprise", "서프라이즈", "사상 최대", "record high",
+    "경고", "warning", "폭등", "폭락", "crash", "surge", "순매도", "순매수", "외국인"
+  ]
+}

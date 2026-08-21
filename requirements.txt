@@ -1,0 +1,5 @@
+# Standard Python library built-in modules used:
+# urllib, json, xml.etree.ElementTree, datetime, re, time, http.server, webbrowser
+
+# Optional helper packages (if installed)
+requests>=2.25.0

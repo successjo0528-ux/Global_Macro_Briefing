@@ -1,0 +1,44 @@
+name: Daily Global Macro Crawler & Auto Deploy
+
+on:
+  schedule:
+    # Runs at 21:30 UTC every day (= 06:30 KST next morning)
+    - cron: '30 21 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  crawl_and_update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Global Macro Crawler Pipeline
+        run: |
+          python crawler_runner.py
+
+      - name: Commit and Push latest briefing data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/briefing_data.json briefing_data.json data/data.js data.js
+          if git diff --staged --quiet; then
+            echo "No data changes detected. Skipping commit."
+          else
+            git commit -m "🤖 [자동 갱신] 글로벌 매크로 지표 & 경제 뉴스 브리핑 ($(date +'%Y-%m-%d %H:%M'))"
+            git push origin main
+          fi

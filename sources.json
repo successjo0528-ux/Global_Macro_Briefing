@@ -1,0 +1,194 @@
+[
+  {
+    "id": "fed_official",
+    "name": "🏛️ 미국 연방준비제도 (Federal Reserve)",
+    "website": "https://www.federalreserve.gov",
+    "domain": "federalreserve.gov",
+    "description": "연준 공식 성명서, 통화정책 결정문, 파월 의장 연설문 및 베이지북",
+    "enabled": true
+  },
+  {
+    "id": "ny_fed",
+    "name": "📑 뉴욕 연방준비은행 (NY Fed Liberty Street)",
+    "website": "https://libertystreeteconomics.newyorkfed.org",
+    "domain": "libertystreeteconomics.newyorkfed.org",
+    "description": "뉴욕 연은 유동성, 재정적자, 국채 시장 심층 연구 리포트",
+    "enabled": true
+  },
+  {
+    "id": "bloomberg",
+    "name": "🌐 Bloomberg (블룸버그)",
+    "website": "https://www.bloomberg.com",
+    "domain": "bloomberg.com",
+    "description": "글로벌 1티어 경제 매체 (거시경제, 연준 금리, 채권, 원자재, 빅테크)",
+    "enabled": true
+  },
+  {
+    "id": "reuters",
+    "name": "🌐 Reuters (로이터 통신)",
+    "website": "https://www.reuters.com",
+    "domain": "reuters.com",
+    "description": "글로벌 통화정책, 중앙은행 금리 결정, 지정학 긴급 속보",
+    "enabled": true
+  },
+  {
+    "id": "wsj",
+    "name": "🇺🇸 Wall Street Journal (월스트리트저널)",
+    "website": "https://www.wsj.com",
+    "domain": "wsj.com",
+    "description": "미국 실물 경제, 40조 달러 국가부채, 재무부 국채 발행(QRA), 기업 동향",
+    "enabled": true
+  },
+  {
+    "id": "cnbc",
+    "name": "📺 CNBC (미국 CNBC)",
+    "website": "https://www.cnbc.com",
+    "domain": "cnbc.com",
+    "description": "미국 금융시장 실시간 거시, 채권수익률, 환율, 고용/소비자물가(CPI)",
+    "enabled": true
+  },
+  {
+    "id": "ft",
+    "name": "🇬🇧 Financial Times (파이낸셜타임스)",
+    "website": "https://www.ft.com",
+    "domain": "ft.com",
+    "description": "영국/유럽 및 글로벌 매크로 경제, 국제 금융시장 심층 분석",
+    "enabled": true
+  },
+  {
+    "id": "economist",
+    "name": "🇬🇧 The Economist (이코노미스트)",
+    "website": "https://www.economist.com",
+    "domain": "economist.com",
+    "description": "글로벌 매크로 메가트렌드, 지정학 구조 분석 및 경제 전망",
+    "enabled": true
+  },
+  {
+    "id": "nytimes_biz",
+    "name": "📰 New York Times Business (뉴욕타임스)",
+    "website": "https://www.nytimes.com/section/business",
+    "domain": "nytimes.com",
+    "description": "미국 경제정책, 무역 갈등, 테크 산업 규제 및 거시 트렌드",
+    "enabled": true
+  },
+  {
+    "id": "ecb",
+    "name": "🇪🇺 ECB (유럽중앙은행)",
+    "website": "https://www.ecb.europa.eu",
+    "domain": "ecb.europa.eu",
+    "description": "유로존 기준금리 결정, 유럽 물가 및 통화정책 공식 발표",
+    "enabled": true
+  },
+  {
+    "id": "boj",
+    "name": "🇯🇵 BOJ (일본은행)",
+    "website": "https://www.boj.or.jp",
+    "domain": "boj.or.jp",
+    "description": "일본은행 금리 결정, 엔화 정책, 엔캐리 트레이드 관련 공식 발표",
+    "enabled": true
+  },
+  {
+    "id": "nikkei",
+    "name": "🇯🇵 Nikkei Asia (닛케이 아시아)",
+    "website": "https://asia.nikkei.com",
+    "domain": "asia.nikkei.com",
+    "description": "아시아 경제, 글로벌 반도체/HBM 공급망, 아시아 환율 동향",
+    "enabled": true
+  },
+  {
+    "id": "caixin",
+    "name": "🇨🇳 Caixin Global (중국 차이신)",
+    "website": "https://www.caixinglobal.com",
+    "domain": "caixinglobal.com",
+    "description": "중국 실물 경제지표, 부동산 부채, 통화정책 및 금융시장 전문",
+    "enabled": true
+  },
+  {
+    "id": "scmp",
+    "name": "🇨🇳 SCMP (사우스차이나모닝포스트)",
+    "website": "https://www.scmp.com",
+    "domain": "scmp.com",
+    "description": "중국 거시경제, 미중 기술/원자재 패권 갈등, 위안화 환율",
+    "enabled": true
+  },
+  {
+    "id": "goldman_sachs",
+    "name": "📊 Goldman Sachs Research (골드만삭스)",
+    "website": "https://www.goldmansachs.com/insights",
+    "domain": "goldmansachs.com",
+    "description": "월가 대표 투자은행 글로벌 거시 전망 및 섹터별 인사이트 리포트",
+    "enabled": true
+  },
+  {
+    "id": "imf",
+    "name": "🌐 IMF (국제통화기금)",
+    "website": "https://www.imf.org",
+    "domain": "imf.org",
+    "description": "글로벌 금융안정 보고서(GFSR), 세계 경제성장률 전망(WEO)",
+    "enabled": true
+  },
+  {
+    "id": "bis",
+    "name": "🌐 BIS (국제결제은행)",
+    "website": "https://www.bis.org",
+    "domain": "bis.org",
+    "description": "중앙은행들의 중앙은행, 글로벌 잉여 유동성 및 은행 건전성 분석",
+    "enabled": true
+  },
+  {
+    "id": "bok",
+    "name": "🏛️ 한국은행 (Bank of Korea)",
+    "website": "https://www.bok.or.kr",
+    "domain": "bok.or.kr",
+    "description": "금융통화위원회 기준금리 결정, 국내 경제전망 및 통화신용정책 보고서",
+    "enabled": true
+  },
+  {
+    "id": "einfomax",
+    "name": "🇰🇷 연합인포맥스",
+    "website": "https://news.einfomax.co.kr",
+    "domain": "einfomax.co.kr",
+    "description": "외환(달러/원), 채권 금리, 외국인 순매수/선물 수급 실시간 전문",
+    "enabled": true
+  },
+  {
+    "id": "hankyung",
+    "name": "🇰🇷 한국경제신문 (한경)",
+    "website": "https://www.hankyung.com",
+    "domain": "hankyung.com",
+    "description": "국내외 증시, 반도체/수출입, 거시경제 및 부동산/가계부채 동향",
+    "enabled": true
+  },
+  {
+    "id": "mk",
+    "name": "🇰🇷 매일경제신문 (매경)",
+    "website": "https://www.mk.co.kr",
+    "domain": "mk.co.kr",
+    "description": "국내외 거시경제, 외환 및 증시, 기업 투자 사이클 심층 보도",
+    "enabled": true
+  },
+  {
+    "id": "yna",
+    "name": "🇰🇷 연합뉴스 (경제/금융)",
+    "website": "https://www.yna.co.kr",
+    "domain": "yna.co.kr",
+    "description": "국내 수출입 펀더멘털, 소비자물가(CPI), 정부 경제재정 정책 속보",
+    "enabled": true
+  },
+  {
+    "id": "chosunbiz",
+    "name": "🇰🇷 조선비즈",
+    "website": "https://biz.chosun.com",
+    "domain": "chosunbiz.com",
+    "description": "국내외 거시경제, IT/반도체 산업, 금융 및 글로벌 공급망",
+    "enabled": true
+  },
+  {
+    "id": "the_information",
+    "name": "🤖 The Information / Tech (실리콘밸리 테크)",
+    "website": "https://www.theinformation.com",
+    "domain": "theinformation.com",
+    "description": "글로벌 AI 빅테크, AI 칩(GPU/HBM), 데이터센터 전력 인프라 특종 보도",
+    "enabled": true
+  }
+]

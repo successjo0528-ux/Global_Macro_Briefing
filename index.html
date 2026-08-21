@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글로벌 매크로 & 경제 모닝 브리핑 | 6대 섹션 종합 대시보드</title>
+  <meta name="description" content="매일 아침 1. 핵심 금융 지표(TGA 포함), 2. 연준 정책 및 유동성, 3. 미국 경제, 4. 외국인 수급, 5. 국내 경제, 6. AI 패권 및 인프라를 한눈에 파악하는 모닝 브리핑">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-section">
+        <div class="brand-icon">🌐</div>
+        <div>
+          <h1 class="brand-title">글로벌 매크로 & 경제 모닝 브리핑</h1>
+          <p class="brand-subtitle">박종훈의 너울-파도 프레임워크 & 6대 핵심 섹션 리포트</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="status-badge" id="updateStatusBadge">
+          <span class="status-dot"></span>
+          <span id="lastUpdatedText">데이터 불러오는 중...</span>
+        </div>
+        <button id="keywordsBtn" class="action-btn" title="크롤링 키워드 및 가중치 관리">🌊 키워드 관리</button>
+        <button id="sourcesBtn" class="action-btn" title="크롤링 언론사 및 기관 출처 관리">📡 출처 관리</button>
+        <button id="bookmarksBtn" class="action-btn bookmark-header-btn" title="내가 하트(❤️)로 저장한 기사 요약 즐겨찾기 열기">
+          ❤️ 즐겨찾기 <span class="bookmark-pill-badge" id="bookmarkCounter">0</span>
+        </button>
+        <button id="themeToggleBtn" class="action-btn" title="테마 변경 (라이트/다크)">🌙</button>
+        <button id="refreshBtn" class="action-btn primary" title="데이터 새로고침">🔄 새로고침</button>
+      </div>
+    </div>
+
+    <!-- Quick Section Navigation Bar -->
+    <nav class="section-nav">
+      <div class="nav-container">
+        <button class="nav-item active" data-target="all">전체 리포트</button>
+        <button class="nav-item" data-target="sec1">1. 📊 핵심 지표 (19종)</button>
+        <button class="nav-item" data-target="sec2">2. 🏛️ 연준 & 유동성</button>
+        <button class="nav-item" data-target="sec3">3. 🇺🇸 미국 경제 & 부채</button>
+        <button class="nav-item" data-target="sec4">4. 🇰🇷 외국인 수급 & 환율</button>
+        <button class="nav-item" data-target="sec5">5. 📈 국내 거시 경제</button>
+        <button class="nav-item" data-target="sec6">6. 🤖 AI 패권 & 반도체·전력망</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <!-- Top Search & Summary Info -->
+    <div class="search-summary-bar">
+      <div class="briefing-date-pill" id="marketDateBadge">2026년 08월 21일</div>
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="6개 섹션 전체 키워드 실시간 검색 (예: TGA, 베센트, 부채, HBM, 전력망, 호르무즈, 구리...)">
+        <button id="clearSearchBtn" class="clear-btn" style="display:none;">✕</button>
+      </div>
+    </div>
+
+    <!-- Section 1: 핵심 금융 지표 (19종) -->
+    <section class="briefing-section" id="sec1">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title"><span class="num-badge">1</span> 📊 핵심 금융 지표 & 유동성 (Market Tickers)</h2>
+          <span class="section-desc">미 단기/10년/30년 국채금리, DXY, 달러/엔, 금, 유가, BTC, TGA 잔고, 환율 1년/3년선, 코스피/코스닥, 국고채 3년/10년</span>
+        </div>
+      </div>
+      <div class="ticker-subgroups-container" id="tickerGrid">
+        <div class="loading-state">지표 데이터를 불러오는 중입니다...</div>
+      </div>
+    </section>
+
+    <!-- Section 2: 연준 정책 및 유동성 동향 -->
+    <section class="briefing-section" id="sec2">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title"><span class="num-badge">2</span> 🏛️ 연준 정책 및 유동성 동향</h2>
+          <span class="section-desc">연준 공식 발표, 베이지북, 파월 연설문, 뉴욕 연은 연구, QT, 역레포(RRP), 스테이블코인 국채 매수</span>
+        </div>
+        <span class="section-count-badge" id="countFed">0건</span>
+      </div>
+      <div class="news-grid" id="gridFed">
+        <div class="loading-state">연준 및 유동성 뉴스를 불러오는 중입니다...</div>
+      </div>
+    </section>
+
+    <!-- Section 3: 미국 경제 관련 주요 뉴스 요약 -->
+    <section class="briefing-section" id="sec3">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title"><span class="num-badge">3</span> 🇺🇸 미국 경제 관련 주요 뉴스 요약</h2>
+          <span class="section-desc">골드만/모건스탠리 월가 리서치, IMF/BIS 보고서, 미국 부채(40조 달러), 베센트 국채 발행(QRA), 중동 지정학</span>
+        </div>
+        <span class="section-count-badge" id="countUS">0건</span>
+      </div>
+      <div class="news-grid" id="gridUS">
+        <div class="loading-state">미국 경제 뉴스를 불러오는 중입니다...</div>
+      </div>
+    </section>
+
+    <!-- Section 4: 한국 외국인 투자자 수급 및 국내 증시 영향 -->
+    <section class="briefing-section" id="sec4">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title"><span class="num-badge">4</span> 🇰🇷 한국 외국인 투자자 수급 및 국내 증시 영향</h2>
+          <span class="section-desc">외국인 코스피/코스닥 순매수·순매도 동향, 환율 영향, 글로벌 반도체 및 대형주 수급</span>
+        </div>
+        <span class="section-count-badge" id="countForeign">0건</span>
+      </div>
+      <div class="news-grid" id="gridForeign">
+        <div class="loading-state">외국인 수급 및 증시 뉴스를 불러오는 중입니다...</div>
+      </div>
+    </section>
+
+    <!-- Section 5: 국내 경제 관련 주요 뉴스 요약 -->
+    <section class="briefing-section" id="sec5">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title"><span class="num-badge">5</span> 📈 국내 경제 관련 주요 뉴스 요약</h2>
+          <span class="section-desc">한국은행 금통위 기준금리, 국내 수출입(반도체/자동차), 소비자물가, 부동산·가계부채 동향</span>
+        </div>
+        <span class="section-count-badge" id="countKorea">0건</span>
+      </div>
+      <div class="news-grid" id="gridKorea">
+        <div class="loading-state">국내 경제 뉴스를 불러오는 중입니다...</div>
+      </div>
+    </section>
+
+    <!-- Section 6: AI 패권 전쟁 & 반도체·전력 인프라 동향 -->
+    <section class="briefing-section" id="sec6">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <h2 class="section-title"><span class="num-badge">6</span> 🤖 AI 패권 전쟁 & 반도체·전력망 인프라</h2>
+          <span class="section-desc">NVIDIA·HBM 컴퓨팅, 데이터센터 전력망·변압기, 구리·희토류 원자재, 딥시크, 미중 규제</span>
+        </div>
+        <span class="section-count-badge" id="countAI">0건</span>
+      </div>
+      <div class="news-grid" id="gridAI">
+        <div class="loading-state">AI 패권 및 인프라 뉴스를 불러오는 중입니다...</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================================= -->
+  <!-- 1. 키워드 전용 관리 모달 (Keywords Modal Only) -->
+  <!-- ================================================================= -->
+  <div class="modal-overlay" id="keywordsModal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title">🌊 크롤링 키워드 & 가중치 관리</h2>
+          <p class="modal-subtitle">관심 있는 거시/원자재/지정학 키워드를 추가·삭제하여 중요 기사를 맞춤형으로 필터링하세요.</p>
+        </div>
+        <button class="modal-close-btn" id="closeKeywordsModalBtn" onclick="document.getElementById('keywordsModal').style.display='none';">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Swell Keywords Section -->
+        <div class="keyword-group-box">
+          <div class="group-box-header">
+            <div>
+              <span class="group-box-title">🌊 1. 특급 너울 키워드 (+25점 가산)</span>
+              <span class="group-box-desc">10년 메가트렌드 (부채, TGA, HBM, 호르무즈, 구리, 전력, 희토류 등)</span>
+            </div>
+            <span class="tag-counter" id="swellCount">0개</span>
+          </div>
+          <div class="tags-container" id="swellTags"></div>
+          <div class="tag-input-row">
+            <input type="text" id="newSwellInput" placeholder="새 너울 키워드 입력 후 Enter (예: 구리, 전력, SMR, 희토류)">
+            <button class="action-btn primary" id="addSwellBtn">+ 추가</button>
+          </div>
+        </div>
+
+        <!-- Impact Keywords Section -->
+        <div class="keyword-group-box">
+          <div class="group-box-header">
+            <div>
+              <span class="group-box-title">⚡ 2. 파급력/긴급 키워드 (+20점 가산)</span>
+              <span class="group-box-desc">시장 변동성 및 긴급 속보 (FOMC, 금리 결정, 쇼크, 서프라이즈 등)</span>
+            </div>
+            <span class="tag-counter" id="impactCount">0개</span>
+          </div>
+          <div class="tags-container" id="impactTags"></div>
+          <div class="tag-input-row">
+            <input type="text" id="newImpactInput" placeholder="새 파급력 키워드 입력 후 Enter (예: 서킷브레이커, 긴급회의)">
+            <button class="action-btn primary" id="addImpactBtn">+ 추가</button>
+          </div>
+        </div>
+
+        <!-- Threshold Setting -->
+        <div class="threshold-setting-box">
+          <div class="threshold-left">
+            <span class="threshold-label">🎯 기사 노출 최소 임계 점수 (전수 노출 기준)</span>
+            <span class="threshold-desc">이 점수 이상인 모든 기사가 화면에 누락 없이 전수 표시됩니다. (기본값: 20점)</span>
+          </div>
+          <div class="threshold-right">
+            <input type="number" id="thresholdInput" value="20" min="0" max="80" step="5">
+            <span class="score-unit">점 이상</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="action-btn" id="resetKeywordsBtn" title="키워드를 초기 기본값으로 복원">🔄 기본값 복원</button>
+        <div class="footer-right-btns">
+          <button class="action-btn" id="cancelKeywordsModalBtn" onclick="document.getElementById('keywordsModal').style.display='none';">취소</button>
+          <button class="action-btn primary" id="saveKeywordsBtn">💾 키워드 설정 저장</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================================= -->
+  <!-- 2. 출처 전용 관리 모달 (Sources Modal Only) -->
+  <!-- ================================================================= -->
+  <div class="modal-overlay" id="sourcesModal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title">📡 크롤링 출처(언론사/기관) 관리</h2>
+          <p class="modal-subtitle">어떤 매체와 기관을 크롤링하는지 공식 웹사이트를 확인하고, 활성/해제 및 새 매체를 추가하세요.</p>
+        </div>
+        <button class="modal-close-btn" id="closeSourcesModalBtn" onclick="document.getElementById('sourcesModal').style.display='none';">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="keyword-group-box">
+          <div class="group-box-header">
+            <div>
+              <span class="group-box-title">📡 등록된 크롤링 매체 & 공식 웹사이트</span>
+              <span class="group-box-desc">각 매체의 공식 링크(↗)를 클릭해 확인하거나 수집을 ON/OFF 할 수 있습니다.</span>
+            </div>
+            <span class="tag-counter" id="sourcesCount">0개</span>
+          </div>
+          <div class="sources-list-container" id="sourcesList"></div>
+
+          <div class="add-source-card">
+            <span class="add-source-title">+ 새 언론사/기관 웹사이트 출처 추가</span>
+            <div class="add-source-grid-simple">
+              <input type="text" id="newSourceName" placeholder="언론사/기관명 (예: 조선일보, BBC, 중앙일보)">
+              <input type="text" id="newSourceUrl" placeholder="대표 메인 홈페이지 주소 (예: chosun.com 또는 https://www.bbc.com)">
+              <button class="action-btn primary" id="addSourceBtn">+ 출처 등록</button>
+            </div>
+            <div class="add-source-helper">
+              <span class="helper-icon">💡</span>
+              <div class="helper-text">
+                <strong>대표 메인 홈페이지 주소(도메인)만 입력하시면 됩니다!</strong> (복잡한 RSS 주소를 찾으실 필요 없이 시스템이 해당 사이트의 경제 뉴스를 자동 수집합니다.)<br>
+                • <em>입력 예시</em> : <code>chosun.com</code> , <code>bbc.com</code> , <code>joongang.co.kr</code> , <code>theverge.com</code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="action-btn" id="resetSourcesBtn" title="출처 목록을 초기 기본값으로 복원">🔄 기본값 복원</button>
+        <div class="footer-right-btns">
+          <button class="action-btn" id="cancelSourcesModalBtn" onclick="document.getElementById('sourcesModal').style.display='none';">취소</button>
+          <button class="action-btn primary" id="saveSourcesBtn">💾 출처 설정 저장</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================================= -->
+  <!-- 3. 기사 요약 즐겨찾기 모달 (Favorites Archive Modal) -->
+  <!-- ================================================================= -->
+  <div class="modal-overlay" id="bookmarksModal" style="display: none;">
+    <div class="modal-card bookmark-modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title">❤️ 나만의 기사 요약 즐겨찾기</h2>
+          <p class="modal-subtitle">매일 크롤링이 갱신되어도 사라지지 않고 브라우저에 영구 저장되는 맞춤형 즐겨찾기 모음입니다.</p>
+        </div>
+        <button class="modal-close-btn" id="closeBookmarksModalBtn" onclick="document.getElementById('bookmarksModal').style.display='none';">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="bookmark-toolbar">
+          <div class="bookmark-stats">
+            <span class="bookmark-count-label">📌 총 즐겨찾기 기사: <strong id="savedArticlesCount">0</strong>건</span>
+          </div>
+          <div class="bookmark-tools-right">
+            <button class="action-btn" id="copyAllBookmarksBtn" title="즐겨찾기한 모든 기사 요약을 클립보드에 복사">📋 전체 요약 텍스트 복사</button>
+            <button class="action-btn danger" id="clearAllBookmarksBtn" title="즐겨찾기 전체 비우기">🗑️ 전체 비우기</button>
+          </div>
+        </div>
+
+        <div class="bookmarks-list-container" id="bookmarksList">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <span class="footer-tip">💡 언제든 카드의 [❤️ 즐겨찾기] 하트 버튼을 눌러 목록을 관리할 수 있습니다.</span>
+        <button class="action-btn primary" id="closeBookmarksFooterBtn" onclick="document.getElementById('bookmarksModal').style.display='none';">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
