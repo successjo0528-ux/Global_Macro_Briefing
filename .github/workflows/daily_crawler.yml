@@ -39,6 +39,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data changes detected. Skipping commit."
           else
-            git commit -m "🤖 [자동 갱신] 글로벌 매크로 지표 & 경제 뉴스 브리핑 ($(date +'%Y-%m-%d %H:%M'))"
+            git commit -m "🤖 [자동 갱신] 글로벌 매크로 지표 & 경제 뉴스 브리핑 ($(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST'))"
             git push origin main
           fi

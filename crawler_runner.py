@@ -7,15 +7,19 @@ then exports unified data to data/briefing_data.json and briefing_data.json.
 import os
 import json
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 from core.market_indicators import fetch_all_market_indicators
 from core.news_crawler import crawl_and_process_news
 
+# KST (Korea Standard Time, UTC+9)
+KST = timezone(timedelta(hours=9))
+
 def run_pipeline():
+    now_kst = datetime.now(KST)
     print("=" * 60)
     print("  [Global Macro Briefing] Starting Morning Data Pipeline...")
-    print(f"  Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"  Time (KST): {now_kst.strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
     # 1. Fetch Market Indicators
@@ -31,7 +35,7 @@ def run_pipeline():
     news_items = crawl_and_process_news(max_items_per_category=5)
     print(f"    Processed {len(news_items)} categorized news items successfully.")
 
-    now = datetime.now()
+    now = datetime.now(KST)
     weekday_kr = ["월", "화", "수", "목", "금", "토", "일"][now.weekday()]
     date_str = f"{now.year}년 {now.month:02d}월 {now.day:02d}일 ({weekday_kr})"
 
