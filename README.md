@@ -35,17 +35,20 @@
 
 ---
 
-## 🚀 실행 방법
+## 🚀 실행 및 갱신 방법
+ 
+### 1. 매일 아침 자동 갱신 (기본 동작)
+* **GitHub Actions**: 매일 아침 **06:30 KST**에 클라우드 가상 컴퓨터가 자동으로 19대 지표와 20여 개 외신 뉴스를 수집/번역하여 배포합니다.
+* 별도의 조작 없이도 스마트폰이나 PC 웹 브라우저(GitHub Pages)에서 항상 최신 브리핑을 열람할 수 있습니다.
 
-### 로컬 실행
-* `run.bat` 더블 클릭 또는:
-```bash
-python local_server.py
-```
-* 최신 데이터 수집 및 갱신:
+### 2. 스마트폰 / 웹에서 즉시 원격 갱신 (PC 불필요)
+* 본인 GitHub 저장소 페이지 접속 ➔ **[Actions]** 탭
+* 좌측 **`Daily Global Macro Crawler & Auto Deploy`** 클릭
+* 우측 **[Run workflow]** 버튼 클릭 ➔ 약 1분 후 최신 데이터로 배포 완료
+
+### 3. 내 PC에서 로컬 실행 및 갱신
+* **로컬 대시보드 열기**: `run.bat` 더블 클릭 (또는 `Tool_Dashboard`에서 원클릭 실행)
+* **로컬 즉시 크롤링**:
 ```bash
 python crawler_runner.py
 ```
-
-### GitHub 저장소 푸시
-* `push_to_github.bat` 더블 클릭
