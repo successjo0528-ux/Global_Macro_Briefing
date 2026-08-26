@@ -18,114 +18,79 @@ from core.translator import translate_to_korean, get_google_translated_url, synt
 
 FEED_SOURCES = [
     # -------------------------------------------------------------
-    # 2. 연준 정책 및 유동성 동향
+    # 2. 연준 정책 및 유동성 동향 (Fed & Global Liquidity)
     # -------------------------------------------------------------
     {
-        "name": "Bloomberg (Fed/Rates)",
-        "url": "https://news.google.com/rss/search?q=site:bloomberg.com+(%22Federal+Reserve%22+OR+FOMC+OR+%22interest+rates%22+OR+Powell)+when:3d&hl=en-US&gl=US&ceid=US:en",
+        "name": "Bloomberg/Reuters (Fed & Rates)",
+        "query": "(Bloomberg OR Reuters) (\"Federal Reserve\" OR FOMC OR \"interest rates\" OR Powell OR inflation)",
         "default_category": "fed_liquidity",
-        "default_source": "Bloomberg",
+        "default_source": "Bloomberg/Reuters",
         "lang": "en"
     },
     {
-        "name": "Reuters (Monetary Policy)",
-        "url": "https://news.google.com/rss/search?q=site:reuters.com+(%22Federal+Reserve%22+OR+FOMC+OR+%22interest+rate%22+OR+inflation)+when:3d&hl=en-US&gl=US&ceid=US:en",
+        "name": "WSJ/CNBC (Fed Policy & QT)",
+        "query": "(WSJ OR CNBC OR MarketWatch) (Fed OR \"interest rates\" OR \"quantitative tightening\" OR \"reverse repo\" OR TGA)",
         "default_category": "fed_liquidity",
-        "default_source": "Reuters",
+        "default_source": "Wall Street Journal/CNBC",
         "lang": "en"
     },
     {
-        "name": "WSJ (Central Banking)",
-        "url": "https://news.google.com/rss/search?q=site:wsj.com+(Fed+OR+%22interest+rates%22+OR+Powell+OR+inflation)+when:3d&hl=en-US&gl=US&ceid=US:en",
+        "name": "국내 연준/금리/유동성 (한경/매경/인포맥스)",
+        "query": "(연준 OR FOMC OR 파월 OR 기준금리 OR 유동성 OR 양적긴축)",
         "default_category": "fed_liquidity",
-        "default_source": "Wall Street Journal",
+        "default_source": "국내 경제지",
+        "lang": "ko"
+    },
+
+    # -------------------------------------------------------------
+    # 3. 미국 경제 관련 주요 뉴스 요약 (US Debt, Economy & Treasury)
+    # -------------------------------------------------------------
+    {
+        "name": "Bloomberg/Reuters (US Economy & Debt)",
+        "query": "(Bloomberg OR Reuters) (\"US economy\" OR \"Treasury yields\" OR \"national debt\" OR deficit OR Bessent OR tariffs)",
+        "default_category": "us_economy",
+        "default_source": "Bloomberg/Reuters",
         "lang": "en"
     },
     {
-        "name": "CNBC (Fed & Economy)",
-        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
-        "default_category": "fed_liquidity",
-        "default_source": "CNBC",
-        "lang": "en"
-    },
-    {
-        "name": "Global Liquidity & QT",
-        "url": "https://news.google.com/rss/search?q=(%22quantitative+tightening%22+OR+%22reverse+repo%22+OR+%22money+supply%22+OR+%22stablecoin%22+OR+%22TGA%22)+when:3d&hl=en-US&gl=US&ceid=US:en",
-        "default_category": "fed_liquidity",
+        "name": "WSJ/FT/CNBC (US Macro & Treasury)",
+        "query": "(WSJ OR \"Financial Times\" OR CNBC) (\"Treasury\" OR \"debt ceiling\" OR \"tariffs\" OR \"inflation\" OR GDP)",
+        "default_category": "us_economy",
         "default_source": "Global Macro",
         "lang": "en"
     },
-
-    # -------------------------------------------------------------
-    # 3. 미국 경제 관련 주요 뉴스 요약
-    # -------------------------------------------------------------
     {
-        "name": "Bloomberg (US Economy & Debt)",
-        "url": "https://news.google.com/rss/search?q=site:bloomberg.com+(%22US+debt%22+OR+%22national+debt%22+OR+%22Treasury+yields%22+OR+%22fiscal+deficit%22+OR+Bessent)+when:3d&hl=en-US&gl=US&ceid=US:en",
+        "name": "국내 미국경제/국채 (한경/매경/조선/인포맥스)",
+        "query": "(\"미국 경제\" OR \"미 국채\" OR \"TGA\" OR \"베센트\" OR \"관세\" OR \"미국 물가\")",
         "default_category": "us_economy",
-        "default_source": "Bloomberg",
-        "lang": "en"
-    },
-    {
-        "name": "Reuters (US Economy & Treasuries)",
-        "url": "https://news.google.com/rss/search?q=site:reuters.com+(%22US+debt%22+OR+%22Treasury+yields%22+OR+%22deficit%22+OR+%22GDP%22+OR+Bessent)+when:3d&hl=en-US&gl=US&ceid=US:en",
-        "default_category": "us_economy",
-        "default_source": "Reuters",
-        "lang": "en"
-    },
-    {
-        "name": "WSJ (US Economy)",
-        "url": "https://news.google.com/rss/search?q=site:wsj.com+(%22US+economy%22+OR+%22Treasury%22+OR+%22debt+ceiling%22+OR+tariffs)+when:3d&hl=en-US&gl=US&ceid=US:en",
-        "default_category": "us_economy",
-        "default_source": "Wall Street Journal",
-        "lang": "en"
-    },
-    {
-        "name": "MarketWatch (Markets & Economy)",
-        "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
-        "default_category": "us_economy",
-        "default_source": "MarketWatch",
-        "lang": "en"
+        "default_source": "국내 경제지",
+        "lang": "ko"
     },
 
     # -------------------------------------------------------------
-    # 4. 한국 외국인 투자자 수급 및 국내 증시 영향
+    # 4. 한국 외국인 투자자 수급 및 국내 증시 영향 (Foreign Flows & FX)
     # -------------------------------------------------------------
     {
-        "name": "Bloomberg/Reuters (Asia & Korea Markets)",
-        "url": "https://news.google.com/rss/search?q=(site:bloomberg.com+OR+site:reuters.com)+(%22foreign+investors%22+AND+(%22Korea%22+OR+%22KOSPI%22+OR+%22semiconductors%22))+when:4d&hl=en-US&gl=US&ceid=US:en",
+        "name": "Global Foreign Flow (Asia & Korea Markets)",
+        "query": "(Bloomberg OR Reuters) (\"foreign investors\" AND (\"Korea\" OR \"KOSPI\" OR \"won\" OR \"semiconductors\"))",
         "default_category": "foreign_flows_korea",
         "default_source": "Global Finance",
         "lang": "en"
     },
     {
-        "name": "구글 뉴스 (외국인 수급 & 코스피/환율)",
-        "url": "https://news.google.com/rss/search?q=(%EC%99%B8%EA%B5%AD%EC%9D%B8+%EC%88%9C%EB%A7%A4%EC%88%98+OR+%EC%99%B8%EA%B5%AD%EC%9D%B8+%EC%88%98%EA%B8%89+OR+%EC%BD%94%EC%8A%A4%ED%94%BC+%EC%99%B8%EA%B5%AD%EC%9D%B8+OR+%ED%99%98%EC%9C%A8+%EC%A6%9D%EC%8B%9C)+when:2d&hl=ko&gl=KR&ceid=KR:ko",
+        "name": "국내 외인 수급 & 환율 (한경/매경/인포맥스)",
+        "query": "(\"외국인 순매수\" OR \"외국인 순매도\" OR \"외국인 수급\" OR \"원/달러 환율\" OR \"달러/원\" OR \"코스피 외국인\")",
         "default_category": "foreign_flows_korea",
         "default_source": "국내 경제지",
         "lang": "ko"
     },
-    {
-        "name": "연합인포맥스/한국경제 (외인 수급)",
-        "url": "https://news.google.com/rss/search?q=(%22%EC%99%B8%EA%B5%AD%EC%9D%B8%22+AND+(%22%EC%BD%94%EC%8A%A4%ED%94%BC%22+OR+%22%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%22+OR+%22%ED%99%98%EC%9C%A8%22))+when:2d&hl=ko&gl=KR&ceid=KR:ko",
-        "default_category": "foreign_flows_korea",
-        "default_source": "연합인포맥스",
-        "lang": "ko"
-    },
 
     # -------------------------------------------------------------
-    # 5. 국내 경제 관련 주요 뉴스 요약
+    # 5. 국내 경제 관련 주요 뉴스 요약 (Korea Domestic Macro)
     # -------------------------------------------------------------
     {
-        "name": "구글 뉴스 (한국은행/금통위/물가/수출)",
-        "url": "https://news.google.com/rss/search?q=(%ED%95%9C%EA%B5%AD%EC%9D%80%ED%96%89+OR+%EA%B8%88%ED%86%B5%EC%9C%84+OR+%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC+OR+%EB%B0%98%EB%8F%84%EC%B2%B4+%EC%88%98%EC%B6%9C+OR+%EA%B0%80%EA%B3%84%EB%B6%80%EC%B1%84+OR+%EC%86%8C%EB%B9%84%EC%9E%90%EB%AC%BC%EA%B0%80)+when:2d&hl=ko&gl=KR&ceid=KR:ko",
-        "default_category": "korea_economy",
-        "default_source": "국내 종합경제",
-        "lang": "ko"
-    },
-    {
-        "name": "국내 거시경제 심층 (한국경제/매일경제/연합)",
-        "url": "https://news.google.com/rss/search?q=(%22%EA%B5%AD%EB%82%B4+%EA%B2%BD%EC%A0%9C%22+OR+%22%EC%88%98%EC%B6%9C%EC%9E%85%22+OR+%22%EA%B2%BD%EC%83%81%EC%88%98%EC%A7%80%22+OR+%22%EA%B2%BD%EA%B8%B0%EB%8F%99%ED%96%A5%22)+when:3d&hl=ko&gl=KR&ceid=KR:ko",
+        "name": "한국은행/금통위/수출/물가 (한경/매경/조선/연합)",
+        "query": "(한국은행 OR 금통위 OR \"가계부채\" OR \"반도체 수출\" OR \"소비자물가\" OR \"경상수지\" OR \"경기동향\")",
         "default_category": "korea_economy",
         "default_source": "한국경제",
         "lang": "ko"
@@ -135,22 +100,22 @@ FEED_SOURCES = [
     # 6. AI 패권 전쟁 & 반도체·전력 인프라 동향 (AI Hegemony & Infra)
     # -------------------------------------------------------------
     {
-        "name": "Bloomberg/Reuters (AI & Chips)",
-        "url": "https://news.google.com/rss/search?q=(site:bloomberg.com+OR+site:reuters.com)+(%22artificial+intelligence%22+OR+NVIDIA+OR+TSMC+OR+HBM+OR+%22AI+chips%22+OR+DeepSeek)+when:3d&hl=en-US&gl=US&ceid=US:en",
+        "name": "Bloomberg/Reuters (AI, Chips & Datacenters)",
+        "query": "(Bloomberg OR Reuters) (\"artificial intelligence\" OR NVIDIA OR TSMC OR HBM OR \"datacenter power\" OR DeepSeek)",
         "default_category": "ai_hegemony",
         "default_source": "Global Tech",
         "lang": "en"
     },
     {
-        "name": "Google News (AI Power & Grid)",
-        "url": "https://news.google.com/rss/search?q=(%22datacenter+power%22+OR+%22grid+infrastructure%22+OR+%22transformer+shortage%22+OR+%22nuclear+power+AI%22+OR+%22AI+capex%22)+when:3d&hl=en-US&gl=US&ceid=US:en",
+        "name": "US Tech & Grid (AI Power & Infrastructure)",
+        "query": "(CNBC OR WSJ OR \"The Information\") (\"AI chips\" OR \"power grid\" OR \"transformer\" OR \"nuclear power AI\" OR \"capex\")",
         "default_category": "ai_hegemony",
-        "default_source": "Power & Tech",
+        "default_source": "Tech & Infra",
         "lang": "en"
     },
     {
-        "name": "국내 AI 반도체 & 전력망 인프라",
-        "url": "https://news.google.com/rss/search?q=(%22HBM%22+OR+%22AI+%EB%B0%98%EB%8F%84%EC%B2%B4%22+OR+%22%EC%A0%84%EB%A0%A5%EB%A7%9D%22+OR+%22%EB%B3%80%EC%95%95%EA%B8%B0%22+OR+%22%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0%22+OR+%22%EC%9B%90%EC%A0%84%22)+when:2d&hl=ko&gl=KR&ceid=KR:ko",
+        "name": "국내 AI 반도체/전력망/원전 (한경/매경/인포맥스)",
+        "query": "(\"HBM\" OR \"AI 반도체\" OR \"전력망\" OR \"변압기\" OR \"데이터센터\" OR \"원전\" OR \"하이닉스\" OR \"삼성전자\")",
         "default_category": "ai_hegemony",
         "default_source": "국내 테크/인프라",
         "lang": "ko"
@@ -158,17 +123,7 @@ FEED_SOURCES = [
 ]
 
 def load_sources_config():
-    """Loads customized feed sources from sources.json."""
-    config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "sources.json")
-    if os.path.exists(config_path):
-        try:
-            with open(config_path, "r", encoding="utf-8") as f:
-                sources = json.load(f)
-                enabled = [s for s in sources if s.get("enabled", True)]
-                if enabled:
-                    return enabled
-        except Exception as e:
-            print(f"[Warning] Failed to load sources.json: {e}")
+    """Returns the optimized FEED_SOURCES list."""
     return FEED_SOURCES
 
 SECTION_DEFINITIONS = {
@@ -417,17 +372,21 @@ def is_korean_content(text: str, category: str = "") -> bool:
     return bool(re.search(r'[가-힣]', text))
 
 def fetch_rss_feed(source_cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """Fetches and parses news from a media source by searching its official domain."""
-    domain_raw = source_cfg.get("domain") or source_cfg.get("website") or source_cfg.get("url", "")
-    domain_clean = domain_raw.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].strip()
-
-    if not domain_clean:
-        return []
-
-    is_kr = is_korean_content(source_cfg.get("name", "") + " " + domain_clean)
+    """Fetches and parses news from a media source by search query or RSS URL."""
+    is_kr = (source_cfg.get("lang") == "ko") or is_korean_content(source_cfg.get("name", "") + " " + source_cfg.get("query", ""))
     locale_params = "hl=ko&gl=KR&ceid=KR:ko" if is_kr else "hl=en-US&gl=US&ceid=US:en"
 
-    feed_url = f"https://news.google.com/rss/search?q=site:{domain_clean}+when:3d&{locale_params}"
+    if source_cfg.get("url"):
+        feed_url = source_cfg["url"]
+    elif source_cfg.get("query"):
+        q_encoded = urllib.parse.quote(source_cfg["query"])
+        feed_url = f"https://news.google.com/rss/search?q={q_encoded}&{locale_params}"
+    else:
+        domain_raw = source_cfg.get("domain") or source_cfg.get("website", "")
+        domain_clean = domain_raw.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].strip()
+        if not domain_clean:
+            return []
+        feed_url = f"https://news.google.com/rss/search?q={urllib.parse.quote(domain_clean)}&{locale_params}"
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -496,6 +455,60 @@ def crawl_and_process_news(score_threshold: int = None, max_items_per_category: 
             raw_articles.append(it)
         time.sleep(0.06)
 
+def select_diverse_clusters(clustered: List[Dict[str, Any]], max_items: int = 8, max_per_publisher: int = 2) -> List[Dict[str, Any]]:
+    """
+    Selects top clusters while enforcing publisher diversity quotas.
+    Prevents any single publisher (e.g. 연합인포맥스) from dominating the section,
+    ensuring a balanced mix of global media (Bloomberg, Reuters, CNBC, WSJ) and domestic presses.
+    """
+    selected = []
+    pub_counts = {}
+    deferred = []
+
+    # 1단계: 언론사당 최대 max_per_publisher(2개)까지 균형 선발
+    for c in clustered:
+        pub = c.get("source", "Unknown")
+        if pub_counts.get(pub, 0) < max_per_publisher:
+            selected.append(c)
+            pub_counts[pub] = pub_counts.get(pub, 0) + 1
+            if len(selected) >= max_items:
+                break
+        else:
+            deferred.append(c)
+
+    # 2단계: 전체 목표 수량(max_items)이 부족할 경우에만 보충
+    if len(selected) < max_items:
+        for c in deferred:
+            selected.append(c)
+            if len(selected) >= max_items:
+                break
+
+    return selected
+
+def crawl_and_process_news(score_threshold: int = None, max_items_per_category: int = 10) -> List[Dict[str, Any]]:
+    """
+    Fetches news across all sources, scores importance, clusters similar articles,
+    applies publisher diversity quota, and displays qualified topic clusters with multi-source links.
+    """
+    global KEYWORDS_CFG
+    KEYWORDS_CFG = load_keywords_config()
+    threshold = score_threshold if score_threshold is not None else KEYWORDS_CFG.get("score_threshold", 20)
+
+    active_sources = load_sources_config()
+
+    raw_articles = []
+    seen_titles = set()
+
+    for src in active_sources:
+        items = fetch_rss_feed(src)
+        for it in items:
+            normalized_title = re.sub(r'[^a-zA-Z0-9가-힣]', '', it["title_raw"]).lower()
+            if normalized_title in seen_titles or len(it["title_raw"]) < 6:
+                continue
+            seen_titles.add(normalized_title)
+            raw_articles.append(it)
+        time.sleep(0.06)
+
     # Score all raw articles
     scored_articles = []
     for art in raw_articles:
@@ -516,12 +529,12 @@ def crawl_and_process_news(score_threshold: int = None, max_items_per_category: 
         cat = art["category"]
         categorized[cat].append(art)
 
-    # Cluster within each category to eliminate redundancy while preserving related links
+    # Cluster within each category and apply publisher diversity quota
     final_clusters_by_cat = {}
     for cat, arts in categorized.items():
         arts.sort(key=lambda x: x["importance_score"], reverse=True)
         clustered = cluster_similar_articles(arts)
-        final_clusters_by_cat[cat] = clustered[:max_items_per_category]
+        final_clusters_by_cat[cat] = select_diverse_clusters(clustered, max_items=max_items_per_category, max_per_publisher=2)
 
     total_clusters = sum(len(v) for v in final_clusters_by_cat.values())
     print(f"\nProcessing and translating {total_clusters} diverse topic clusters (유사 기사 통합 전수 노출)...")
