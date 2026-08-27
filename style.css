@@ -153,14 +153,16 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.4rem;
+  text-decoration: none;
 }
 
 .action-btn:hover {
   background-color: var(--bg-hover);
   border-color: var(--accent-primary);
+  text-decoration: none;
 }
 
 .action-btn.primary {
@@ -172,6 +174,28 @@ body {
 
 .action-btn.primary:hover {
   background-color: var(--accent-hover);
+}
+
+.action-btn.github-action-btn {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #fcd34d;
+}
+
+body.dark-mode .action-btn.github-action-btn {
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+.action-btn.github-action-btn:hover {
+  background-color: #fde68a;
+  border-color: #f59e0b;
+}
+
+body.dark-mode .action-btn.github-action-btn:hover {
+  background-color: rgba(245, 158, 11, 0.25);
+  border-color: #f59e0b;
 }
 
 /* Section Navigation Bar */
