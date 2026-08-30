@@ -2,8 +2,8 @@ name: Daily Global Macro Crawler & Auto Deploy
 
 on:
   schedule:
-    # Runs at 19:47 UTC every day (= 04:47 KST morning, avoids peak :00 queue delay)
-    - cron: '47 19 * * *'
+    # Runs at 20:00 UTC every day (= 05:00 KST morning, triggered via cron-job.org & GitHub cron)
+    - cron: '0 20 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 permissions:
