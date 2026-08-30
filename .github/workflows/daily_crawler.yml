@@ -1,10 +1,12 @@
 name: Daily Global Macro Crawler & Auto Deploy
 
 on:
-  schedule:
-    # Runs at 20:00 UTC every day (= 05:00 KST morning, triggered via cron-job.org & GitHub cron)
-    - cron: '0 20 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  workflow_dispatch: # cron-job.org 외부 Webhook 및 GitHub 수동 실행
+
+# 중복 실행 방지 및 이전 진행 중인 작업 자동 취소
+concurrency:
+  group: global-macro-crawler
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -16,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,5 +44,6 @@ jobs:
             echo "No data changes detected. Skipping commit."
           else
             git commit -m "🤖 [자동 갱신] 글로벌 매크로 지표 & 경제 뉴스 브리핑 ($(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M KST'))"
+            git pull --rebase origin main || true
             git push origin main
           fi
