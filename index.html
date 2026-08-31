@@ -12,26 +12,33 @@
   <!-- Header -->
   <header class="app-header">
     <div class="header-container">
-      <div class="brand-section">
-        <div class="brand-icon">🌐</div>
-        <div>
-          <h1 class="brand-title">글로벌 매크로 & 경제 모닝 브리핑</h1>
-          <p class="brand-subtitle">박종훈의 너울-파도 프레임워크 & 6대 핵심 섹션 리포트</p>
+      <div class="header-main-row">
+        <div class="brand-section">
+          <div class="brand-icon">🌐</div>
+          <div class="brand-text">
+            <h1 class="brand-title">글로벌 매크로 & 경제 모닝 브리핑</h1>
+            <p class="brand-subtitle">박종훈의 너울-파도 프레임워크 & 6대 핵심 섹션 리포트</p>
+          </div>
+        </div>
+        <div class="header-quick-actions">
+          <button id="themeToggleBtn" class="action-btn icon-btn" title="테마 변경 (라이트/다크)">🌙</button>
+          <button id="refreshBtn" class="action-btn primary" title="배포된 최신 데이터 다시 불러오기">🔄 새로고침</button>
         </div>
       </div>
-      <div class="header-actions">
+
+      <div class="header-sub-row">
         <div class="status-badge" id="updateStatusBadge">
           <span class="status-dot"></span>
           <span id="lastUpdatedText">데이터 불러오는 중...</span>
         </div>
-        <button id="keywordsBtn" class="action-btn" title="크롤링 키워드 및 가중치 관리">🌊 키워드 관리</button>
-        <button id="sourcesBtn" class="action-btn" title="크롤링 언론사 및 기관 출처 관리">📡 출처 관리</button>
-        <button id="bookmarksBtn" class="action-btn bookmark-header-btn" title="내가 하트(❤️)로 저장한 기사 요약 즐겨찾기 열기">
-          ❤️ 즐겨찾기 <span class="bookmark-pill-badge" id="bookmarkCounter">0</span>
-        </button>
-        <button id="themeToggleBtn" class="action-btn" title="테마 변경 (라이트/다크)">🌙</button>
-        <a href="https://github.com/successjo0528-ux/Global_Macro_Briefing/actions/workflows/daily_crawler.yml" target="_blank" rel="noopener noreferrer" class="action-btn github-action-btn" title="GitHub Actions 원격 수동 갱신 페이지 열기 (모바일/PC 즉시 크롤링 트리거)">⚡ 원격 즉시 갱신</a>
-        <button id="refreshBtn" class="action-btn primary" title="배포된 최신 데이터 다시 불러오기">🔄 새로고침</button>
+        <div class="header-tools-group">
+          <button id="keywordsBtn" class="action-btn tool-btn" title="크롤링 키워드 및 가중치 관리">🌊 키워드 관리</button>
+          <button id="sourcesBtn" class="action-btn tool-btn" title="크롤링 언론사 및 기관 출처 관리">📡 출처 관리</button>
+          <button id="bookmarksBtn" class="action-btn bookmark-header-btn tool-btn" title="내가 하트(❤️)로 저장한 기사 요약 즐겨찾기 열기">
+            ❤️ 즐겨찾기 <span class="bookmark-pill-badge" id="bookmarkCounter">0</span>
+          </button>
+          <a href="https://github.com/successjo0528-ux/Global_Macro_Briefing/actions/workflows/daily_crawler.yml" target="_blank" rel="noopener noreferrer" class="action-btn github-action-btn tool-btn" title="GitHub Actions 원격 수동 갱신 페이지 열기 (모바일/PC 즉시 크롤링 트리거)">⚡ 원격 즉시 갱신</a>
+        </div>
       </div>
     </div>
 
