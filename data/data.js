@@ -1,8 +1,8 @@
 window.__BRIEFING_DATA__ = {
   "metadata": {
     "title": "글로벌 매크로 & 경제 모닝 브리핑",
-    "updated_at": "2026-09-03 05:01:51",
-    "date_str": "2026년 09월 03일 (목)",
+    "updated_at": "2026-09-04 05:01:52",
+    "date_str": "2026년 09월 04일 (금)",
     "indicator_count": 19,
     "news_count": 25
   },
@@ -16,22 +16,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "%",
       "format": "{:.3f}%",
       "description": "단기 무위험 금리 및 연준의 기준금리 방향성을 가장 빠르게 선반영하는 단기채 지표",
-      "price": 3.772,
-      "previous_close": 3.705,
-      "change": 0.067,
-      "change_percent": 1.81,
-      "display_price": "3.772%",
+      "price": 3.74,
+      "previous_close": 3.69,
+      "change": 0.05,
+      "change_percent": 1.36,
+      "display_price": "3.740%",
       "status": "up",
       "history": [
-        3.705,
         3.69,
         3.678,
+        3.73,
         3.732,
         3.772,
-        3.772
+        3.772,
+        3.74
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5EIRX/",
-      "updated_at": "2026-09-02 20:00:35"
+      "updated_at": "2026-09-03 20:00:33"
     },
     {
       "id": "us10y",
@@ -43,22 +44,23 @@ window.__BRIEFING_DATA__ = {
       "has_yield_signal": true,
       "format": "{:.3f}%",
       "description": "글로벌 무위험 금리 벤치마크, 밸류에이션 및 유동성 바로미터 (5% 돌파 시 경계 경보)",
-      "price": 4.796,
-      "previous_close": 4.639,
-      "change": 0.157,
-      "change_percent": 3.38,
-      "display_price": "4.796%",
+      "price": 4.762,
+      "previous_close": 4.664,
+      "change": 0.098,
+      "change_percent": 2.1,
+      "display_price": "4.762%",
       "status": "up",
       "history": [
-        4.639,
         4.664,
         4.672,
+        4.72,
         4.758,
         4.796,
-        4.796
+        4.796,
+        4.762
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5ETNX/",
-      "updated_at": "2026-09-02 20:00:35",
+      "updated_at": "2026-09-03 20:00:34",
       "yield_signal": {
         "level": "warn",
         "tag": "🟠 주의 구간 (4.50~5.00%)",
@@ -74,22 +76,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "%",
       "format": "{:.3f}%",
       "description": "초장기 채권 금리, 미국의 막대한 재정적자 및 기간 프리미엄(Term Premium) 바로미터",
-      "price": 5.267,
-      "previous_close": 5.174,
-      "change": 0.093,
-      "change_percent": 1.8,
-      "display_price": "5.267%",
+      "price": 5.243,
+      "previous_close": 5.186,
+      "change": 0.057,
+      "change_percent": 1.1,
+      "display_price": "5.243%",
       "status": "up",
       "history": [
-        5.174,
         5.186,
         5.191,
+        5.206,
         5.249,
         5.268,
-        5.267
+        5.267,
+        5.243
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5ETYX/",
-      "updated_at": "2026-09-02 20:00:35"
+      "updated_at": "2026-09-03 20:00:34"
     },
     {
       "id": "dxy",
@@ -100,21 +103,22 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:.2f} pt",
       "description": "주요 6개국 통화 대비 달러화 가치 (달러 강세/약세 지표)",
-      "price": 99.594,
-      "previous_close": 99.17,
-      "change": 0.424,
-      "change_percent": 0.43,
-      "display_price": "99.59 pt",
-      "status": "up",
+      "price": 98.974,
+      "previous_close": 99.16,
+      "change": -0.186,
+      "change_percent": -0.19,
+      "display_price": "98.97 pt",
+      "status": "down",
       "history": [
-        99.17,
         99.16,
+        99.7,
         99.43,
         99.67,
-        99.594
+        99.56,
+        98.974
       ],
       "chart_url": "https://finance.yahoo.com/quote/DX-Y.NYB/",
-      "updated_at": "2026-09-02 20:00:35"
+      "updated_at": "2026-09-03 20:00:34"
     },
     {
       "id": "usdjpy",
@@ -125,11 +129,11 @@ window.__BRIEFING_DATA__ = {
       "unit": "엔",
       "format": "{:,.2f}엔",
       "description": "엔 캐리 트레이드 청산 리스크 및 일본은행(BOJ) 통화정책 바로미터",
-      "price": 158.779,
-      "previous_close": 159.139,
-      "change": -0.36,
-      "change_percent": -0.23,
-      "display_price": "158.78엔",
+      "price": 155.763,
+      "previous_close": 159.223,
+      "change": -3.46,
+      "change_percent": -2.17,
+      "display_price": "155.76엔",
       "status": "down",
       "history": [
         159.223,
@@ -138,10 +142,10 @@ window.__BRIEFING_DATA__ = {
         160.122,
         159.747,
         160.196,
-        158.779
+        155.763
       ],
       "chart_url": "https://finance.yahoo.com/quote/JPY%3DX/",
-      "updated_at": "2026-09-02 20:00:35"
+      "updated_at": "2026-09-03 20:00:34"
     },
     {
       "id": "gold",
@@ -152,22 +156,22 @@ window.__BRIEFING_DATA__ = {
       "unit": "$",
       "format": "${:,.2f}",
       "description": "인플레이션 헤지 및 대표 닻(Anchor) 안전자산, 실질금리 역방향 흐름",
-      "price": 4435.0,
-      "previous_close": 4598.2,
-      "change": -163.2,
-      "change_percent": -3.55,
-      "display_price": "$4,435.00",
+      "price": 4526.2,
+      "previous_close": 4609.7,
+      "change": -83.5,
+      "change_percent": -1.81,
+      "display_price": "$4,526.20",
       "status": "down",
       "history": [
-        4598.2,
         4609.7,
         4478.1,
         4431.1,
         4348.0,
-        4435.0
+        4366.3,
+        4526.2
       ],
       "chart_url": "https://finance.yahoo.com/quote/GC%3DF/",
-      "updated_at": "2026-09-02 20:00:35"
+      "updated_at": "2026-09-03 20:00:34"
     },
     {
       "id": "wti",
@@ -178,22 +182,22 @@ window.__BRIEFING_DATA__ = {
       "unit": "$",
       "format": "${:.2f}",
       "description": "헤드라인 인플레이션 시한폭탄 및 원자재 물가 압력 지표",
-      "price": 90.88,
-      "previous_close": 82.23,
-      "change": 8.65,
-      "change_percent": 10.52,
-      "display_price": "$90.88",
+      "price": 91.59,
+      "previous_close": 83.53,
+      "change": 8.06,
+      "change_percent": 9.65,
+      "display_price": "$91.59",
       "status": "up",
       "history": [
-        82.23,
         83.53,
         83.4,
         85.76,
         90.22,
-        90.88
+        91.01,
+        91.59
       ],
       "chart_url": "https://finance.yahoo.com/quote/CL%3DF/",
-      "updated_at": "2026-09-02 20:00:36"
+      "updated_at": "2026-09-03 20:00:34"
     },
     {
       "id": "btc",
@@ -204,23 +208,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "$",
       "format": "${:,.0f}",
       "description": "글로벌 위험자산 선호도 및 잉여 유동성 측정 지표",
-      "price": 77303.62,
-      "previous_close": 80257.54,
-      "change": -2953.92,
-      "change_percent": -3.68,
-      "display_price": "$77,304",
-      "status": "down",
+      "price": 81633.38,
+      "previous_close": 77830.29,
+      "change": 3803.09,
+      "change_percent": 4.89,
+      "display_price": "$81,633",
+      "status": "up",
       "history": [
-        80257.539,
         77830.289,
         78245.812,
         77667.57,
         78548.633,
         77403.625,
-        77303.617
+        77300.477,
+        81633.383
       ],
       "chart_url": "https://finance.yahoo.com/quote/BTC-USD/",
-      "updated_at": "2026-09-02 20:00:36"
+      "updated_at": "2026-09-03 20:00:35"
     },
     {
       "id": "tga",
@@ -232,23 +236,23 @@ window.__BRIEFING_DATA__ = {
       "is_tga": true,
       "format": "${:,.1f}B",
       "description": "스콧 베센트 재무장관의 유동성 탄약고 (잔고 방출=유동성 공급/주가상승, 충전=유동성 흡수)",
-      "price": 1023.6,
-      "previous_close": 319.7,
-      "change": 703.9,
-      "change_percent": 220.18,
-      "display_price": "$1,023.6B (약 10,236억$)",
+      "price": 942.8,
+      "previous_close": 23.0,
+      "change": 919.8,
+      "change_percent": 0.0,
+      "display_price": "$942.8B (약 9,428억$)",
       "status": "up",
       "history": [
-        218.2,
-        270.4,
-        971.3,
-        942.8,
         400.5,
         319.7,
-        1023.6
+        1023.6,
+        944.4,
+        21.4,
+        23.0,
+        942.8
       ],
       "chart_url": "https://fiscaldata.treasury.gov/datasets/daily-treasury-statement/operating-cash-balance",
-      "updated_at": "2026-09-02 20:00:36"
+      "updated_at": "2026-09-03 20:00:35"
     },
     {
       "id": "sp500",
@@ -259,23 +263,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:,.2f}",
       "description": "미국 대형주 대표 벤치마크 및 글로벌 주식 투자 심리",
-      "price": 7666.68,
-      "previous_close": 7652.86,
-      "change": 13.82,
-      "change_percent": 0.18,
-      "display_price": "7,666.68",
+      "price": 7747.6,
+      "previous_close": 7677.28,
+      "change": 70.32,
+      "change_percent": 0.92,
+      "display_price": "7,747.60",
       "status": "up",
       "history": [
-        7677.28,
         7675.7,
         7730.99,
         7711.76,
         7686.14,
         7631.47,
-        7666.68
+        7666.6,
+        7747.6
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5EGSPC/",
-      "updated_at": "2026-09-02 20:00:37"
+      "updated_at": "2026-09-03 20:00:37"
     },
     {
       "id": "nasdaq",
@@ -286,22 +290,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:,.2f}",
       "description": "빅테크 및 성장주 중심의 글로벌 기술주 지표",
-      "price": 29143.33,
-      "previous_close": 29023.18,
-      "change": 120.15,
-      "change_percent": 0.41,
-      "display_price": "29,143.33",
+      "price": 29482.32,
+      "previous_close": 29209.23,
+      "change": 273.09,
+      "change_percent": 0.93,
+      "display_price": "29,482.32",
       "status": "up",
       "history": [
-        29209.23,
         29224.52,
         29641.561,
+        29433.43,
         29456.971,
         29077.221,
-        29143.33
+        29143.33,
+        29482.32
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5ENDX/",
-      "updated_at": "2026-09-02 20:00:37"
+      "updated_at": "2026-09-03 20:00:37"
     },
     {
       "id": "sox",
@@ -312,23 +317,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:,.2f}",
       "description": "글로벌 AI/반도체 밸류체인 및 삼성전자/SK하이닉스 외국인 수급 직결",
-      "price": 11339.254,
-      "previous_close": 11423.17,
-      "change": -83.916,
-      "change_percent": -0.73,
-      "display_price": "11,339.25",
+      "price": 11352.129,
+      "previous_close": 11588.04,
+      "change": -235.911,
+      "change_percent": -2.04,
+      "display_price": "11,352.13",
       "status": "down",
       "history": [
-        11588.04,
         11611.24,
         11882.17,
         11469.66,
         11535.05,
         11288.61,
-        11339.254
+        11339.25,
+        11352.129
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5ESOX/",
-      "updated_at": "2026-09-02 20:00:37"
+      "updated_at": "2026-09-03 20:00:37"
     },
     {
       "id": "vix",
@@ -339,23 +344,23 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:.2f}",
       "description": "월가 S&P500 옵션 내재 변동성 및 투자자 공포/탐욕 심리",
-      "price": 15.25,
-      "previous_close": 15.45,
-      "change": -0.2,
-      "change_percent": -1.29,
-      "display_price": "15.25",
+      "price": 14.35,
+      "previous_close": 15.21,
+      "change": -0.86,
+      "change_percent": -5.65,
+      "display_price": "14.35",
       "status": "down",
       "history": [
-        15.45,
         15.21,
         14.51,
         14.43,
         14.92,
         16.34,
-        15.25
+        15.2,
+        14.35
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5EVIX/",
-      "updated_at": "2026-09-02 20:00:38"
+      "updated_at": "2026-09-03 20:00:37"
     },
     {
       "id": "usdkrw",
@@ -367,11 +372,11 @@ window.__BRIEFING_DATA__ = {
       "has_fx_averages": true,
       "format": "{:,.2f}원",
       "description": "원화 가치 및 외인 수급의 핵심 변수 (1년 평균 및 3년 평균 기준선 제공)",
-      "price": 1359.37,
-      "previous_close": 1380.76,
-      "change": -21.39,
-      "change_percent": -1.55,
-      "display_price": "1,359.37원",
+      "price": 1356.04,
+      "previous_close": 1381.49,
+      "change": -25.45,
+      "change_percent": -1.84,
+      "display_price": "1,356.04원",
       "status": "down",
       "history": [
         1381.49,
@@ -380,13 +385,13 @@ window.__BRIEFING_DATA__ = {
         1377.11,
         1366.62,
         1372.86,
-        1359.37
+        1356.04
       ],
       "chart_url": "https://finance.yahoo.com/quote/KRW%3DX/",
-      "updated_at": "2026-09-02 20:00:38",
+      "updated_at": "2026-09-03 20:00:37",
       "fx_averages": {
-        "avg_1y": 1459.6,
-        "avg_3y": 1401.2
+        "avg_1y": 1459.5,
+        "avg_3y": 1401.1
       }
     },
     {
@@ -398,21 +403,22 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:,.2f}",
       "description": "국내 대형주/제조업 중심 유가증권시장 대표 벤치마크",
-      "price": 6562.72,
-      "previous_close": 6696.96,
-      "change": -134.24,
-      "change_percent": -2.0,
-      "display_price": "6,562.72",
+      "price": 6579.48,
+      "previous_close": 6742.74,
+      "change": -163.26,
+      "change_percent": -2.42,
+      "display_price": "6,579.48",
       "status": "down",
       "history": [
-        6742.74,
         6808.21,
         6912.37,
+        6788.88,
         6820.02,
-        6835.8
+        6835.8,
+        6562.72
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5EKS11/",
-      "updated_at": "2026-09-02 20:00:38"
+      "updated_at": "2026-09-03 20:00:38"
     },
     {
       "id": "kosdaq",
@@ -423,21 +429,22 @@ window.__BRIEFING_DATA__ = {
       "unit": "pt",
       "format": "{:,.2f}",
       "description": "국내 IT, 바이오, 2차전지, 중소형 성장주 대표 벤치마크",
-      "price": 803.98,
-      "previous_close": 813.33,
-      "change": -9.35,
-      "change_percent": -1.15,
-      "display_price": "803.98",
+      "price": 790.21,
+      "previous_close": 827.15,
+      "change": -36.94,
+      "change_percent": -4.47,
+      "display_price": "790.21",
       "status": "down",
       "history": [
-        827.15,
         826.87,
         837.65,
+        838.41,
         834.29,
-        821.25
+        821.25,
+        803.98
       ],
       "chart_url": "https://finance.yahoo.com/quote/%5EKQ11/",
-      "updated_at": "2026-09-02 20:00:38"
+      "updated_at": "2026-09-03 20:00:38"
     },
     {
       "id": "kr_bond3y",
@@ -449,23 +456,23 @@ window.__BRIEFING_DATA__ = {
       "is_kr_bond": true,
       "format": "{:.2f}%",
       "description": "국내 채권시장 단기 기준물, 한국은행 통화정책 및 기업 자금조달 금리 벤치마크",
-      "price": 3.93,
-      "previous_close": 3.87,
-      "change": 0.06,
-      "change_percent": 1.55,
-      "display_price": "3.93%",
-      "status": "up",
+      "price": 3.88,
+      "previous_close": 3.93,
+      "change": -0.05,
+      "change_percent": -1.27,
+      "display_price": "3.88%",
+      "status": "down",
       "history": [
-        3.83,
         3.81,
         3.75,
         3.78,
         3.83,
         3.87,
-        3.93
+        3.93,
+        3.88
       ],
       "chart_url": "https://finance.naver.com/marketindex/interestDetail.naver?marketindexCd=IRR_GOVT03Y",
-      "updated_at": "2026-09-02 20:00:38"
+      "updated_at": "2026-09-03 20:00:38"
     },
     {
       "id": "kr_bond10y",
@@ -493,7 +500,7 @@ window.__BRIEFING_DATA__ = {
         4.366
       ],
       "chart_url": "https://kr.investing.com/rates-bonds/south-korea-10-year-bond-yield",
-      "updated_at": "2026-09-02 20:00:40"
+      "updated_at": "2026-09-03 20:00:39"
     },
     {
       "id": "ewy",
@@ -504,184 +511,31 @@ window.__BRIEFING_DATA__ = {
       "unit": "$",
       "format": "${:.2f}",
       "description": "뉴욕 야간 외국인 한국물 거래 (익일 아침 코스피 시초가 선행 지표)",
-      "price": 178.89,
-      "previous_close": 173.64,
-      "change": 5.25,
-      "change_percent": 3.02,
-      "display_price": "$178.89",
+      "price": 180.555,
+      "previous_close": 180.15,
+      "change": 0.405,
+      "change_percent": 0.22,
+      "display_price": "$180.56",
       "status": "up",
       "history": [
-        180.15,
         179.18,
         182.14,
+        180.2,
         180.86,
         175.8,
-        178.89
+        178.86,
+        180.555
       ],
       "chart_url": "https://finance.yahoo.com/quote/EWY/",
-      "updated_at": "2026-09-02 20:00:40"
+      "updated_at": "2026-09-03 20:00:39"
     }
   ],
   "news": [
     {
-      "source": "CNBC",
-      "title_ko": "시장은 올해 이란 휴전으로 인해 잠재력을 향해 다시 이동하고 있습니다.",
-      "title_en": "Markets shift back toward potential Fed rate cut this year with Iran ceasefire in place",
-      "summary_ko": "시장은 올해 이란 휴전으로 인해 잠재력을 향해 다시 이동하고 있습니다. 관련 핵심 동향이 발표되었습니다. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. CNBC뿐만 아니라 Bloomberg, CNBC 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGtvOGY1aDZBcVpZMW5NUFJDNzB4YU95eFFRSzBYaTd3WHFNRWdOTXlPQlVGcXBpdlMwSVRoR1hLZnkwa1A3SVg0SGFjMXUyemFHaW9kY3JxQ2c5UkQzZURkTFVXampOMndtcnFHZnN0LWZuN0ltV1hhSW85ZTRubFBvVE1LdlZJLURNSXNRemdqbktTZEphU2o5RmhCY2NOZEF1UkxKZy1KakQtZFlMTE1Hbm55cjQ3WWdIV0hhTmE5WEHSAcgBQVVfeXFMTVJWTk9yVkpld1BaRHMxMGRfc2lQQl9qVU9iR3k4dURPNFFGOE14LTU3M0pLVGM4S05OY2VwUHdlYkNsSEFIbkdjczVlaUU1Z0dXOUdZMEYyZ0Z1QnU3WktLWXhLMFIxOExXb3FQWXBoTkJfR1I1QzBoTDFkOHIxajRpUzlwMlNva0dadUFUcmVFblQtRnVKSHNVc0R0VmJIU0hMNzhoSmlRdGhLY3VnS1pKcHpEenFIRThqRDJ5TlBNbnlLRVBSMlA?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiwwFBVV95cUxNZGtvOGY1aDZBcVpZMW5NUFJDNzB4YU95eFFRSzBYaTd3WHFNRWdOTXlPQlVGcXBpdlMwSVRoR1hLZnkwa1A3SVg0SGFjMXUyemFHaW9kY3JxQ2c5UkQzZURkTFVXampOMndtcnFHZnN0LWZuN0ltV1hhSW85ZTRubFBvVE1LdlZJLURNSXNRemdqbktTZEphU2o5RmhCY2NOZEF1UkxKZy1KakQtZFlMTE1Hbm55cjQ3WWdIV0hhTmE5WEHSAcgBQVVfeXFMTVJWTk9yVkpld1BaRHMxMGRfc2lQQl9qVU9iR3k4dURPNFFGOE14LTU3M0pLVGM4S05OY2VwUHdlYkNsSEFIbkdjczVlaUU1Z0dXOUdZMEYyZ0Z1QnU3WktLWXhLMFIxOExXb3FQWXBoTkJfR1I1QzBoTDFkOHIxajRpUzlwMlNva0dadUFUcmVFblQtRnVKSHNVc0R0VmJIU0hMNzhoSmlRdGhLY3VnS1pKcHpEenFIRThqRDJ5TlBNbnlLRVBSMlA%3Foc%3D5",
-      "category": "fed_liquidity",
-      "section_no": 2,
-      "section_title": "연준 정책 및 유동성 동향",
-      "section_icon": "🏛️",
-      "importance_score": 55,
-      "badge_label": "⭐ 주요 파도",
-      "badge_class": "tier-wave",
-      "pub_date": "Wed, 08 Apr 2026 07:00:00 GMT",
-      "related_articles": [
-        {
-          "source": "Reuters",
-          "title_ko": "Barclays는 Warsh 연설 이후 연준 (Fed)이 올해 두 번 더 금리를 인상 할 것으로 예상합니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcjVHcjZWTGVra3FoZ29XVXdDS05fZlh6S3ZwZHdzb2Z1bHo1Tm12NUNBZWZxN21sTG5hYkdfVVA5VmlBMm5xOERKNXJYZDJURkI2Yk5Lb1JNZFFyNEJVZUdKSjhtdFZtbm5MdHJfN3cwN1FTUzRlUkJwUWxnWjlqLVVpdHZrQkRnaUx0Y1oyZlQ1VzY0LUhmRlI5d2RKbU9lQWVZUC0xTG81QjljYzRwdDRQRndsY3FXZWdR?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiuwFBVV95cUxQcjVHcjZWTGVra3FoZ29XVXdDS05fZlh6S3ZwZHdzb2Z1bHo1Tm12NUNBZWZxN21sTG5hYkdfVVA5VmlBMm5xOERKNXJYZDJURkI2Yk5Lb1JNZFFyNEJVZUdKSjhtdFZtbm5MdHJfN3cwN1FTUzRlUkJwUWxnWjlqLVVpdHZrQkRnaUx0Y1oyZlQ1VzY0LUhmRlI5d2RKbU9lQWVZUC0xTG81QjljYzRwdDRQRndsY3FXZWdR%3Foc%3D5"
-        },
-        {
-          "source": "CNBC",
-          "title_ko": "연준(Fed) 기준 금리 인하에 대한 시장의 희망은 빠르게 사라지고 있다",
-          "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenZDZzZIZWtCNFRmZThzaC1aek1vT2NWSzMyU1Y0TnBpRWw5bnR1M1Vtaml1ajRlNFBiSVN3SkRCUjBTdGFHQzdQQUkwSE5qcHlYMnNoQS1UN3hWNlZuV1NPNjAtTWkyaWpjS2diSzNpajhDQldrZDdhNVpOeEtvd0tXNXMtT1VhendWbmhEX2FtRmhGa2FqTnVyQzVMVlVjdEhR0gGoAUFVX3lxTE96U0h0N2Nxd2FJNU9rbkdzTjlwemVtOGhZUUoxY0k2WlEwWS00U2xIVVNNdUNSVzlwSkNlY1NTWFRvc0lsM3B0WFFfeWI5QkFkTnY5UElvQy1obkVkVG5fM2lSWlRBbTEyQ3dqZzU5bnVQOVQ0LWRHVm9BYnE2eV84blgwVlNScktObmtjbkVXTW9uZ0xYaG04TEh2bVJWZThyT2t0YmNhTQ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiowFBVV95cUxPenZDZzZIZWtCNFRmZThzaC1aek1vT2NWSzMyU1Y0TnBpRWw5bnR1M1Vtaml1ajRlNFBiSVN3SkRCUjBTdGFHQzdQQUkwSE5qcHlYMnNoQS1UN3hWNlZuV1NPNjAtTWkyaWpjS2diSzNpajhDQldrZDdhNVpOeEtvd0tXNXMtT1VhendWbmhEX2FtRmhGa2FqTnVyQzVMVlVjdEhR0gGoAUFVX3lxTE96U0h0N2Nxd2FJNU9rbkdzTjlwemVtOGhZUUoxY0k2WlEwWS00U2xIVVNNdUNSVzlwSkNlY1NTWFRvc0lsM3B0WFFfeWI5QkFkTnY5UElvQy1obkVkVG5fM2lSWlRBbTEyQ3dqZzU5bnVQOVQ0LWRHVm9BYnE2eV84blgwVlNScktObmtjbkVXTW9uZ0xYaG04TEh2bVJWZThyT2t0YmNhTQ%3Foc%3D5"
-        },
-        {
-          "source": "Bloomberg",
-          "title_ko": "연준(Fed)이 금리를 유지한다면 시장의 반응은 좋지 않을 것입니다: Seder",
-          "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3M1YTRKeExWbE16WEFucjZJRENraVpMRzE5SnZzRk8taHBONS0xcFV5NWFOTnplSUktdkt1QmRacklrc0pQalIwUUVMTG1IVloyVnB6LWpDTmhXSEUta1c5dmNBLVNtTzJzZkJsdXZEUUNnMlNRd2pSX1FFNDFOU2NPazdVWldfUHBhcW84RmZ0OTR2bG9xR0hXT2hUWHEzdlk2dFFKaDFUZw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqgFBVV95cUxOb3M1YTRKeExWbE16WEFucjZJRENraVpMRzE5SnZzRk8taHBONS0xcFV5NWFOTnplSUktdkt1QmRacklrc0pQalIwUUVMTG1IVloyVnB6LWpDTmhXSEUta1c5dmNBLVNtTzJzZkJsdXZEUUNnMlNRd2pSX1FFNDFOU2NPazdVWldfUHBhcW84RmZ0OTR2bG9xR0hXT2hUWHEzdlk2dFFKaDFUZw%3Foc%3D5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:00:55"
-    },
-    {
-      "source": "CNBC",
-      "title_ko": "10",
-      "title_en": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes",
-      "summary_ko": "10 관련 핵심 동향이 발표되었습니다. 중앙은행 통화정책 기조 및 글로벌 잉여 유동성 흐름의 변화를 나타내는 주요 매크로 시그널입니다. CNBC뿐만 아니라 Bloomberg, CNBC 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRG9oQVRDYjVZbTFuZERZUjFJSjZyWER6ZTB0bXFGaWhGM1BMSENPY0ZqQ29kSEhqOExHQ0toekFGcE9fd0prUVRFdHlWTzVOX1RMNVdXVDc0OTRqRWtSTGpFRFJ0OV9QS3JyME0zSmdJUDJ2S0VhcEZYUGhqVE9BeXdUNTZ6cU5sNWxZOHRYTS01a1o2WEF5btIBngFBVV95cUxOQS1BejRFaVlpMml3aFNMb0FTbGdCQkVLZFVJd3VvbHJQVGxvQ1ZCeFkxWnBXcm1GcGx4OTEtaE1pTzBDZ0U1bzRfZjF0NjdETV9RXzJ5aXBwNE8xajE0dTNmbUs4YmhZQUdFWDlsM2VtNWZDLUd6R2FSeDRjRWUyVFVJa3MxVHBWTmNqTFhrbVZPMzEteUdkY2t0NGUyUQ?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMimAFBVV95cUxPRG9oQVRDYjVZbTFuZERZUjFJSjZyWER6ZTB0bXFGaWhGM1BMSENPY0ZqQ29kSEhqOExHQ0toekFGcE9fd0prUVRFdHlWTzVOX1RMNVdXVDc0OTRqRWtSTGpFRFJ0OV9QS3JyME0zSmdJUDJ2S0VhcEZYUGhqVE9BeXdUNTZ6cU5sNWxZOHRYTS01a1o2WEF5btIBngFBVV95cUxOQS1BejRFaVlpMml3aFNMb0FTbGdCQkVLZFVJd3VvbHJQVGxvQ1ZCeFkxWnBXcm1GcGx4OTEtaE1pTzBDZ0U1bzRfZjF0NjdETV9RXzJ5aXBwNE8xajE0dTNmbUs4YmhZQUdFWDlsM2VtNWZDLUd6R2FSeDRjRWUyVFVJa3MxVHBWTmNqTFhrbVZPMzEteUdkY2t0NGUyUQ%3Foc%3D5",
-      "category": "fed_liquidity",
-      "section_no": 2,
-      "section_title": "연준 정책 및 유동성 동향",
-      "section_icon": "🏛️",
-      "importance_score": 55,
-      "badge_label": "⭐ 주요 파도",
-      "badge_class": "tier-wave",
-      "pub_date": "Mon, 15 Jun 2026 07:00:00 GMT",
-      "related_articles": [
-        {
-          "source": "Reuters",
-          "title_ko": "유로존 인플레이션이 3% 이상 상승하며 ECB의 등장 인물 베팅이 확고해졌습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqwFBVV95cUxNWlU0ZGJQMWt6NVhpVng4SW1jUk1SM3NXZWlRZzliNnV5emhYeDRaVF9FYnA1aWNDUVphdW1hQTcwRWVOVGR1YjBfdm9sOUlWcFpCSnFwOVNubkh6VnZrTjRyMERVTWRKaXYzZHNaVjBZZ2hYT015OHgzb2o5S25uaG1OaFNGVzRpZk1XSDZMMVhhUUM1V19VbWktVnRmXy1YbEFUS3JxeGEtY0E%3Foc%3D5"
-        },
-        {
-          "source": "Bloomberg",
-          "title_ko": "독일 인플레이션 상승으로 인해 ECB의 관심이 높아졌습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMWZ4UkVFbVJIX1ZZQ3Y0Tk91b1FxamswZkJIcWlHWk8zQlJ2emlId1lRNWN2cUxDVVRXWXBad0xjTkZ5MnJteDRISlJRekhiaXB0YnFJZjhXN2FmVjhLdlQ2Sk9zUlhodHU3SjNKMFRRTGxBVXdNNFdVVWoyTTBFTkM2dGJBRjVWYjNPZndDeU8tdFVNV3FKcnhVX0h4ZzRMS2phMEZiMFpYdUQwSHRvTUlNdjdQY3c?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitwFBVV95cUxPMWZ4UkVFbVJIX1ZZQ3Y0Tk91b1FxamswZkJIcWlHWk8zQlJ2emlId1lRNWN2cUxDVVRXWXBad0xjTkZ5MnJteDRISlJRekhiaXB0YnFJZjhXN2FmVjhLdlQ2Sk9zUlhodHU3SjNKMFRRTGxBVXdNNFdVVWoyTTBFTkM2dGJBRjVWYjNPZndDeU8tdFVNV3FKcnhVX0h4ZzRMS2phMEZiMFpYdUQwSHRvTUlNdjdQY3c%3Foc%3D5"
-        },
-        {
-          "source": "CNBC",
-          "title_ko": "금은 거의 2로 하락",
-          "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGRDTjJlQVBDZkNfeW5WNWk4aWh2TllVWTJUUnlKTzBxNWxwcUxnZEUwNFVkOVBVUy11VTdrZy1henJZa0Y0ay1FRjA3TS1PWWRKOUFxdVQyWnVyZGR4MjdLbkpfX29Ddk9JNGVBZWFRTXFvclpYVUJkeVdQSkxmZkpRWnhwOEt5VFY4TEFWdnVRRVZmVE90Z9IBngFBVV95cUxOMjlpRXBWMGhPX2JndVEyWDdsTWZDSjhtMWtqMEE2NUVTMkhDZ3pSS2NwWjZHR2k2U0pCbWhxdlVTTjk5bng3X2pkNVpPbkttT2pIQVJWX3ZCTXBqM2dtd3JwcU1ZVEpIXzRFOTBJWnhuYWhQa3duSVlpZ0dhbTJITGkyWkF5VlFxb29NSnFnU2lya0hCZnh3MWxDRHB4QQ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMimAFBVV95cUxOcGRDTjJlQVBDZkNfeW5WNWk4aWh2TllVWTJUUnlKTzBxNWxwcUxnZEUwNFVkOVBVUy11VTdrZy1henJZa0Y0ay1FRjA3TS1PWWRKOUFxdVQyWnVyZGR4MjdLbkpfX29Ddk9JNGVBZWFRTXFvclpYVUJkeVdQSkxmZkpRWnhwOEt5VFY4TEFWdnVRRVZmVE90Z9IBngFBVV95cUxOMjlpRXBWMGhPX2JndVEyWDdsTWZDSjhtMWtqMEE2NUVTMkhDZ3pSS2NwWjZHR2k2U0pCbWhxdlVTTjk5bng3X2pkNVpPbkttT2pIQVJWX3ZCTXBqM2dtd3JwcU1ZVEpIXzRFOTBJWnhuYWhQa3duSVlpZ0dhbTJITGkyWkF5VlFxb29NSnFnU2lya0hCZnh3MWxDRHB4QQ%3Foc%3D5"
-        },
-        {
-          "source": "CNBC",
-          "title_ko": "미국 10",
-          "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2XzdMSmQwU3JlODFrTmc0T0lQNDdjTTd5VjB4TjJOYnZzVlpyTTBObjdLQmdrQS1UeHZVY3BkVW5rOVZsMU90T3J5cDdSVDRLZ0MtY0g1eXFhOFFMZC1wWG5VZGNQNVZRa1JCb2lJS0I3aFduRkh3M29aa9IBgAFBVV95cUxQTkdDU0l6d2lKSV9Pd253Vkx0TFJjdHdvN0dtRkV0OG81S09NdFVRa2ZMWGV0SW9rOWNONkZpbFN6aU9JUHVnSlJaV1ZXemVRcEY3OGNGZF9QUnBfZWpGTmJuSklTYXdxSVA5UVlkVzd5cGFfdVZtSUQ5bTdjd1BwWQ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMie0FVX3lxTFA2XzdMSmQwU3JlODFrTmc0T0lQNDdjTTd5VjB4TjJOYnZzVlpyTTBObjdLQmdrQS1UeHZVY3BkVW5rOVZsMU90T3J5cDdSVDRLZ0MtY0g1eXFhOFFMZC1wWG5VZGNQNVZRa1JCb2lJS0I3aFduRkh3M29aa9IBgAFBVV95cUxQTkdDU0l6d2lKSV9Pd253Vkx0TFJjdHdvN0dtRkV0OG81S09NdFVRa2ZMWGV0SW9rOWNONkZpbFN6aU9JUHVnSlJaV1ZXemVRcEY3OGNGZF9QUnBfZWpGTmJuSklTYXdxSVA5UVlkVzd5cGFfdVZtSUQ5bTdjd1BwWQ%3Foc%3D5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:00"
-    },
-    {
-      "source": "뉴시스",
-      "title_ko": "\"연준이 금리 인상해도 비트코인 오른다…국가부채가 관건\"",
-      "title_en": "",
-      "summary_ko": "\"연준이 금리 인상해도 비트코인 오른다…국가부채가 관건\" 뉴시스. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. 뉴시스뿐만 아니라 Investing.com, 마켓인 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwUzlyUERlWVZWLW5neEc0dnhkZTZldzA3TVl5UF9rWHB6SnQzbi1rYmppNV9vTEZiRHAybk9feTJGUGtHOGNWVGxvMHB0WEpHUUNkYTZWT0NDRHZUS1dKNk5R?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwUzlyUERlWVZWLW5neEc0dnhkZTZldzA3TVl5UF9rWHB6SnQzbi1rYmppNV9vTEZiRHAybk9feTJGUGtHOGNWVGxvMHB0WEpHUUNkYTZWT0NDRHZUS1dKNk5R?oc=5",
-      "category": "fed_liquidity",
-      "section_no": 2,
-      "section_title": "연준 정책 및 유동성 동향",
-      "section_icon": "🏛️",
-      "importance_score": 55,
-      "badge_label": "⭐ 주요 파도",
-      "badge_class": "tier-wave",
-      "pub_date": "Wed, 02 Sep 2026 08:30:00 GMT",
-      "related_articles": [
-        {
-          "source": "Investing.com",
-          "title_ko": "연준 금리 인상 전망, 유가 상승, 일본 국채 금리 - 시장 움직임 분석",
-          "original_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pRTZsVkUxQ3pLRkd4WlYwbDdsZXlyc240NmZOVzV6Wkw3RGJoNURmVk9ta3pxUWJCenJNZ0FhNk8wVmpVWFQ1cmd1UGxXMGFsOElvWjZZVXpETTkzZXE1bUFwNlQ3SnZOS0E?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pRTZsVkUxQ3pLRkd4WlYwbDdsZXlyc240NmZOVzV6Wkw3RGJoNURmVk9ta3pxUWJCenJNZ0FhNk8wVmpVWFQ1cmd1UGxXMGFsOElvWjZZVXpETTkzZXE1bUFwNlQ3SnZOS0E?oc=5"
-        },
-        {
-          "source": "마켓인",
-          "title_ko": "도이체방크 \"연준, 9월 금리 인상 가능성 가장 높아\"",
-          "original_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rTUZ4OVV0eWhMT2p5MVZNSVFsTEZNekd2dmxvX3hMRF9xaXdNNi1PekZQVDEtM0pnV2YxaUMwcF9RbkdpR1RySTNPRmU1RGpBMVBSdmNHRnJvQXlzT21KbTBCb2ZNaUhzSlpaeFhra3RBSUk?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rTUZ4OVV0eWhMT2p5MVZNSVFsTEZNekd2dmxvX3hMRF9xaXdNNi1PekZQVDEtM0pnV2YxaUMwcF9RbkdpR1RySTNPRmU1RGpBMVBSdmNHRnJvQXlzT21KbTBCb2ZNaUhzSlpaeFhra3RBSUk?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:01"
-    },
-    {
-      "source": "Wall Street Journal",
-      "title_ko": "얼마나 타이트한지",
-      "title_en": "How a Tight-Lipped Fed Could Lead to Higher Mortgage Rates",
-      "summary_ko": "얼마나 타이트한지 관련 핵심 동향이 발표되었습니다. 중앙은행 통화정책 기조 및 글로벌 잉여 유동성 흐름의 변화를 나타내는 주요 매크로 시그널입니다. Wall Street Journal뿐만 아니라 MarketWatch, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSnhQaGtGR0QtRkEtN2R3Mno3WnhlczZyZ1N4c3FyOGRXUzdvUHFIX3dVNGJOcUxKYzZEVWJEQ0pXa3lVZjRpQXo2Q25sZDROX1Q5SUxIUzhOaE9JUmJKa0RtNTlvY0xqM2E0Mm16WDFieTZZakNrLUViMFZjanZVZ2E1Z1RVSG1KanJDTVc2akx5NFpVU2FrSGZyblFtZ2R3UDJHQ3ZOOW8?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqAFBVV95cUxPSnhQaGtGR0QtRkEtN2R3Mno3WnhlczZyZ1N4c3FyOGRXUzdvUHFIX3dVNGJOcUxKYzZEVWJEQ0pXa3lVZjRpQXo2Q25sZDROX1Q5SUxIUzhOaE9JUmJKa0RtNTlvY0xqM2E0Mm16WDFieTZZakNrLUViMFZjanZVZ2E1Z1RVSG1KanJDTVc2akx5NFpVU2FrSGZyblFtZ2R3UDJHQ3ZOOW8%3Foc%3D5",
-      "category": "fed_liquidity",
-      "section_no": 2,
-      "section_title": "연준 정책 및 유동성 동향",
-      "section_icon": "🏛️",
-      "importance_score": 50,
-      "badge_label": "⭐ 주요 파도",
-      "badge_class": "tier-wave",
-      "pub_date": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "related_articles": [
-        {
-          "source": "Reuters",
-          "title_ko": "연준(Fed)의 파월 즐겨, 연준(Fed)을 정치화하면 대중의 신뢰를 잃을 것이라고 경고",
-          "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV3ZFbXQweXJ2anVHZUoxV0o2N2E5TkVMeXZSTVcyX2xHdzdhdWVvbTBRV1RJRlE5ZnBlOUtabVZmRTI1REVXYXlFdlBMVXRzakxRUS1KSGw5YUhaVUNrVlJLNWVoMmVQR1lnc2ZldG5NWk9xbC1vZ0ljdzdhMjdvbC02TTlNLU9UZzdFOGlua244aDF6blYyT2t6blpyU1dsVENGQzhzc0t2UUtJ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirAFBVV95cUxOV3ZFbXQweXJ2anVHZUoxV0o2N2E5TkVMeXZSTVcyX2xHdzdhdWVvbTBRV1RJRlE5ZnBlOUtabVZmRTI1REVXYXlFdlBMVXRzakxRUS1KSGw5YUhaVUNrVlJLNWVoMmVQR1lnc2ZldG5NWk9xbC1vZ0ljdzdhMjdvbC02TTlNLU9UZzdFOGlua244aDF6blYyT2t6blpyU1dsVENGQzhzc0t2UUtJ%3Foc%3D5"
-        },
-        {
-          "source": "Bloomberg",
-          "title_ko": "연준(Fed)의 슈미드(Schmid), 인플레이션을 줄이기 위해서는 더 긴축적인 정책이 필요하다고 말함",
-          "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVEhVQmoySzBVakJNbERFMlQ5RTJwRER3NEE0U242bFdKT21UMndVUUJDRm1VeWV5ZEduQXFydmxyWE9CYi01MDRTcnhxVGNzZmxZbWJzaDR2aXlCMzFDQmpPRjVmRnZsWjdNRzYwampkWEhvYk5fMGd4X3ptdUpqTm5RcDh0UF9FU3N1c1hPc0VXaFN0amRtM3F4dndfWThyRE9tUlVYWlBvNGJSSEYw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirwFBVV95cUxNVEhVQmoySzBVakJNbERFMlQ5RTJwRER3NEE0U242bFdKT21UMndVUUJDRm1VeWV5ZEduQXFydmxyWE9CYi01MDRTcnhxVGNzZmxZbWJzaDR2aXlCMzFDQmpPRjVmRnZsWjdNRzYwampkWEhvYk5fMGd4X3ptdUpqTm5RcDh0UF9FU3N1c1hPc0VXaFN0amRtM3F4dndfWThyRE9tUlVYWlBvNGJSSEYw%3Foc%3D5"
-        },
-        {
-          "source": "MarketWatch",
-          "title_ko": "워시가 연준을 운영하는 상황에서 채권 투자자들은 걱정해야 할까?",
-          "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMVpzZVg1YTdjVW95S3FwZG1ucnBoWnU2eFpVX2RuWkRvWmdjdXJkX1U5cWtHN19rRklTQzlrSDB2cnhIXzJaYmJLSENzY0Q2dzdadEFBV3Y2RlNFdDM5TV9rbEZianhiU19kTGliRHg1T21lR2dJdVNQRmplTi1fd2lWQlJ3Z3J4RHFNaTEySlZrV2xvc0RoUU5ld3Z1Zw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMingFBVV95cUxPMVpzZVg1YTdjVW95S3FwZG1ucnBoWnU2eFpVX2RuWkRvWmdjdXJkX1U5cWtHN19rRklTQzlrSDB2cnhIXzJaYmJLSENzY0Q2dzdadEFBV3Y2RlNFdDM5TV9rbEZianhiU19kTGliRHg1T21lR2dJdVNQRmplTi1fd2lWQlJ3Z3J4RHFNaTEySlZrV2xvc0RoUU5ld3Z1Zw%3Foc%3D5"
-        },
-        {
-          "source": "MarketWatch",
-          "title_ko": "미국채/재무부, 연준(Fed) 그리고 당신의 돈에 대한 위협",
-          "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLVVTcVVZeEVrOUF6V1NYdF8wcERQV1pWaGJkT2FySkRIZmtwOHVGOEZDNHF6VzRpdkhhRzVHd3dZTkRtWWJzMmZ6cDIwc1N4VG1xM3FNMml3aV9ETkYwSU5zaFpZd3FGeUNBWGRNY0RuV2NXanZHb2thckQ1ZzFDVmhmeFNsSGVGWTNoTUlaSFdjallLemtF?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMilwFBVV95cUxNLVVTcVVZeEVrOUF6V1NYdF8wcERQV1pWaGJkT2FySkRIZmtwOHVGOEZDNHF6VzRpdkhhRzVHd3dZTkRtWWJzMmZ6cDIwc1N4VG1xM3FNMml3aV9ETkYwSU5zaFpZd3FGeUNBWGRNY0RuV2NXanZHb2thckQ1ZzFDVmhmeFNsSGVGWTNoTUlaSFdjallLemtF%3Foc%3D5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:07"
-    },
-    {
       "source": "MarketWatch",
       "title_ko": "연준(Fed)의 리사 쿡이 주택담보대출 사기를 부인하고 트럼프는 자신을 해임할 근거가 없다고 말했다",
       "title_en": "Fed’s Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office",
-      "summary_ko": "연준(Fed)의 리사 쿡(Lisa Cook)이 모기지 사기 행위를 부인하고 트럼프가 그녀를 사무실에서 해임할 근거가 없다고 말하다 marketwatch.com. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. MarketWatch에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "summary_ko": "연준(Fed)의 리사 쿡이 모기지 사기 혐의를 부인하고 트럼프는 자신을 해임할 근거가 없다고 말했다. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. MarketWatch에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
       "original_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1NoWUNmZWQ2VjhCa1BMZlg5NWNhQ2IwVWJnU2VaUUpyVEpBTnhPYnBubGdYX2hkZnVZTXBYakQzbHRpUTJBVU5ldm5zQm5ZdkNteHhPWlpoamRVQUVtc3BUZXlrcWJybWdaS0NtcmpBOURhQV93Z2dHcjZUbHMtd2UxWkprRHFFOTZBT2Jwak4xajQycUpmT3l6bk1PRXFQX2xWTF9YVEswSGFEaFZmNlpVclU1N1ZUZjl4Z29TNkt1dzFZY09JNUkyM29PNThjeFJwal9JNEdKZw?oc=5",
       "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMi2gFBVV95cUxPM1NoWUNmZWQ2VjhCa1BMZlg5NWNhQ2IwVWJnU2VaUUpyVEpBTnhPYnBubGdYX2hkZnVZTXBYakQzbHRpUTJBVU5ldm5zQm5ZdkNteHhPWlpoamRVQUVtc3BUZXlrcWJybWdaS0NtcmpBOURhQV93Z2dHcjZUbHMtd2UxWkprRHFFOTZBT2Jwak4xajQycUpmT3l6bk1PRXFQX2xWTF9YVEswSGFEaFZmNlpVclU1N1ZUZjl4Z29TNkt1dzFZY09JNUkyM29PNThjeFJwal9JNEdKZw%3Foc%3D5",
       "category": "fed_liquidity",
@@ -691,86 +545,154 @@ window.__BRIEFING_DATA__ = {
       "importance_score": 50,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Thu, 27 Aug 2026 00:14:00 GMT",
+      "pub_date": "Wed, 26 Aug 2026 07:00:00 GMT",
       "related_articles": [],
-      "crawled_at": "2026-09-02 20:01:08"
+      "crawled_at": "2026-09-03 20:00:49"
     },
     {
-      "source": "Reuters",
-      "title_ko": "이란 전쟁으로 인한 오일 쇼크 우려로 해외 자금 유출로 아시아 증시 타격",
-      "title_en": "Foreign outflows hit Asian stocks as Iran war drives oil shock fears",
-      "summary_ko": "이란 전쟁으로 인한 오일 쇼크, 우려로 해외 자금 유출로 아시아 증시 타격 Reuters. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Reuters뿐만 아니라 Bloomberg, Reuters 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ0NNSG5uNFRpYXM5SDFrSlFaM1ZhaFdGU1FTbjRmaEZiVmI2NEFEWHZTXzlBX2dtY3g2RmE5WjM1eHdITERKVDEwWTJHQmNpem1sQkZFQnBKMTlFNG15Q2I1Y1E3NEJocWszaXI2b3Rsa1g4T3VSbHp0YzM2ODBrRmpjZDZpOS1NZGIxWTlGXy13bVNGYjNVWjZ2bzVMOXo5dk9OZ3lYVEtWemlKOXhYMnZEOW5waW9R?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiuAFBVV95cUxQQ0NNSG5uNFRpYXM5SDFrSlFaM1ZhaFdGU1FTbjRmaEZiVmI2NEFEWHZTXzlBX2dtY3g2RmE5WjM1eHdITERKVDEwWTJHQmNpem1sQkZFQnBKMTlFNG15Q2I1Y1E3NEJocWszaXI2b3Rsa1g4T3VSbHp0YzM2ODBrRmpjZDZpOS1NZGIxWTlGXy13bVNGYjNVWjZ2bzVMOXo5dk9OZ3lYVEtWemlKOXhYMnZEOW5waW9R%3Foc%3D5",
-      "category": "us_economy",
-      "section_no": 3,
-      "section_title": "미국 경제 관련 주요 뉴스 요약",
-      "section_icon": "🇺🇸",
-      "importance_score": 70,
-      "badge_label": "🔥 특급 너울",
-      "badge_class": "tier-swell",
-      "pub_date": "Tue, 24 Mar 2026 07:00:00 GMT",
-      "related_articles": [
-        {
-          "source": "Bloomberg",
-          "title_ko": "캐나다 은행, 관세로 기준금리 2.25% 유지, 이란 전쟁 전망",
-          "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVnpZVHZOM0pXemhCandGNUNYOXcxU0tvaVdZX2lpRkxtNjhuVnZad29kdzdXODduMEdXck5tLU5EV0pCandBdjkzNmZaMjNwRW5yVFJmTVZCMnZTSmpDVndWTzQ0U2VxS241NS04Z1Z0Vk9GVWVFX0JpSjZMRU8tSjRiRldMZnBaZkQteFBNaDQzbDY4ODROeUZ2aGo?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMinAFBVV95cUxPVnpZVHZOM0pXemhCandGNUNYOXcxU0tvaVdZX2lpRkxtNjhuVnZad29kdzdXODduMEdXck5tLU5EV0pCandBdjkzNmZaMjNwRW5yVFJmTVZCMnZTSmpDVndWTzQ0U2VxS241NS04Z1Z0Vk9GVWVFX0JpSjZMRU8tSjRiRldMZnBaZkQteFBNaDQzbDY4ODROeUZ2aGo%3Foc%3D5"
-        },
-        {
-          "source": "Wall Street Journal",
-          "title_ko": "유가 급등, 인플레이션 우려 고조로 글로벌 채권 수익률( 금리) 점프",
-          "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUlCR0k3M3VWNXJzY3BCTTBGTk9YZm5OLURyLVM0ZUVWLU9tTU5HNmR1NmVBdlF6aDYtOVFHUENFcTJQdFpFRDRuam9qY0VQTmtwem5ZTzA4UmlXb0hUN280V2V5ZnNLLVdENUZRUmZ6dU41YjItbGNWVlRaRm50LWo0dEtOSldqWVZZVVBTaFlPa1JzYk1QU2o4ZnlIX1RPd3JPdzlYNlJUQVo4M2hqNHJCZzI0Yk5iMEE?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiugFBVV95cUxPNUlCR0k3M3VWNXJzY3BCTTBGTk9YZm5OLURyLVM0ZUVWLU9tTU5HNmR1NmVBdlF6aDYtOVFHUENFcTJQdFpFRDRuam9qY0VQTmtwem5ZTzA4UmlXb0hUN280V2V5ZnNLLVdENUZRUmZ6dU41YjItbGNWVlRaRm50LWo0dEtOSldqWVZZVVBTaFlPa1JzYk1QU2o4ZnlIX1RPd3JPdzlYNlJUQVo4M2hqNHJCZzI0Yk5iMEE%3Foc%3D5"
-        },
-        {
-          "source": "Reuters",
-          "title_ko": "미국은 제안된 캐나다 협정의 일환으로 주요 관세를 인하할 수 있다고 소식통은 밝혔습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQnRyZExVRkFxVGJqQkpSZk83d1pCbkQ1elJqVURZSjl6TTEyZUZtdURWYWhMRldiTWpiRUFXWW1nSExxeE10cXJWMndsbl9QLXJwVDZqVTllUTNUV2s2M3pJZ3U5WExpbHh4MHpYNGE5OXpMeGU0cFlUVEdwM3IwdmtNbHRYOE5hSFRzWDF6ODBLczdqbDllaTRlamRySDlLREFqNi1UTnJuTk9uZFFmUQ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisAFBVV95cUxPQnRyZExVRkFxVGJqQkpSZk83d1pCbkQ1elJqVURZSjl6TTEyZUZtdURWYWhMRldiTWpiRUFXWW1nSExxeE10cXJWMndsbl9QLXJwVDZqVTllUTNUV2s2M3pJZ3U5WExpbHh4MHpYNGE5OXpMeGU0cFlUVEdwM3IwdmtNbHRYOE5hSFRzWDF6ODBLczdqbDllaTRlamRySDlLREFqNi1UTnJuTk9uZFFmUQ%3Foc%3D5"
-        },
-        {
-          "source": "Reuters",
-          "title_ko": "아시아 채권으로의 외국인 유입이 6건을 기록했습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeXJuTERwN0d6Y2tTZG5Ra214UmhVa29SRHRzSG9kdFY3QThsTXlPUWlTT1VyRGgxbVJ2TnpTcWJCa1RMaGZJUDVfUVVlWUJJZUVBYU1Ba0haNFRuUHhqN2d2b0Z6NUdHdDRVcUk5eDRDa0s3WmJxRGF3NmpUN2N5dThKWHdtWTRrazBBeENTM0FNdnhXTm9FeUw0Uzdma2FNYk1oVXhUbzU3bEM5azItNlJZTkxYUQ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitgFBVV95cUxOeXJuTERwN0d6Y2tTZG5Ra214UmhVa29SRHRzSG9kdFY3QThsTXlPUWlTT1VyRGgxbVJ2TnpTcWJCa1RMaGZJUDVfUVVlWUJJZUVBYU1Ba0haNFRuUHhqN2d2b0Z6NUdHdDRVcUk5eDRDa0s3WmJxRGF3NmpUN2N5dThKWHdtWTRrazBBeENTM0FNdnhXTm9FeUw0Uzdma2FNYk1oVXhUbzU3bEM5azItNlJZTkxYUQ%3Foc%3D5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:14"
-    },
-    {
-      "source": "매일경제",
-      "title_ko": "다시 고개 든 3%대 물가에 중동발 오일쇼크까지…물가부담 커진다",
-      "title_en": "",
-      "summary_ko": "다시 고개 든 3%대 물가에 중동발 오일쇼크까지…물가부담 커진다 매일경제 마켓. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 매일경제에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LNkZ4WTBvXzh3c3RtSXlsSGRhclMwWHJLWFdkTXhUNGpFU3BPRS1IcmJWazNvdlpCSVFPSjc0SDJwZ3UwT3lMbWlSekNNUjVSdHc?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LNkZ4WTBvXzh3c3RtSXlsSGRhclMwWHJLWFdkTXhUNGpFU3BPRS1IcmJWazNvdlpCSVFPSjc0SDJwZ3UwT3lMbWlSekNNUjVSdHc?oc=5",
-      "category": "us_economy",
-      "section_no": 3,
-      "section_title": "미국 경제 관련 주요 뉴스 요약",
-      "section_icon": "🇺🇸",
-      "importance_score": 70,
-      "badge_label": "🔥 특급 너울",
-      "badge_class": "tier-swell",
-      "pub_date": "Wed, 02 Sep 2026 07:53:37 GMT",
-      "related_articles": [],
-      "crawled_at": "2026-09-02 20:01:14"
-    },
-    {
-      "source": "Reuters",
-      "title_ko": "미국 미 국채/재무부 베센트, 관세, 이란 전쟁, 채권 혼란 속에 G20 외교 시험 직면",
-      "title_en": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil",
-      "summary_ko": "미국 미 국채/재무부 베센트, 관세, 이란 전쟁, 채권 혼란 속에 G20 외교 시험 직면 로이터. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Reuters뿐만 아니라 Bloomberg, Reuters 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVlaS1VmZVF5Rjh3RFkwVk40ZGpBSU1LLXM3XzQ1REFxbnl0aHREWXhieU9vUnU0aUdkTWgtNmJrYk9BRDE3aEllamozWFJVMHZ5QTJUS0pkckpwbjFVQ2dxaEhBaWZWZXg3a05ISG1Fb3k4aWV0QmRSbGFiOHdsQ0x6QWZjUUN6b3lsc2c5MEZOc2RCWXZXcERhdkN4NFJGVHBGejVxbTBZWDdvczdJamxDQ3Jib29xS1lzcURfX05MQ1BET25r?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMixwFBVV95cUxORVlaS1VmZVF5Rjh3RFkwVk40ZGpBSU1LLXM3XzQ1REFxbnl0aHREWXhieU9vUnU0aUdkTWgtNmJrYk9BRDE3aEllamozWFJVMHZ5QTJUS0pkckpwbjFVQ2dxaEhBaWZWZXg3a05ISG1Fb3k4aWV0QmRSbGFiOHdsQ0x6QWZjUUN6b3lsc2c5MEZOc2RCWXZXcERhdkN4NFJGVHBGejVxbTBZWDdvczdJamxDQ3Jib29xS1lzcURfX05MQ1BET25r%3Foc%3D5",
-      "category": "us_economy",
-      "section_no": 3,
-      "section_title": "미국 경제 관련 주요 뉴스 요약",
-      "section_icon": "🇺🇸",
+      "source": "Financial Times",
+      "title_ko": "이란의 '소모 충돌'로 인해 인플레이션이 계속 높아질 수 있다고 ECB 정책 입안자가 경고",
+      "title_en": "‘Conflict of attrition’ in Iran could keep inflation high, ECB policymaker warns",
+      "summary_ko": "이란의 '소모 충돌'로 인해 인플레이션이 계속 높아질 수 있다고 ECB 정책 입안자가 경고 관련 핵심 동향이 발표되었습니다. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Financial Times뿐만 아니라 Reuters, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmJOb19mc01kRTRlbi1Hd2VNR1RUUGtrVHZHeUNQT2F2aDJjajlqNU5LeEVweVA4cko3QmNPcFJyN0d4dE92ZWNWYzlQUkNKTW1KbF9FeW9ZVzZIaGNqSWVOU1lJMHl4V0ZlV0FOS0tXaGpXVkhPOXdoU3I0NzhsaGZzc2o?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMihAFBVV95cUxQTmJOb19mc01kRTRlbi1Hd2VNR1RUUGtrVHZHeUNQT2F2aDJjajlqNU5LeEVweVA4cko3QmNPcFJyN0d4dE92ZWNWYzlQUkNKTW1KbF9FeW9ZVzZIaGNqSWVOU1lJMHl4V0ZlV0FOS0tXaGpXVkhPOXdoU3I0NzhsaGZzc2o%3Foc%3D5",
+      "category": "fed_liquidity",
+      "section_no": 2,
+      "section_title": "연준 정책 및 유동성 동향",
+      "section_icon": "🏛️",
       "importance_score": 50,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Mon, 31 Aug 2026 07:57:59 GMT",
+      "pub_date": "Tue, 01 Sep 2026 04:07:48 GMT",
+      "related_articles": [
+        {
+          "source": "Bloomberg",
+          "title_ko": "ECB의 Nagel은 기본 인플레이션 둔화는 좋은 소식이라고 말합니다",
+          "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSjY1N01TUHdQMl9JUWkya085NTZGcmZFOTF0UWxVR3hyRi1yT1RDWlNOZmxTRmlEMEx2Z0N6ekE2YkN5N0I2blNwV043cmV0cHJLVVJCT3g0YldRZHBlU1lmcUI1eGpXcUFXcGRiYVBtUXJwTHZsNHVCTVlyODRybnlRMUdVVUhRRHJCZ0YxUk5fNTJXRUsxYlVCRlJBV3daQWNzOEQ0cml4RjVka0Z4NVdocw?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiswFBVV95cUxOSjY1N01TUHdQMl9JUWkya085NTZGcmZFOTF0UWxVR3hyRi1yT1RDWlNOZmxTRmlEMEx2Z0N6ekE2YkN5N0I2blNwV043cmV0cHJLVVJCT3g0YldRZHBlU1lmcUI1eGpXcUFXcGRiYVBtUXJwTHZsNHVCTVlyODRybnlRMUdVVUhRRHJCZ0YxUk5fNTJXRUsxYlVCRlJBV3daQWNzOEQ0cml4RjVka0Z4NVdocw%3Foc%3D5"
+        },
+        {
+          "source": "Reuters",
+          "title_ko": "연준(Fed)의 Collins는 미국 금리는 지속적인 인플레이션 하락의 증거가 없으면 곧 인상되어야 한다고 말했습니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNTVDMFZMTDZGMDAxNEtoSVNSU01oel8ybnRNblR5VXVWTUJNb0xBR2R2QVFCY3FkelBPSDdyUURZcEM0cl9SVV9jWVZSRjJVQWh1WExNanllMmM0U3ZqeGR0S2RFbUhaRTlMTFBWVlJGTl9XRWVnSWF2bVd2WWUzOWlJTl9mRnJfVklYd3ptUlBFbHNfZXZZRGZBVVMzaXVXczJGSDRHQVVxV0xwME5uZFRmdDdKanNNdF9aSGs5Z0RrbDA?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiwwFBVV95cUxPNTVDMFZMTDZGMDAxNEtoSVNSU01oel8ybnRNblR5VXVWTUJNb0xBR2R2QVFCY3FkelBPSDdyUURZcEM0cl9SVV9jWVZSRjJVQWh1WExNanllMmM0U3ZqeGR0S2RFbUhaRTlMTFBWVlJGTl9XRWVnSWF2bVd2WWUzOWlJTl9mRnJfVklYd3ptUlBFbHNfZXZZRGZBVVMzaXVXczJGSDRHQVVxV0xwME5uZFRmdDdKanNNdF9aSGs5Z0RrbDA%3Foc%3D5"
+        },
+        {
+          "source": "Reuters",
+          "title_ko": "연준(Fed), 높은 인플레이션에도 불구하고 올해 금리 동결…경제학자들은 인상 가능성 높다고 로이터 여론조사",
+          "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbV84YkM0QzhTaXRsOEtPMjNQX3RvVnBaNmZtQ1dTalN2bkRmczlkOTViLVAzRTJRYjVuSi1RNlNXQ2M4dW0tN3FPNk9BRGQxeGtLc3dteklTblBWN3VPemVEQWtOaTVkOVpBRDdNenZBQWtzX1FiQ2lZdkRodWtqamxXTks2eFQzZkMwcW5CejdVem9ESU9HNFQ1YkZrUXBGa2dpX1lKcGx0WXN2STJVanMyUFRvVFNsZWc?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiugFBVV95cUxNbV84YkM0QzhTaXRsOEtPMjNQX3RvVnBaNmZtQ1dTalN2bkRmczlkOTViLVAzRTJRYjVuSi1RNlNXQ2M4dW0tN3FPNk9BRGQxeGtLc3dteklTblBWN3VPemVEQWtOaTVkOVpBRDdNenZBQWtzX1FiQ2lZdkRodWtqamxXTks2eFQzZkMwcW5CejdVem9ESU9HNFQ1YkZrUXBGa2dpX1lKcGx0WXN2STJVanMyUFRvVFNsZWc%3Foc%3D5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:00:56"
+    },
+    {
+      "source": "Reuters",
+      "title_ko": "BOJ 총재, 9월 공개 가능성 시사, 가격 리스크 논의",
+      "title_en": "BOJ chief signals chance of September rate hike, debate on price risks",
+      "summary_ko": "BOJ 총재, 9월 공개 가능성 시사, 가격 리스크 논의 reuters.com. 중앙은행 통화정책 기조 및 글로벌 잉여 유동성 흐름의 변화를 나타내는 주요 매크로 시그널입니다. Reuters뿐만 아니라 CNBC 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLWUxd0t2ZFAyQy10SlowSmZwczhNZjRXZTkzdk1RV0dWU3lvX0NONU40ak5KT2NudEdwNU1qR2ZXSHdRX0tRcHk0MF8yci0xaWhQbVZTZ3lTdHYzQ2lFOUlWaTlvLWo0VkhMaHotalJBLVV2aGFlUm1ESUJKWGxoVC10a0FJRk9mLUJDbHM5Nm9yaEpkYnRJLVNmaEtjUWg1Q0VsU1duRkVWMWxuRm5LWQ?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisAFBVV95cUxNLWUxd0t2ZFAyQy10SlowSmZwczhNZjRXZTkzdk1RV0dWU3lvX0NONU40ak5KT2NudEdwNU1qR2ZXSHdRX0tRcHk0MF8yci0xaWhQbVZTZ3lTdHYzQ2lFOUlWaTlvLWo0VkhMaHotalJBLVV2aGFlUm1ESUJKWGxoVC10a0FJRk9mLUJDbHM5Nm9yaEpkYnRJLVNmaEtjUWg1Q0VsU1duRkVWMWxuRm5LWQ%3Foc%3D5",
+      "category": "fed_liquidity",
+      "section_no": 2,
+      "section_title": "연준 정책 및 유동성 동향",
+      "section_icon": "🏛️",
+      "importance_score": 45,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Wed, 02 Sep 2026 03:38:29 GMT",
+      "related_articles": [
+        {
+          "source": "CNBC",
+          "title_ko": "금은 거의 2로 하락",
+          "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGRDTjJlQVBDZkNfeW5WNWk4aWh2TllVWTJUUnlKTzBxNWxwcUxnZEUwNFVkOVBVUy11VTdrZy1henJZa0Y0ay1FRjA3TS1PWWRKOUFxdVQyWnVyZGR4MjdLbkpfX29Ddk9JNGVBZWFRTXFvclpYVUJkeVdQSkxmZkpRWnhwOEt5VFY4TEFWdnVRRVZmVE90Z9IBngFBVV95cUxOMjlpRXBWMGhPX2JndVEyWDdsTWZDSjhtMWtqMEE2NUVTMkhDZ3pSS2NwWjZHR2k2U0pCbWhxdlVTTjk5bng3X2pkNVpPbkttT2pIQVJWX3ZCTXBqM2dtd3JwcU1ZVEpIXzRFOTBJWnhuYWhQa3duSVlpZ0dhbTJITGkyWkF5VlFxb29NSnFnU2lya0hCZnh3MWxDRHB4QQ?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMimAFBVV95cUxOcGRDTjJlQVBDZkNfeW5WNWk4aWh2TllVWTJUUnlKTzBxNWxwcUxnZEUwNFVkOVBVUy11VTdrZy1henJZa0Y0ay1FRjA3TS1PWWRKOUFxdVQyWnVyZGR4MjdLbkpfX29Ddk9JNGVBZWFRTXFvclpYVUJkeVdQSkxmZkpRWnhwOEt5VFY4TEFWdnVRRVZmVE90Z9IBngFBVV95cUxOMjlpRXBWMGhPX2JndVEyWDdsTWZDSjhtMWtqMEE2NUVTMkhDZ3pSS2NwWjZHR2k2U0pCbWhxdlVTTjk5bng3X2pkNVpPbkttT2pIQVJWX3ZCTXBqM2dtd3JwcU1ZVEpIXzRFOTBJWnhuYWhQa3duSVlpZ0dhbTJITGkyWkF5VlFxb29NSnFnU2lya0hCZnh3MWxDRHB4QQ%3Foc%3D5"
+        },
+        {
+          "source": "CNBC",
+          "title_ko": "연준(Fed) 바 주지사는 인플레이션이 완화되지 않으면 삽입을 지지하겠다고 밝혔습니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjJEQkpQaHVwaXRUZzRneE9IQklMelB1MFBGTExfR1Q3My1XRExYWm1Ic3NPcGZEUHM1OE9rX29qMXQzQ1BndXZYZFVtc1MxbnlaNWFCdi1UR2hnY1ZLOUdDLXZxbnVSNnpCSTBFZ00zVFJ5RWFfRE9fX25DTmdUcVduc3RDZ1hxQV9qanlWWHZTckxRWU9VbXlVbnhHQ2dQMkl1NUxDTkltNEXSAbABQVVfeXFMTmJvSThnNVNUM0RrZmo5RThJTzhEbGc2OFVlU0pOa0lnSF9ZZWJ3WnludnJVN0VGWDFfd2Z1ZllpUUpSWkFtTjY2RmZxV01OSWRuak9sWVRBM2tFUmZmTjRzZ2lmeElJSFBLdm9RdkRMMmprWkc3SUJoOWYzRTh5THctY2ZFUlhLRVAwZnlGeVBtLTdKcTJoVzl0REVKV2EzeW00bWlUQzJxSkFvTlNNbFk?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqwFBVV95cUxNYjJEQkpQaHVwaXRUZzRneE9IQklMelB1MFBGTExfR1Q3My1XRExYWm1Ic3NPcGZEUHM1OE9rX29qMXQzQ1BndXZYZFVtc1MxbnlaNWFCdi1UR2hnY1ZLOUdDLXZxbnVSNnpCSTBFZ00zVFJ5RWFfRE9fX25DTmdUcVduc3RDZ1hxQV9qanlWWHZTckxRWU9VbXlVbnhHQ2dQMkl1NUxDTkltNEXSAbABQVVfeXFMTmJvSThnNVNUM0RrZmo5RThJTzhEbGc2OFVlU0pOa0lnSF9ZZWJ3WnludnJVN0VGWDFfd2Z1ZllpUUpSWkFtTjY2RmZxV01OSWRuak9sWVRBM2tFUmZmTjRzZ2lmeElJSFBLdm9RdkRMMmprWkc3SUJoOWYzRTh5THctY2ZFUlhLRVAwZnlGeVBtLTdKcTJoVzl0REVKV2EzeW00bWlUQzJxSkFvTlNNbFk%3Foc%3D5"
+        },
+        {
+          "source": "CNBC",
+          "title_ko": "연준(Fed) 관계자들은 인플레이션이 진정되지 않으면 생체인식 필요성을 느꼈습니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX3djZ2FKOHhfMkVRRHEzdFlsQ0t2Tmt5OE1sM1lrX1V3WFZ3RXlYdTlZcFVSWmx0YWFYaDZRSjYyYkRwVXQzZm5Sdldobk5xc0pXdVotLUt2S251cnVfdHV3MmRObmd1aW5zcGZkVGVxdkgzbURqbU9qV093Wmt2aWFFWkpxaWNGYVRQanh6NWRqeXJfZHA3bDB4Nmp2LXlrbUh0MlR1WWdDWEM5QUpaV2gycjItYmvSAbwBQVVfeXFMTjhBbUlQSGRVY3hPZXpNT3A1NFlLQ1ViNUZ0WjBzaC1LdTlFZ3J1UHI4Q1FGT2tUZ3JWeDBOWTIxRGJWRnNRUW9VcHdfQkhKZk5IaGhBdmdiSXFYX3RySnhUOVNpeUN2TjBvMUVKcEUyRXlQUjZkRmYwQU5ud3VIczJwLTZxVW90NlVZYjM4a2J3RnpxbjV1RlZ5VXFYenNZcXFEVmhLM0pKUnQyOVZQRm5lMUlvdDNLWVRFOU0?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitwFBVV95cUxQX3djZ2FKOHhfMkVRRHEzdFlsQ0t2Tmt5OE1sM1lrX1V3WFZ3RXlYdTlZcFVSWmx0YWFYaDZRSjYyYkRwVXQzZm5Sdldobk5xc0pXdVotLUt2S251cnVfdHV3MmRObmd1aW5zcGZkVGVxdkgzbURqbU9qV093Wmt2aWFFWkpxaWNGYVRQanh6NWRqeXJfZHA3bDB4Nmp2LXlrbUh0MlR1WWdDWEM5QUpaV2gycjItYmvSAbwBQVVfeXFMTjhBbUlQSGRVY3hPZXpNT3A1NFlLQ1ViNUZ0WjBzaC1LdTlFZ3J1UHI4Q1FGT2tUZ3JWeDBOWTIxRGJWRnNRUW9VcHdfQkhKZk5IaGhBdmdiSXFYX3RySnhUOVNpeUN2TjBvMUVKcEUyRXlQUjZkRmYwQU5ud3VIczJwLTZxVW90NlVZYjM4a2J3RnpxbjV1RlZ5VXFYenNZcXFEVmhLM0pKUnQyOVZQRm5lMUlvdDNLWVRFOU0%3Foc%3D5"
+        },
+        {
+          "source": "CNBC",
+          "title_ko": "Odds of 미국 분리준비제도(연준) 유가 상승으로 인해 상승세",
+          "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUWx3V1U4LVllRFN2ZUNCN3N5SUN0VF9Iakl4UVlSamwtUGFTNE1ZRXFzWmJMSUNaRnRZejE3V3NRMUVfNzU4Y012MGtaa1plNlUybkxycWRvQ3NKdTdtVVIzVWlIMG55ZHp3S2lyc3JmOEU3bHMtNFFvRkJleWlpYm9FNXPSAYoBQVVfeXFMTmRFOUNteTdsTVNuNXRycmx6YkxLVmVwWGQ4ZURXOVpjUGsxbkU3M1pyZzgxUVJEX2NjV1Jmc2hsY3hCaGpOSkM1UmNsRjFuUlJmYi1jLW1zYmlyOGZ4bWZYRDlCSklGYjVTVWdrWXFiU0Etb0l3NFgwdlRHNDU1YVFaQTllVDN4bmRn?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMihAFBVV95cUxPUWx3V1U4LVllRFN2ZUNCN3N5SUN0VF9Iakl4UVlSamwtUGFTNE1ZRXFzWmJMSUNaRnRZejE3V3NRMUVfNzU4Y012MGtaa1plNlUybkxycWRvQ3NKdTdtVVIzVWlIMG55ZHp3S2lyc3JmOEU3bHMtNFFvRkJleWlpYm9FNXPSAYoBQVVfeXFMTmRFOUNteTdsTVNuNXRycmx6YkxLVmVwWGQ4ZURXOVpjUGsxbkU3M1pyZzgxUVJEX2NjV1Jmc2hsY3hCaGpOSkM1UmNsRjFuUlJmYi1jLW1zYmlyOGZ4bWZYRDlCSklGYjVTVWdrWXFiU0Etb0l3NFgwdlRHNDU1YVFaQTllVDN4bmRn%3Foc%3D5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:03"
+    },
+    {
+      "source": "Reuters",
+      "title_ko": "냠, 피자헛 CEO 아론 파월 즐겨 사임",
+      "title_en": "Yum says Pizza Hut CEO Aaron Powell resigns",
+      "summary_ko": "냠, 피자헛 CEO 아론 파월 즐겨 사임 reuters.com. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. Reuters뿐만 아니라 Investing.com, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWG5oeGhjNnZncE1hZVozcV9QTkZqMzBFR2xoZ3d4TEpXUm1wWGVlOVBWdXFOTEJUZFZla3Z6TFVuUFJfaFBCbS1LQWxQTHVBRlc2QndXNzl1SVlqRDhLcWd4R0hLbjlqZTRlNHNqRzNsYXFnWjFSQUltN3FISHQ5b2kyZWtuNXpKMHJnQkJaN3Y0QQ?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMikgFBVV95cUxQWG5oeGhjNnZncE1hZVozcV9QTkZqMzBFR2xoZ3d4TEpXUm1wWGVlOVBWdXFOTEJUZFZla3Z6TFVuUFJfaFBCbS1LQWxQTHVBRlc2QndXNzl1SVlqRDhLcWd4R0hLbjlqZTRlNHNqRzNsYXFnWjFSQUltN3FISHQ5b2kyZWtuNXpKMHJnQkJaN3Y0QQ%3Foc%3D5",
+      "category": "fed_liquidity",
+      "section_no": 2,
+      "section_title": "연준 정책 및 유동성 동향",
+      "section_icon": "🏛️",
+      "importance_score": 45,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Tue, 01 Sep 2026 22:21:43 GMT",
+      "related_articles": [
+        {
+          "source": "Investing.com",
+          "title_ko": "냠, 피자헛 CEO 아론 파월 즐겨 사임 By Reuters",
+          "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdjVPdHc5LU9NSHFNSzVyZ1hzSVhiRDJoSTZjSW1OMzhhRnh1MXRWemtuLUdHU0pBZ1NRcFg4SHg4UTdRbHU3UkVsUXh2TzJHcHU2eW5sTTRrNWtTcmg1OThGZUotNmxLaTdYNWxPck9WT0lSVUZuNkZYTGlNQVFxQlRYSjUzR2RzbXZUWU92VnRNR0dOZFRIel9sTGxseDlDQWc?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiogFBVV95cUxOdjVPdHc5LU9NSHFNSzVyZ1hzSVhiRDJoSTZjSW1OMzhhRnh1MXRWemtuLUdHU0pBZ1NRcFg4SHg4UTdRbHU3UkVsUXh2TzJHcHU2eW5sTTRrNWtTcmg1OThGZUotNmxLaTdYNWxPck9WT0lSVUZuNkZYTGlNQVFxQlRYSjUzR2RzbXZUWU92VnRNR0dOZFRIel9sTGxseDlDQWc%3Foc%3D5"
+        },
+        {
+          "source": "Bloomberg",
+          "title_ko": "연준(Fed)의 윌리엄스, 금리가 좋은 위치에 있다고 말, 로이터는 말한다",
+          "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQXpxVklXS1NzZnlvMVd1b3J4Q0lWdlY0ZWI0YndBTVc0eDRESVE1X01tQTQ4QzM3VkVRY1VUbzlVY3Q4Zy1xREFnVzFrM0p0c09kR3owNFF1aEhsdU1qbGFvbmJQY2VzRFA2WldGNi1Ld2xhVkJrc3A5N0Z3M1V1dzlvY05uVlRkbkRjYWVSMXA0c1ZhaVIyWFg3a01jcVowN0ZHaGRIdlhSREJidVFqZENTbw?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiswFBVV95cUxOQXpxVklXS1NzZnlvMVd1b3J4Q0lWdlY0ZWI0YndBTVc0eDRESVE1X01tQTQ4QzM3VkVRY1VUbzlVY3Q4Zy1xREFnVzFrM0p0c09kR3owNFF1aEhsdU1qbGFvbmJQY2VzRFA2WldGNi1Ld2xhVkJrc3A5N0Z3M1V1dzlvY05uVlRkbkRjYWVSMXA0c1ZhaVIyWFg3a01jcVowN0ZHaGRIdlhSREJidVFqZENTbw%3Foc%3D5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:07"
+    },
+    {
+      "source": "MarketWatch",
+      "title_ko": "월가는 최고위 관계자 발언 이후 가능성이 높아진 연준(Fed)의 끌어내림에 긴장하고 있다.",
+      "title_en": "Wall Street is nervous about a Fed rate hike, which looks more likely after a top official’s remarks",
+      "summary_ko": "월가, 고위 관계자 발언 이후 가능성 높아 보이는 연준(Fed) 끌어내림에 긴장. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. MarketWatch에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMFE3N2ZGdjd3S1dIRXVOcFVDZnRqZUFhRWl0VnhpdXpLVWM4V2QxZWJUNENhamhEMWg2ZlZOdU5GWUdoR3hGTFc0dHozRnNvS3kzbjFBNC1ndHhXNHhyZ1RSMU9UNDFRNXFZNDZKWnQySlF5LUQ4UFVNRGJJT19PU2xRMUtXQ0RUXzlDYVU4ZkFpNF9MNVpYbXNZcWcyMHppMGs3aGxKZFlBUXJfVFY2LU5HYk10aFVaZWpHNUd1cXNQZHFzRng0?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMixwFBVV95cUxNMFE3N2ZGdjd3S1dIRXVOcFVDZnRqZUFhRWl0VnhpdXpLVWM4V2QxZWJUNENhamhEMWg2ZlZOdU5GWUdoR3hGTFc0dHozRnNvS3kzbjFBNC1ndHhXNHhyZ1RSMU9UNDFRNXFZNDZKWnQySlF5LUQ4UFVNRGJJT19PU2xRMUtXQ0RUXzlDYVU4ZkFpNF9MNVpYbXNZcWcyMHppMGs3aGxKZFlBUXJfVFY2LU5HYk10aFVaZWpHNUd1cXNQZHFzRng0%3Foc%3D5",
+      "category": "fed_liquidity",
+      "section_no": 2,
+      "section_title": "연준 정책 및 유동성 동향",
+      "section_icon": "🏛️",
+      "importance_score": 45,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Wed, 02 Sep 2026 17:44:00 GMT",
+      "related_articles": [],
+      "crawled_at": "2026-09-03 20:01:10"
+    },
+    {
+      "source": "Bloomberg",
+      "title_ko": "세계는 대부분 Bessent의 이란 제재 경고를 무시합니다.",
+      "title_en": "World Mostly Shrugs Off Bessent’s Iran Sanctions Warnings",
+      "summary_ko": "세계는 대부분 베센트의 이란 제재 경고를 무시합니다. Bloomberg.com. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Bloomberg뿐만 아니라 Reuters, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVUFrM2N3M2Z6VlVKNEM1SHRjR1kxTmsySTY2UXluSFJtSWd6N2FVWnRicmh2VGQ5RnkycVRiZ1NFSndJS1dwc3NvcDFXdjM0Q0pUYlVxemxWakNqNGFiTzdOSkVDTzNlcUlBckNMNFZhdEF4NmpIakVRcXVMN2E3VXYxeVpNaWd4Nmw4ZTREaXZIenh6dDZPX3ItSElQQm9EVVFIMXItZEtEN0NsS0QtVzJR?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxQVUFrM2N3M2Z6VlVKNEM1SHRjR1kxTmsySTY2UXluSFJtSWd6N2FVWnRicmh2VGQ5RnkycVRiZ1NFSndJS1dwc3NvcDFXdjM0Q0pUYlVxemxWakNqNGFiTzdOSkVDTzNlcUlBckNMNFZhdEF4NmpIakVRcXVMN2E3VXYxeVpNaWd4Nmw4ZTREaXZIenh6dDZPX3ItSElQQm9EVVFIMXItZEtEN0NsS0QtVzJR%3Foc%3D5",
+      "category": "us_economy",
+      "section_no": 3,
+      "section_title": "미국 경제 관련 주요 뉴스 요약",
+      "section_icon": "🇺🇸",
+      "importance_score": 70,
+      "badge_label": "🔥 특급 너울",
+      "badge_class": "tier-swell",
+      "pub_date": "Sun, 30 Aug 2026 12:50:43 GMT",
       "related_articles": [
         {
           "source": "Reuters",
@@ -779,31 +701,31 @@ window.__BRIEFING_DATA__ = {
           "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirgFBVV95cUxQZEY5Z1hsMHdwMm1tT1QxU0JvSllPd1V0eFVXWTlTYlRHMHphTDFnbENycVpzeWcxUmFHZ3I3ZUhEdDNaYkJueWotd2h0ZUFySE9GUGthYzlfcFJxVzZiMlhGbXZSSDAwTlJiRlZEQXVCYks4UUUyVFdWSHItUDN0MDZLU1pKZzFFZ2l3X2dBVmVCNVpFRFFKS2lmNUxVeGdIcDBrbk90SDY1ZWNOM1E%3Foc%3D5"
         },
         {
-          "source": "Reuters",
-          "title_ko": "베센트 \"미국, 이란에 본 적 없는 조치 적용할 것\"",
-          "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE%3Foc%3D5"
-        },
-        {
-          "source": "Reuters",
-          "title_ko": "베센트는 이란이 제재로 인한 경제적 압박 속에서 맹렬히 비난하고 있다고 말했습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wOWJlaDAzRW96X3A5aDRza2xCMHY4bG1HQUlBSXRQdGpMSmpxOWxQQVZMWWl4TVVxT1NYMHVmNlc2NlB4ckVaazl5UjFCdTllWXV6TFZIUzU1UUcxU2RLQlQ2cVJwSzA?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiZ0FVX3lxTE9wOWJlaDAzRW96X3A5aDRza2xCMHY4bG1HQUlBSXRQdGpMSmpxOWxQQVZMWWl4TVVxT1NYMHVmNlc2NlB4ckVaazl5UjFCdTllWXV6TFZIUzU1UUcxU2RLQlQ2cVJwSzA%3Foc%3D5"
-        },
-        {
           "source": "Bloomberg",
-          "title_ko": "베센트(Bessent)는 미국을 제안한다",
-          "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdmUycmRQNWwzNXJaRFhBMmo4UGNQOF9ETjh0dVZkMG93bmhtUGxCbDJBdUlBRHgwSWJfTkpvZjZkUDZoaFktNzZiNHVrMXlYV2ZEQ3Rhd0VUN0ZsQTlTcW1POEVVcHB2NEFFSTRlTkJSVk5fN2podXRIbzB1ckUwU0xnSGRfUTJUNkl4THZ6ZGo3MlN3dVpYcEVka1lqc09FcnlKb2UyZ01WV2JEcHpOUw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisAFBVV95cUxOdmUycmRQNWwzNXJaRFhBMmo4UGNQOF9ETjh0dVZkMG93bmhtUGxCbDJBdUlBRHgwSWJfTkpvZjZkUDZoaFktNzZiNHVrMXlYV2ZEQ3Rhd0VUN0ZsQTlTcW1POEVVcHB2NEFFSTRlTkJSVk5fN2podXRIbzB1ckUwU0xnSGRfUTJUNkl4THZ6ZGo3MlN3dVpYcEVka1lqc09FcnlKb2UyZ01WV2JEcHpOUw%3Foc%3D5"
+          "title_ko": "베센트의 이란 위협은 미국의 중국 공격 의지에 달려 있다",
+          "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVViODVsMEI2MVdqaFhiVFVzaUlZa0xlQVRoc21Cc0JwMVhvUWdoT0FIZlFlMnM4OTZkZ2JNZjREckd5aGswajhBTFFjbFotTmRHazdQTmVERUtoSnV6RmYyaGEyMTBLaG1JWWFWUW5md2djNW9veTV2R05zMmdWb1lqS3FVWU1ZNmpUQmdCd0Y5Q1ZlNm5JOWJvM2g3bFZjTE9ucHg4V2pmM3duQjNpVkRSSEs?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitAFBVV95cUxPLVViODVsMEI2MVdqaFhiVFVzaUlZa0xlQVRoc21Cc0JwMVhvUWdoT0FIZlFlMnM4OTZkZ2JNZjREckd5aGswajhBTFFjbFotTmRHazdQTmVERUtoSnV6RmYyaGEyMTBLaG1JWWFWUW5md2djNW9veTV2R05zMmdWb1lqS3FVWU1ZNmpUQmdCd0Y5Q1ZlNm5JOWJvM2g3bFZjTE9ucHg4V2pmM3duQjNpVkRSSEs%3Foc%3D5"
+        },
+        {
+          "source": "Wall Street Journal",
+          "title_ko": "유가, 인플레이션 우려로 글로벌 채권수익률 급등",
+          "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVE1melJkWU5uSUtsb1U4aEo2Q0NIQmx5SVB2dGpOaHMzeFdJVm81TzRxYUkzYlFMMUxhdW44NktaMzFKQS1aU21aZ1JQd3N3UGFFSGtfMmo5R1lrTTNSQ1VUVmhSdWlxYkxRVmdvOXBaM0JqSEgtb0h2TUx6QURhUHg1YVJKY3dlZWtyanJJT0pTbFhveDN2YlZEdEZVdG8xUE02SmIwejY?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqAFBVV95cUxPVE1melJkWU5uSUtsb1U4aEo2Q0NIQmx5SVB2dGpOaHMzeFdJVm81TzRxYUkzYlFMMUxhdW44NktaMzFKQS1aU21aZ1JQd3N3UGFFSGtfMmo5R1lrTTNSQ1VUVmhSdWlxYkxRVmdvOXBaM0JqSEgtb0h2TUx6QURhUHg1YVJKY3dlZWtyanJJT0pTbFhveDN2YlZEdEZVdG8xUE02SmIwejY%3Foc%3D5"
+        },
+        {
+          "source": "Reuters",
+          "title_ko": "장기간 패닉 상태에 빠진 범인이 부족하지 않음 US 미 국채/재무부수익( 수익률)",
+          "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVVczNWtaWmZ0TmRaZTk0UjJBaHBJb3ZmWVIwdEt4RnFwRTVLdnNQVEV6RmhJTmItdlFiR1pkTXZEUEZXZjk4elVNUE55TFJ4ckt1MHJzekhGVFhHRGNpby1Pel8xOGUydmRGdlV3REQtbFJ4VnRRc3U3c0pGaHZSTmhabDVqX0pyVWlBZzFOUWZ6dVJaNTA1QXctTm5xbnNTT3FNQ1gtckUwMnBpVEhFWg?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisAFBVV95cUxOVVczNWtaWmZ0TmRaZTk0UjJBaHBJb3ZmWVIwdEt4RnFwRTVLdnNQVEV6RmhJTmItdlFiR1pkTXZEUEZXZjk4elVNUE55TFJ4ckt1MHJzekhGVFhHRGNpby1Pel8xOGUydmRGdlV3REQtbFJ4VnRRc3U3c0pGaHZSTmhabDVqX0pyVWlBZzFOUWZ6dVJaNTA1QXctTm5xbnNTT3FNQ1gtckUwMnBpVEhFWg%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:20"
+      "crawled_at": "2026-09-03 20:01:16"
     },
     {
       "source": "Bloomberg",
-      "title_ko": "베센트는 석유가 우회하기 때문에 호르무즈는 '가치 없게' 될 것이라고 말한다",
+      "title_ko": "베센트는 석유가 우회하기 때문에 호르무즈는 '무용지물'이 될 것이라고 말한다",
       "title_en": "Bessent Says Hormuz Will Be ‘Worthless’ as Oil Bypasses It",
-      "summary_ko": "베센트 \"석유 우회로 호르무즈는 쓸모없어질 것\". 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Bloomberg뿐만 아니라 Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "summary_ko": "베센트 \"석유 우회로 호르무즈는 쓸모없어질 것\". 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Bloomberg뿐만 아니라 Bloomberg, CNBC 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
       "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObVVWWjNNeENodUlKQnA4YTRSa0Nlc0ZZbHhaQ1d0MjlLcGNGSjQtUmhic0VldGZqNnJyc2ZxcXVRWExTSlN5UkZRMEo2enMxQTh3S2xYdkI3azVFalJOclYyQU5KRHF1cGU3andZb0tIZnhSYUg1RTVzUjlYYi12Q0ZaU1lLWUtUc2NsTmNGUWV1MnM2SWdCTjlHOFpmZEJpby1CYzAyc2J0Z0s0cGtPRUJB?oc=5",
       "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxObVVWWjNNeENodUlKQnA4YTRSa0Nlc0ZZbHhaQ1d0MjlLcGNGSjQtUmhic0VldGZqNnJyc2ZxcXVRWExTSlN5UkZRMEo2enMxQTh3S2xYdkI3azVFalJOclYyQU5KRHF1cGU3andZb0tIZnhSYUg1RTVzUjlYYi12Q0ZaU1lLWUtUc2NsTmNGUWV1MnM2SWdCTjlHOFpmZEJpby1CYzAyc2J0Z0s0cGtPRUJB%3Foc%3D5",
       "category": "us_economy",
@@ -816,21 +738,27 @@ window.__BRIEFING_DATA__ = {
       "pub_date": "Tue, 01 Sep 2026 15:47:47 GMT",
       "related_articles": [
         {
+          "source": "CNBC",
+          "title_ko": "미 국채/재무부 베센트 장관: 우리는 이란 분쟁의 반대편에 설 것입니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRFgzWWpEcHNZeHdnWDBhZVYxRlVQakFYTkVhTEtBcnJrQW5IVzlZUE1hV3Z2QkRSWm9FOWNtVllMQVc3Zlctc1QxZXRNRGVRZ1loLUZPZm9JQVoyVmlRTTZMTVhPcGRGUVhoTkNjX3lkUnY1T2x3VE4yX2E1bDlMZ2ltdXZFdUlLeVdTRFlaRHVsQ2JXcnQzd0JwRUlNWFBobU8tdk4zVWcxQmY3TzNjb1Rwei1KblJ1SjlWYQ?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMivAFBVV95cUxPRFgzWWpEcHNZeHdnWDBhZVYxRlVQakFYTkVhTEtBcnJrQW5IVzlZUE1hV3Z2QkRSWm9FOWNtVllMQVc3Zlctc1QxZXRNRGVRZ1loLUZPZm9JQVoyVmlRTTZMTVhPcGRGUVhoTkNjX3lkUnY1T2x3VE4yX2E1bDlMZ2ltdXZFdUlLeVdTRFlaRHVsQ2JXcnQzd0JwRUlNWFBobU8tdk4zVWcxQmY3TzNjb1Rwei1KblJ1SjlWYQ%3Foc%3D5"
+        },
+        {
           "source": "Bloomberg",
-          "title_ko": "Bessent는 Hormuz 경로가 미래에 우회될 것이라고 말합니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZGdpbkN2aE1XVGRteThEUzJBbmdVR0MtcHRKWlpTUGROZ0ZQS3JZU2otYzk1Qm9JdHRnYzJaMUhfdFpMa0JzdXVCTkhyRVE3bzFZV3VyQURZY01FX09lQVY3c2g1dDFsREtXbGdqY21WSVk3Q0lrWFY0c2g3NV85QUEwbERPckRQNWJsM3QxdDVIMzEtM1RnMmJzMzZ6MW1fek1iTDJ0SzZVUHgtWEVxUA?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisAFBVV95cUxOZGdpbkN2aE1XVGRteThEUzJBbmdVR0MtcHRKWlpTUGROZ0ZQS3JZU2otYzk1Qm9JdHRnYzJaMUhfdFpMa0JzdXVCTkhyRVE3bzFZV3VyQURZY01FX09lQVY3c2g1dDFsREtXbGdqY21WSVk3Q0lrWFY0c2g3NV85QUEwbERPckRQNWJsM3QxdDVIMzEtM1RnMmJzMzZ6MW1fek1iTDJ0SzZVUHgtWEVxUA%3Foc%3D5"
+          "title_ko": "베센트, G20에 '미국 성장 어젠다' 판매 신뢰성 테스트 직면",
+          "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcjE2d1dINXZ1V2lUTmp4R0lrRWRSVjZhc2pUTC1NbXFuS3VZOFBualMtRkNZbENaN3RhS0xMTnBiTUFtbzhjNmlUVDhQQURKalZ5N01TZ19GSVBIRm5pOTdod1ZFdm1rUjdSMjFkTVBiT0ZvM3FhdzhVZHY2MWw5dzF1cWhKZXI1MmVyZjlZTU8yNDhockFCVkRMUHhMSDVieTJ5dzlMc0ZQUHlLY1ZLdllSQmdLbU0?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitwFBVV95cUxQcjE2d1dINXZ1V2lUTmp4R0lrRWRSVjZhc2pUTC1NbXFuS3VZOFBualMtRkNZbENaN3RhS0xMTnBiTUFtbzhjNmlUVDhQQURKalZ5N01TZ19GSVBIRm5pOTdod1ZFdm1rUjdSMjFkTVBiT0ZvM3FhdzhVZHY2MWw5dzF1cWhKZXI1MmVyZjlZTU8yNDhockFCVkRMUHhMSDVieTJ5dzlMc0ZQUHlLY1ZLdllSQmdLbU0%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:23"
+      "crawled_at": "2026-09-03 20:01:20"
     },
     {
-      "source": "Bloomberg",
-      "title_ko": "카타르, 베센트의 이란 거래가 다가오고 있다는 신호를 지켜보세요",
-      "title_en": "Watch Qatar, Bessent Signal Iran Deal Could Be Coming",
-      "summary_ko": "카타르, 베센트의 이란 거래가 다가오고 있다는 신호를 조심하세요 Bloomberg.com. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Bloomberg뿐만 아니라 Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX2wtMHNLRnBVQVF1UlEtOVJETzhzUnEya3ExeVRNUFAyS2xHZkMtYkNFOEdzRHVWWEFnRTE1UGVQOGszYUxwQmJRSzkxdGVMbEJVZURGNE9vVEZmdFNSY1dRQ0ktbWZ1U3VHb0JHTkNMczhSazZHVVNwVWVQWlVvRm1kc1VnTkFEVkdqa0ZmZEVYbGxFN3M2RXF2TGpEb3gtVEtB?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiowFBVV95cUxQX2wtMHNLRnBVQVF1UlEtOVJETzhzUnEya3ExeVRNUFAyS2xHZkMtYkNFOEdzRHVWWEFnRTE1UGVQOGszYUxwQmJRSzkxdGVMbEJVZURGNE9vVEZmdFNSY1dRQ0ktbWZ1U3VHb0JHTkNMczhSazZHVVNwVWVQWlVvRm1kc1VnTkFEVkdqa0ZmZEVYbGxFN3M2RXF2TGpEb3gtVEtB%3Foc%3D5",
+      "source": "Reuters",
+      "title_ko": "미국, 이란에 대한 새로운 공습 개시, 테헤란은 갈등 확대로 반격",
+      "title_en": "US launches new strikes on Iran and Tehran hits back in widening conflict",
+      "summary_ko": "미국, 이란에 대한 새로운 공습 개시, 테헤란의 반격으로 분쟁 확대 reuters.com. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Reuters뿐만 아니라 Reuters 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR%3Foc%3D5",
       "category": "us_economy",
       "section_no": 3,
       "section_title": "미국 경제 관련 주요 뉴스 요약",
@@ -838,28 +766,114 @@ window.__BRIEFING_DATA__ = {
       "importance_score": 50,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "pub_date": "Wed, 02 Sep 2026 03:39:30 GMT",
+      "related_articles": [
+        {
+          "source": "Reuters",
+          "title_ko": "미국은 언론인을 제외하고 러시아를 다시 데려와 G20 장관들을 짜증나게 한다.",
+          "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTDY4ZlJsY3c3S2d4bGo2T2FyVEVyNmY2UzltakRiUktLUnlSWUk4YlFQSXd4VnlQUWtrbDZaR1pYZEVLV2d1UEdZLW05N0xIdWZFSjRzN1VUaXlQQnNJY0hQMnl1cEw3ZWQzY3dVbmRXNTk2b21McGh5YW9OdWVRbDAwVi1aZWY2Z3g1a1BaVUxaRm9XaHo3czZJU0VCWU1ucDNETUV2eVFqMXM?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqwFBVV95cUxOTDY4ZlJsY3c3S2d4bGo2T2FyVEVyNmY2UzltakRiUktLUnlSWUk4YlFQSXd4VnlQUWtrbDZaR1pYZEVLV2d1UEdZLW05N0xIdWZFSjRzN1VUaXlQQnNJY0hQMnl1cEw3ZWQzY3dVbmRXNTk2b21McGh5YW9OdWVRbDAwVi1aZWY2Z3g1a1BaVUxaRm9XaHo3czZJU0VCWU1ucDNETUV2eVFqMXM%3Foc%3D5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:22"
+    },
+    {
+      "source": "Wall Street Journal",
+      "title_ko": "미국 부채가 40조 달러를 돌파했습니다: 우리가 여기까지 온 이유",
+      "title_en": "U.S. Debt Just Topped $40 Trillion: How We Got Here",
+      "summary_ko": "미국 부채가 40조 달러를 넘어섰습니다: 우리가 여기까지 온 이유 WSJ. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Wall Street Journal뿐만 아니라 Bloomberg, Wall Street Journal 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY2ZGNE92T3h3bWRQOEJzenNJbm0xMk1YOUFSdDNJZC1MQ3FTbHJEczMxRU1QZUlnVFdqR1FlYVp5ak55Z21PWTdsNTQ4T2E4cnJSdDhEMDM5Sl9pUlF3MWVZb3VJUW81X3FVU3dFMU41MVdkbWVJRW5LSXo4TGRmWk90Tzd3aDloaWNGQkt3?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMijgFBVV95cUxOY2ZGNE92T3h3bWRQOEJzenNJbm0xMk1YOUFSdDNJZC1MQ3FTbHJEczMxRU1QZUlnVFdqR1FlYVp5ak55Z21PWTdsNTQ4T2E4cnJSdDhEMDM5Sl9pUlF3MWVZb3VJUW81X3FVU3dFMU41MVdkbWVJRW5LSXo4TGRmWk90Tzd3aDloaWNGQkt3%3Foc%3D5",
+      "category": "us_economy",
+      "section_no": 3,
+      "section_title": "미국 경제 관련 주요 뉴스 요약",
+      "section_icon": "🇺🇸",
+      "importance_score": 50,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "related_articles": [
         {
           "source": "Bloomberg",
-          "title_ko": "Scott Bessent는 중국이 무역 흑자 분쟁에 대해 만장일치로 G20 성명을 중단했다고 말했습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2NHbkIzVHAxdEE3bkhrWUpXOTNFWTlONjVlWFE0SkRXNkRXNEdCaHhkMWNsMDQzRFZnZFF6S2dqUWZ4S2EwcmVhM1B4b2RHV19mOFEzRzNpbGtmZUFyVWhDQVpiN01aWTlaYmM1WmdCemozdTJzMUhDZHdOUm83allSVVZNcEhFTk16NUZtMG9wTk5lNlVocnZZNnp4cHZqWXdFeHM4TE9tQQ?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqgFBVV95cUxPb2NHbkIzVHAxdEE3bkhrWUpXOTNFWTlONjVlWFE0SkRXNkRXNEdCaHhkMWNsMDQzRFZnZFF6S2dqUWZ4S2EwcmVhM1B4b2RHV19mOFEzRzNpbGtmZUFyVWhDQVpiN01aWTlaYmM1WmdCemozdTJzMUhDZHdOUm83allSVVZNcEhFTk16NUZtMG9wTk5lNlVocnZZNnp4cHZqWXdFeHM4TE9tQQ%3Foc%3D5"
+          "title_ko": "베트남 무역 격차가 1억 1300만 달러로 축소; 인플레이션이 더 빨라진다",
+          "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNExCUmZMRXB6TzlVYkpXcFJDYzVCNjJHSG1MNDF2Vld3WFN3V0R1MnIxSjFEZDlZZXFxNW1md18tNkNoSFBQSU9wTW8tc2dXMGpxS1ZWODREdldJdC13dEdTS1VKcGktU1dfZDV4MW1kYWxGS2M2bjlhLWNIcDJXUnpDOHZnOUhaNEVwbGozUVE3eWpvTHNuMDEtVThWZXFRemljMmhmQVhObm5IUWNRblFR?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxQNExCUmZMRXB6TzlVYkpXcFJDYzVCNjJHSG1MNDF2Vld3WFN3V0R1MnIxSjFEZDlZZXFxNW1md18tNkNoSFBQSU9wTW8tc2dXMGpxS1ZWODREdldJdC13dEdTS1VKcGktU1dfZDV4MW1kYWxGS2M2bjlhLWNIcDJXUnpDOHZnOUhaNEVwbGozUVE3eWpvTHNuMDEtVThWZXFRemljMmhmQVhObm5IUWNRblFR%3Foc%3D5"
         },
         {
-          "source": "Bloomberg",
-          "title_ko": "Pantera의 Morehead는 Bessent의 채권에 대한 허세가 역효과를 냈다고 말합니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWkVpYlQ0QVlEdXFMbjhlMm1HTnFGMTZpOVlCbm9nck9hMkY3d3d0ZFFwcTRyUWZNWGx1bERaVVRCeDhIc0FuZVJfR3gyX0Zxd0pYSG96R2dCdS1MOUVwTHVwMENEd0N0Y2p0Nk0zYzVnMl9vTmUzcVVKQVBiTEM2MEVRdzlVcWl5MDZwQ3dJZ25DR09Fd2dLNTh6Z3NxYmpS?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMioAFBVV95cUxPWkVpYlQ0QVlEdXFMbjhlMm1HTnFGMTZpOVlCbm9nck9hMkY3d3d0ZFFwcTRyUWZNWGx1bERaVVRCeDhIc0FuZVJfR3gyX0Zxd0pYSG96R2dCdS1MOUVwTHVwMENEd0N0Y2p0Nk0zYzVnMl9vTmUzcVVKQVBiTEM2MEVRdzlVcWl5MDZwQ3dJZ25DR09Fd2dLNTh6Z3NxYmpS%3Foc%3D5"
-        },
-        {
-          "source": "Bloomberg",
-          "title_ko": "Bessent, Warsh에 대한 신뢰 신호, 인플레이션 하락 예상",
-          "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkRlVU51bjFjRGlLa3pUVlB2ZTJOb0JjVGh5eVBOWllZQm56VTh6Tkl5WWFsZkdPWWFPN3I1VjhQLVQ2d1VDVXRVVzRyZFFRRjlQSUtnQm8wQXNtU0t1SG1KbE9mbjQxTEx0X09wNkpIc2gtY20tOGoxell0YWRMU1pCWVRwUENMSlBvZWswRnYzejNfTzN3T2VuTGN3WGZfMkN1LWlIYVJWOHFGdzlEbEo2NA?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiswFBVV95cUxPMkRlVU51bjFjRGlLa3pUVlB2ZTJOb0JjVGh5eVBOWllZQm56VTh6Tkl5WWFsZkdPWWFPN3I1VjhQLVQ2d1VDVXRVVzRyZFFRRjlQSUtnQm8wQXNtU0t1SG1KbE9mbjQxTEx0X09wNkpIc2gtY20tOGoxell0YWRMU1pCWVRwUENMSlBvZWswRnYzejNfTzN3T2VuTGN3WGZfMkN1LWlIYVJWOHFGdzlEbEo2NA%3Foc%3D5"
+          "source": "Wall Street Journal",
+          "title_ko": "미국 부채가 GDP의 100%를 넘어섰습니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02U2JEXzZiY3FNcmtmc24xd0FScXM5TVg3RXdaaFRNdWxESW5WMnJMWGZqeWpyVm9IeTlNRlJrUktaYTNvOWV4TzhCVHdZaVM0UTZ0VjlDekFLU2JJT3BDSC1pMkxPVlUwYXRSNG1n?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMibkFVX3lxTE02U2JEXzZiY3FNcmtmc24xd0FScXM5TVg3RXdaaFRNdWxESW5WMnJMWGZqeWpyVm9IeTlNRlJrUktaYTNvOWV4TzhCVHdZaVM0UTZ0VjlDekFLU2JJT3BDSC1pMkxPVlUwYXRSNG1n%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:29"
+      "crawled_at": "2026-09-03 20:01:26"
+    },
+    {
+      "source": "Reuters",
+      "title_ko": "논평: 이란 전쟁 패닉으로 인해 한국 주식이 하락한 것이 아니라 더 저렴해졌습니다.",
+      "title_en": "COMMENTARY: Iran war panic made South Korean stocks cheaper, not weaker",
+      "summary_ko": "논평: 이란 전쟁 패닉으로 인해 한국 주식이 약해진 것이 아니라 더 저렴해졌습니다 reuters.com. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Reuters뿐만 아니라 Reuters, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMkNMMjhiVi1CWV8yMHJ3M3V3VVZCaFVzZDU5UnRCcFhxVmt1YVVJNmlQLWlCVDJyTWRoNVRUVHdZTjNtQld6Snd6OVpRWXRBamlqUkxNMWxZcTVNYU1iYllCU1JGbERmNTI1aDZQNkgtQWRuSUl5cmFpck5MaWh2ZERvVVBzR0QwNnBfTHJnMzRRWUY4ZWcxZUZ5N3RnaTNDM2NtMjBHZlNTWWc?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqwFBVV95cUxQMkNMMjhiVi1CWV8yMHJ3M3V3VVZCaFVzZDU5UnRCcFhxVmt1YVVJNmlQLWlCVDJyTWRoNVRUVHdZTjNtQld6Snd6OVpRWXRBamlqUkxNMWxZcTVNYU1iYllCU1JGbERmNTI1aDZQNkgtQWRuSUl5cmFpck5MaWh2ZERvVVBzR0QwNnBfTHJnMzRRWUY4ZWcxZUZ5N3RnaTNDM2NtMjBHZlNTWWc%3Foc%3D5",
+      "category": "us_economy",
+      "section_no": 3,
+      "section_title": "미국 경제 관련 주요 뉴스 요약",
+      "section_icon": "🇺🇸",
+      "importance_score": 50,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Thu, 26 Mar 2026 07:00:00 GMT",
+      "related_articles": [
+        {
+          "source": "Reuters",
+          "title_ko": "논평: 아침 입찰: 채권이 끓어오르다",
+          "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMGpDVWZIa0U1VExDTExaZ1ZyYlBjV2ZBLWtIYUtBX2lfcUNxQ1ZkQWxqR3NQNVRKcFVWU2g0RDNXSkJyU2pwUEMwS0tJcnYxRG9ucUlVMUxFMDl6TjlOSWE1VGJXZ3lFZEh4Z0FvaXFpalVfcXBPa01LSGxTS0lfOGJVY09xYlJxZi1pTG52M2F2aEprZ1Zn?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMilwFBVV95cUxOMGpDVWZIa0U1VExDTExaZ1ZyYlBjV2ZBLWtIYUtBX2lfcUNxQ1ZkQWxqR3NQNVRKcFVWU2g0RDNXSkJyU2pwUEMwS0tJcnYxRG9ucUlVMUxFMDl6TjlOSWE1VGJXZ3lFZEh4Z0FvaXFpalVfcXBPa01LSGxTS0lfOGJVY09xYlJxZi1pTG52M2F2aEprZ1Zn%3Foc%3D5"
+        },
+        {
+          "source": "Bloomberg",
+          "title_ko": "칩세 횡재로 한국의 기록적인 예산 확대",
+          "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkF1SlNVa1BqVlZoUzg5NHRRMXBKMFBwTnBBc2FTenBqLTc1RWhaRWVQYjdmRWEySlVsY0tBd3VzeExlbDZLcTJPUm1NWDBOMFZXQVZaQUhkU0laSTBRc09mX3lfM0ZkY0V0bmlsWFNzWERkX3pvYkprd0ZhdWV5VDcySjlfVUotR0NYMExqMkRWY0Y5SXlXcnNNZlFSdVV4bHVFREZJMUotTks5bnI1elNR?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxQNkF1SlNVa1BqVlZoUzg5NHRRMXBKMFBwTnBBc2FTenBqLTc1RWhaRWVQYjdmRWEySlVsY0tBd3VzeExlbDZLcTJPUm1NWDBOMFZXQVZaQUhkU0laSTBRc09mX3lfM0ZkY0V0bmlsWFNzWERkX3pvYkprd0ZhdWV5VDcySjlfVUotR0NYMExqMkRWY0Y5SXlXcnNNZlFSdVV4bHVFREZJMUotTks5bnI1elNR%3Foc%3D5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:30"
+    },
+    {
+      "source": "dt.co.kr",
+      "title_ko": "외국인·법인에 코인시장 빗장 풀리면…‘테더’ 수요가 원·달러 환율 흔든다?",
+      "title_en": "",
+      "summary_ko": "외국인·법인에 코인시장 빗장 풀리면…‘테더’ 수요가 원·달러 환율 흔든다? dt.co.kr. 외국인 투자자의 국내 증시(코스피/반도체 대형주) 순매수 유입 및 원/달러 환율 1년·3년 평균선 회복 여부를 가늠하는 핵심 대외 지표입니다. dt.co.kr에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1adTZYTWZNc0hINmJZSV8zcUwtV3NoUmFJTlRnSFp0WHNGcGpfZ3RqeU8zdEY1QnMzN29SYVdyQ25qRTI3UUJQRVhHbmJaZw?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1adTZYTWZNc0hINmJZSV8zcUwtV3NoUmFJTlRnSFp0WHNGcGpfZ3RqeU8zdEY1QnMzN29SYVdyQ25qRTI3UUJQRVhHbmJaZw?oc=5",
+      "category": "foreign_flows_korea",
+      "section_no": 4,
+      "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
+      "section_icon": "🇰🇷",
+      "importance_score": 55,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Thu, 03 Sep 2026 03:00:00 GMT",
+      "related_articles": [],
+      "crawled_at": "2026-09-03 20:01:30"
+    },
+    {
+      "source": "Reuters",
+      "title_ko": "연준(Fed)의 Musalem은 CNBC에서 9월 금리콜 전망을 미리 판단하지 않을 것이라고 밝혔습니다.",
+      "title_en": "Fed's Musalem says on CNBC he won't prejudge rate call view for September FOMC",
+      "summary_ko": "연준(Fed)의 Musalem은 CNBC에서 9월 금리콜 전망을 미리 판단하지 않을 것이라고 밝혔습니다. 부분공개시장위원회(FOMC) reuters.com. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. Reuters에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmhONVBVZ3NRQnY3d2Jsc1dlUW1ia3ppZmtReTJPQWhaR1BFZWVLdkF6OFYtak5qUjhkc2ZXSk1nMjNyTEtUc2ZkUXY5VGh3OGV5NnRCZ2pIV0Z6WERGbTViMmd5WnpkcVpqakthNndVbmllMjJIQXdpODdfRWZHWTBBc0w2QXd2Nkw3Z2ZzOUEyMmZSc05KQkh0WGg2MzkyMGNHSTBLQ29wTUktWFhrSkFLaw?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiswFBVV95cUxPQmhONVBVZ3NRQnY3d2Jsc1dlUW1ia3ppZmtReTJPQWhaR1BFZWVLdkF6OFYtak5qUjhkc2ZXSk1nMjNyTEtUc2ZkUXY5VGh3OGV5NnRCZ2pIV0Z6WERGbTViMmd5WnpkcVpqakthNndVbmllMjJIQXdpODdfRWZHWTBBc0w2QXd2Nkw3Z2ZzOUEyMmZSc05KQkh0WGg2MzkyMGNHSTBLQ29wTUktWFhrSkFLaw%3Foc%3D5",
+      "category": "foreign_flows_korea",
+      "section_no": 4,
+      "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
+      "section_icon": "🇰🇷",
+      "importance_score": 45,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "related_articles": [],
+      "crawled_at": "2026-09-03 20:01:32"
     },
     {
       "source": "Bloomberg",
@@ -877,15 +891,15 @@ window.__BRIEFING_DATA__ = {
       "badge_class": "tier-wave",
       "pub_date": "Sun, 21 Sep 2025 07:00:00 GMT",
       "related_articles": [],
-      "crawled_at": "2026-09-02 20:01:31"
+      "crawled_at": "2026-09-03 20:01:35"
     },
     {
       "source": "매일경제",
-      "title_ko": "[표] 코스닥 외국인 순매수도 상위종목(31일)",
+      "title_ko": "[표] 거래소 외국인 순매수도 상위종목(3일)",
       "title_en": "",
-      "summary_ko": "[표] 코스닥 외국인 순매수도 상위종목(31일) 매일경제 마켓. 외국인 투자자의 국내 증시(코스피/반도체 대형주) 순매수 유입 및 원/달러 환율 1년·3년 평균선 회복 여부를 가늠하는 핵심 대외 지표입니다. 매일경제뿐만 아니라 한양경제, 2news.co.kr 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNmtqVzVwQWJiZm5NNklVYUx6UjZsWTRad2dJdzljVGdkajNGbFlESF9JTFFESFdpbXFrWEt0TmNoYkNYWnhNTUd0VlY1X2d5Nmc?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNmtqVzVwQWJiZm5NNklVYUx6UjZsWTRad2dJdzljVGdkajNGbFlESF9JTFFESFdpbXFrWEt0TmNoYkNYWnhNTUd0VlY1X2d5Nmc?oc=5",
+      "summary_ko": "[표] 거래소 외국인 순매수도 상위종목(3일) 매일경제 마켓. 외국인 투자자의 국내 증시(코스피/반도체 대형주) 순매수 유입 및 원/달러 환율 1년·3년 평균선 회복 여부를 가늠하는 핵심 대외 지표입니다. 매일경제뿐만 아니라 연합뉴스, 매일경제 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUGxkUEVneF9pYlJxZFloYk5iLTFfTUZySkZjVE9EblBfUzVYbWFwd0pVeVNJNjJVTUdsOXAxajZLU05ZVTRPd1JwVkEycWRuOHc?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUGxkUEVneF9pYlJxZFloYk5iLTFfTUZySkZjVE9EblBfUzVYbWFwd0pVeVNJNjJVTUdsOXAxajZLU05ZVTRPd1JwVkEycWRuOHc?oc=5",
       "category": "foreign_flows_korea",
       "section_no": 4,
       "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
@@ -893,256 +907,163 @@ window.__BRIEFING_DATA__ = {
       "importance_score": 45,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Mon, 31 Aug 2026 06:45:32 GMT",
-      "related_articles": [
-        {
-          "source": "한양경제",
-          "title_ko": "[마감시황] 코스피, 외국인·기관 매도 폭탄에 4%↓…6600선 내줘",
-          "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRbnJHZHZEZ0FQbFMtRmJPbHc0c1FSdUZfMzdsT2Q0b2FJU1QydS1BT3dKRWh5M3VkUHJOYmZxVTRPdVVOTFJFLWNWWmVzd2E1eDMwMkNSRDBwRk8zMUhXYS13ZHlyNlU1b0FRM2FsYUY?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRbnJHZHZEZ0FQbFMtRmJPbHc0c1FSdUZfMzdsT2Q0b2FJU1QydS1BT3dKRWh5M3VkUHJOYmZxVTRPdVVOTFJFLWNWWmVzd2E1eDMwMkNSRDBwRk8zMUhXYS13ZHlyNlU1b0FRM2FsYUY?oc=5"
-        },
-        {
-          "source": "스트레이트뉴스",
-          "title_ko": "코스피, 외국인·기관 ‘팔자’에 1%대 하락",
-          "original_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSYkcxZFZUNGh3SVpKQVp3a1lQWEUtTmVaT1ZkSllfS3YxalBnTnZTMkZubVkzczFGMDd6bFpKdmpxSWtPSTFXQmhSVGpJcllId094NzFjWldZM2lrcjFXeVRlUk16bzc0YnBSdTVWMnl2LUnSAXdBVV95cUxQYW1EbTlaNElKb2x3UGU4UThNa1VzaklMZnR0Q3RGbHNpUERELVh5NEVHUGF3cGxxRTBUR3ZUUFh3YTRoY2M4OXVqSkVrRmJPNEpyNDhLZlJsSEp2SmtvUjdHcmEzQVBJMzNSMzhvOXJqN3BQX3JUUQ?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSYkcxZFZUNGh3SVpKQVp3a1lQWEUtTmVaT1ZkSllfS3YxalBnTnZTMkZubVkzczFGMDd6bFpKdmpxSWtPSTFXQmhSVGpJcllId094NzFjWldZM2lrcjFXeVRlUk16bzc0YnBSdTVWMnl2LUnSAXdBVV95cUxQYW1EbTlaNElKb2x3UGU4UThNa1VzaklMZnR0Q3RGbHNpUERELVh5NEVHUGF3cGxxRTBUR3ZUUFh3YTRoY2M4OXVqSkVrRmJPNEpyNDhLZlJsSEp2SmtvUjdHcmEzQVBJMzNSMzhvOXJqN3BQX3JUUQ?oc=5"
-        },
-        {
-          "source": "2news.co.kr",
-          "title_ko": "코스피, 외국인 매도 속 기타법인 1조 순매수에 상승 전환 [장중시황]",
-          "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sZFFna1AydWlRaDRzUTc2bThsclR6LW1GMTJrTHdjeHpWVU44VDY0UzZyOEhEWWsySjUwMmoxVHE4Q3RRRlVpOXNvLUFPZmx2dWVWLWstRjBvTmIxb1BMODZUNDdFd042?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sZFFna1AydWlRaDRzUTc2bThsclR6LW1GMTJrTHdjeHpWVU44VDY0UzZyOEhEWWsySjUwMmoxVHE4Q3RRRlVpOXNvLUFPZmx2dWVWLWstRjBvTmIxb1BMODZUNDdFd042?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "한국경제",
-      "title_ko": "원달러환율 하락, 기업들 달러 매입 몰렸다…거주자 달러예금 사상 최대치",
-      "title_en": "",
-      "summary_ko": "원달러환율 하락, 기업들 달러 매입 몰렸다…거주자 달러예금 사상 최대치 대한경제. 외국인 투자자의 국내 증시(코스피/반도체 대형주) 순매수 유입 및 원/달러 환율 1년·3년 평균선 회복 여부를 가늠하는 핵심 대외 지표입니다. 한국경제에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nR29HT3ltMkprNVAxaW9YLUtISjlHN2pia0tRblZyUzJuZXo1aTZrOGRMQjI3RXM3a0lZTkhoa1JiVmhHNlpkaGc5THZ2aXU1THJrZ0FvaXlXSkMxektmbm9yZ2o5UUYzSVdiWlUwS1BtWm0z?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5nR29HT3ltMkprNVAxaW9YLUtISjlHN2pia0tRblZyUzJuZXo1aTZrOGRMQjI3RXM3a0lZTkhoa1JiVmhHNlpkaGc5THZ2aXU1THJrZ0FvaXlXSkMxektmbm9yZ2o5UUYzSVdiWlUwS1BtWm0z?oc=5",
-      "category": "foreign_flows_korea",
-      "section_no": 4,
-      "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
-      "section_icon": "🇰🇷",
-      "importance_score": 45,
-      "badge_label": "⭐ 주요 파도",
-      "badge_class": "tier-wave",
-      "pub_date": "Fri, 28 Aug 2026 05:15:17 GMT",
-      "related_articles": [],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "산경투데이",
-      "title_ko": "환율, 중동 불안·미 국채금리 상승에도 하락…1,368.7원 마감",
-      "title_en": "",
-      "summary_ko": "환율, 중동 불안·미 국채금리 상승에도 하락…1,368.7원 마감 산경투데이. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. 산경투데이뿐만 아니라 뉴스핌, 뉴스1 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLcXZJR1ZjeUxfUU1JSDBKc3Jya1l5eDUxNEIwMHFZX29DMUdkUkFENFVDczhlM1pWUEEwWl9NN2dYazVmd2Qwb2tKNUEtWkpXOGEtOGFfNXdPVVlRbGhld3NJQTV3WWxSa1NUTVdaWFrSAXRBVV95cUxQY0pwLWRRYm1TdHVjWFotZnJIT19wenlmLWItMThlX09taGFsZW1KQjgzOTN0ZXJmZ21GYUZJbjU3Z0RRejd5NFFkUWJVOGhPcjdKNVRNM0FZc21oNXltUUxyNWIyRU53VTlBdC0yTG5uRDNXTQ?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLcXZJR1ZjeUxfUU1JSDBKc3Jya1l5eDUxNEIwMHFZX29DMUdkUkFENFVDczhlM1pWUEEwWl9NN2dYazVmd2Qwb2tKNUEtWkpXOGEtOGFfNXdPVVlRbGhld3NJQTV3WWxSa1NUTVdaWFrSAXRBVV95cUxQY0pwLWRRYm1TdHVjWFotZnJIT19wenlmLWItMThlX09taGFsZW1KQjgzOTN0ZXJmZ21GYUZJbjU3Z0RRejd5NFFkUWJVOGhPcjdKNVRNM0FZc21oNXltUUxyNWIyRU53VTlBdC0yTG5uRDNXTQ?oc=5",
-      "category": "foreign_flows_korea",
-      "section_no": 4,
-      "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
-      "section_icon": "🇰🇷",
-      "importance_score": 35,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Wed, 02 Sep 2026 07:03:53 GMT",
-      "related_articles": [
-        {
-          "source": "뉴스핌",
-          "title_ko": "[모닝 리포트] 중동 불안에 원·달러 환율 상승 전망...1370원 안팎",
-          "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41QkRKM3pFaXhVUE8tTlNPMkY1YWxBaVY5cTJtV053Wmt2bU5tVl8yVnh5M2RMc2oxaGhKeWRRdG1XWkMxQzV4MUVZWDJ3RlJBZHhMcHotOEJ3cW92?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41QkRKM3pFaXhVUE8tTlNPMkY1YWxBaVY5cTJtV053Wmt2bU5tVl8yVnh5M2RMc2oxaGhKeWRRdG1XWkMxQzV4MUVZWDJ3RlJBZHhMcHotOEJ3cW92?oc=5"
-        },
-        {
-          "source": "뉴스1",
-          "title_ko": "달러·원 환율, 중동 불안·美 금리 상승에도 하락",
-          "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZ3M2cW4wZ1lBV2gwbnhXdEc2STlGLTRNQmtnOGpYTEMyUXBHcU5qNmFuM3FtODRPVFdtdzUzaGZSaGpZdEFfOUtmTW9ENzRndzlNUm13UnRsNzTSAWBBVV95cUxOWTNtRFh2dDZxVjRWS3V3RkxwRUJSVXctQlQxdGJmS25aNmZxUGdIUVZobGlCdHBEdmdhZEdmNmQtRjJKUHZZY2xMOEZNNWhqYmhyMXZRMXVEdnhQTHBpVEY?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oZ3M2cW4wZ1lBV2gwbnhXdEc2STlGLTRNQmtnOGpYTEMyUXBHcU5qNmFuM3FtODRPVFdtdzUzaGZSaGpZdEFfOUtmTW9ENzRndzlNUm13UnRsNzTSAWBBVV95cUxOWTNtRFh2dDZxVjRWS3V3RkxwRUJSVXctQlQxdGJmS25aNmZxUGdIUVZobGlCdHBEdmdhZEdmNmQtRjJKUHZZY2xMOEZNNWhqYmhyMXZRMXVEdnhQTHBpVEY?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "베타뉴스",
-      "title_ko": "원·달러 환율, 다시 1360원대로...중동 리스크·美금리상승 이겨낸 수출업체 매도",
-      "title_en": "",
-      "summary_ko": "원·달러 환율, 다시 1360원대로...중동 리스크·美금리상승 이겨낸 수출업체 매도 베타뉴스. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 베타뉴스뿐만 아니라 뉴데일리 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aQU9XanFmdGtoQWM4VlhPX0hYVGtJTTZvMUJTYml1SnR0RWR1a1pCS0tyeTAtM2lnNVhaRjRQSERiMU83M25EM05qelIxaHBYbGtQRlZhWnQ3cTFpRWcteHY2STI?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aQU9XanFmdGtoQWM4VlhPX0hYVGtJTTZvMUJTYml1SnR0RWR1a1pCS0tyeTAtM2lnNVhaRjRQSERiMU83M25EM05qelIxaHBYbGtQRlZhWnQ3cTFpRWcteHY2STI?oc=5",
-      "category": "foreign_flows_korea",
-      "section_no": 4,
-      "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
-      "section_icon": "🇰🇷",
-      "importance_score": 35,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Wed, 02 Sep 2026 09:05:46 GMT",
-      "related_articles": [
-        {
-          "source": "뉴데일리",
-          "title_ko": "1500원 뚫었던 원·달러 환율, 1300원대 진입 … '원화 강세' 어디까지",
-          "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRU0NkZTlUT2xTcUcwVW1aYzNzQllZdHBvUDVkc0h3VTg5elNYUHV1bFhLMkZHMXV4T2IzdWxMNHBxc3Y3aEdsT1Q2cHhkMWp2MEpSdFV5OEZIWU5PdTQyR1gxZlpKX3NmQW4yRC1OVHJYMzczVFBKdjJjZ9IBgAFBVV95cUxNMEZiQUo0bW9NTzljczFRcVlCXzZZX1BzS2owNUhveG9vZWtfbHhhUkFhZXFwREdhc0tac3VyN1lIR0xfNWp6M1FEUS1WY1dYYmNPZkxGRXNGYm94bFlpdDdtSU5tTmJyLVhPVFNjaVJUajh5OURXNmE0eHNaYkNScg?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRU0NkZTlUT2xTcUcwVW1aYzNzQllZdHBvUDVkc0h3VTg5elNYUHV1bFhLMkZHMXV4T2IzdWxMNHBxc3Y3aEdsT1Q2cHhkMWp2MEpSdFV5OEZIWU5PdTQyR1gxZlpKX3NmQW4yRC1OVHJYMzczVFBKdjJjZ9IBgAFBVV95cUxNMEZiQUo0bW9NTzljczFRcVlCXzZZX1BzS2owNUhveG9vZWtfbHhhUkFhZXFwREdhc0tac3VyN1lIR0xfNWp6M1FEUS1WY1dYYmNPZkxGRXNGYm94bFlpdDdtSU5tTmJyLVhPVFNjaVJUajh5OURXNmE0eHNaYkNScg?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "대구MBC",
-      "title_ko": "대구 기업 86% \"기준금리 인상, 경영에 부정적\"",
-      "title_en": "",
-      "summary_ko": "대구 기업 86% \"기준금리 인상, 경영에 부정적\" 대구MBC. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 대구MBC뿐만 아니라 경북신문, v.daum.net 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBwTnBnMmxoOHVmYjI3WkZ4Q3lqb0tNTTZ3eGNpYzA0MWhqamZkdGVDQTZLalAwcXZhbEJSQkFzcmpVanB1a1QteFZEeXc?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBwTnBnMmxoOHVmYjI3WkZ4Q3lqb0tNTTZ3eGNpYzA0MWhqamZkdGVDQTZLalAwcXZhbEJSQkFzcmpVanB1a1QteFZEeXc?oc=5",
-      "category": "korea_economy",
-      "section_no": 5,
-      "section_title": "국내 경제 관련 주요 뉴스 요약",
-      "section_icon": "📈",
-      "importance_score": 30,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Wed, 02 Sep 2026 06:46:00 GMT",
-      "related_articles": [
-        {
-          "source": "v.daum.net",
-          "title_ko": "기업대출 70%가 변동금리…기준금리 인상에 TK 중기 ‘기존 빚’ 비상",
-          "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bc1ptendEbEFlRU50Ny1NaUJ6YkVnZVBiZ0VKb1dWR2lRc2ppNm9heDdWekNpWFg5dkowd0l5X2lteTJXNWp4NEFLZ3VYU0E?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bc1ptendEbEFlRU50Ny1NaUJ6YkVnZVBiZ0VKb1dWR2lRc2ppNm9heDdWekNpWFg5dkowd0l5X2lteTJXNWp4NEFLZ3VYU0E?oc=5"
-        },
-        {
-          "source": "매일일보",
-          "title_ko": "8월 소비자물가 상승률 3.1% \"10월 기준금리 인상 여부 주목\"",
-          "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tdDc1UmpmOWpQeWdtMHNNWEdVTG1yQVVfYmxPTWRjdWxicjJObjlIZHJTcUpjSjNCeHpMazNyRWxBOHJObVhTQ25qdHF5dUFxc29lUV9TdDRzMldfejYtWGZ2VE4?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tdDc1UmpmOWpQeWdtMHNNWEdVTG1yQVVfYmxPTWRjdWxicjJObjlIZHJTcUpjSjNCeHpMazNyRWxBOHJObVhTQ25qdHF5dUFxc29lUV9TdDRzMldfejYtWGZ2VE4?oc=5"
-        },
-        {
-          "source": "경북신문",
-          "title_ko": "대구기업 85.9%, 기준금리 인상으로 경영에 부정적",
-          "original_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aa2d4UzcxdTdWLW1Za2FPcGMxLTRiUjQtbU5jLU5RWlJRci1WSGd0aGZrQUFvWUQ5dW1nc09RSUd0LXJTNUxXUmZYNkx1djBaZUlpRERFR2w?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aa2d4UzcxdTdWLW1Za2FPcGMxLTRiUjQtbU5jLU5RWlJRci1WSGd0aGZrQUFvWUQ5dW1nc09RSUd0LXJTNUxXUmZYNkx1djBaZUlpRERFR2w?oc=5"
-        },
-        {
-          "source": "경북매일",
-          "title_ko": "대구상의 “지역기업 86%, 기준금리 인상에 경영 부담”",
-          "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFQjZQSDZ3QzNadHNLZmNFN21tZ1lsOVo3eTFoWUNaRFlVZWdJc2lXX2JzSFNLWEVTTFJJMnd2ZUo4YUUwNG1PcGJHS3V2aVJVZjNBbGZ3OENVdw?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFQjZQSDZ3QzNadHNLZmNFN21tZ1lsOVo3eTFoWUNaRFlVZWdJc2lXX2JzSFNLWEVTTFJJMnd2ZUo4YUUwNG1PcGJHS3V2aVJVZjNBbGZ3OENVdw?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "글로벌이코노믹",
-      "title_ko": "일본은행, 9월 금리 인상 검토… 기준금리 1.25% 유력",
-      "title_en": "",
-      "summary_ko": "일본은행, 9월 금리 인상 검토… 기준금리 1.25% 유력 글로벌이코노믹. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 글로벌이코노믹뿐만 아니라 연합뉴스, KBS 뉴스 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc0YyeFJ6NkNoNlJGV2c2OGZ4dXJqX0JxLUNXM2JVc3BwMU5aOGhiUUJyeG9ncmVHMXRrMnVHYmg1LVNNdUpqUTlfNTB6MXJvSjdBeTlhQmlwOGZtR2pWLVlnNWExMVAzcEtVS21JRlAxUXJJR3d3VEVZUERyVUpGeXdRc3lKbUpq?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc0YyeFJ6NkNoNlJGV2c2OGZ4dXJqX0JxLUNXM2JVc3BwMU5aOGhiUUJyeG9ncmVHMXRrMnVHYmg1LVNNdUpqUTlfNTB6MXJvSjdBeTlhQmlwOGZtR2pWLVlnNWExMVAzcEtVS21JRlAxUXJJR3d3VEVZUERyVUpGeXdRc3lKbUpq?oc=5",
-      "category": "korea_economy",
-      "section_no": 5,
-      "section_title": "국내 경제 관련 주요 뉴스 요약",
-      "section_icon": "📈",
-      "importance_score": 30,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Wed, 02 Sep 2026 07:14:15 GMT",
-      "related_articles": [
-        {
-          "source": "연합뉴스",
-          "title_ko": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-          "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aRk9oR1BWMS0weEZ3Q2x2SHA4Ymp0dzhYMTZYekQtWUhKT3o2QmZtTTNFQWgtelo3d2FUSFMwa3NQVXVhRFNERFJsNlV1dHlwOUo2VFJWQ3ZMU00?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aRk9oR1BWMS0weEZ3Q2x2SHA4Ymp0dzhYMTZYekQtWUhKT3o2QmZtTTNFQWgtelo3d2FUSFMwa3NQVXVhRFNERFJsNlV1dHlwOUo2VFJWQ3ZMU00?oc=5"
-        },
-        {
-          "source": "신아일보",
-          "title_ko": "연이은 기준금리 인상…주택시장 '거래 위축·양극화' 전망",
-          "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzcFE2eWVmS0VfNWN3bnA2Tkt3dmRGVG9taUxTN19nUUhYOGZfbGcyVTJvTmM3elYwWkVETENFdHpKMk9WbV9nOUZvZm93ZlJxVHdkVlFDMTBSamlCOUl5czJoWTNQZUdNUVRvdEx4dWQ?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzcFE2eWVmS0VfNWN3bnA2Tkt3dmRGVG9taUxTN19nUUhYOGZfbGcyVTJvTmM3elYwWkVETENFdHpKMk9WbV9nOUZvZm93ZlJxVHdkVlFDMTBSamlCOUl5czJoWTNQZUdNUVRvdEx4dWQ?oc=5"
-        },
-        {
-          "source": "KBS 뉴스",
-          "title_ko": "[경제톡톡] 한국은행 2달 연속 금리 인상…자산 배분 전략은?",
-          "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXNnB0aDM1UlBpVnlDcUtMU1dsWU5OYWIwbGdMRHU1VW5BaTlIelF6UWZnbzU2RGduV1Jqem1EWFlVQ29QM1RJNmJHYXFONTZmVUxlUFRwRmVMWDNpWm1jMTVGdi1Cdw?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXNnB0aDM1UlBpVnlDcUtMU1dsWU5OYWIwbGdMRHU1VW5BaTlIelF6UWZnbzU2RGduV1Jqem1EWFlVQ29QM1RJNmJHYXFONTZmVUxlUFRwRmVMWDNpWm1jMTVGdi1Cdw?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "경상매일신문",
-      "title_ko": "기준금리 인상이 기업에 미치는 영향·대응방안 조사",
-      "title_en": "",
-      "summary_ko": "기준금리 인상이 기업에 미치는 영향·대응방안 조사 경상매일신문. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 경상매일신문뿐만 아니라 연합뉴스 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yTlg4VjZDMk5jdFhDMWlia0tISWQzd2tQaWVaZGEtWHJ3amVDZzhDRHI2MWJRNU1reVB6S2U1TlBRQzRyMEg5ejZvTFVqWGpWXzRkbEZGZGVycVROcTQ4?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yTlg4VjZDMk5jdFhDMWlia0tISWQzd2tQaWVaZGEtWHJ3amVDZzhDRHI2MWJRNU1reVB6S2U1TlBRQzRyMEg5ejZvTFVqWGpWXzRkbEZGZGVycVROcTQ4?oc=5",
-      "category": "korea_economy",
-      "section_no": 5,
-      "section_title": "국내 경제 관련 주요 뉴스 요약",
-      "section_icon": "📈",
-      "importance_score": 30,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Mon, 31 Aug 2026 08:39:59 GMT",
-      "related_articles": [
-        {
-          "source": "연합뉴스",
-          "title_ko": "기준금리 인상에 주택 거래 위축...전월세 시장도 불안 전망",
-          "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RZ3ptV0pkWWJielVobEhLdlc5TlpES1E5RElqTVFSZk1sRG1ZbXRNQzV6TDlZQV9zRWFKOEI5Y1M3UGN4M3Z1T2dIZ1RkdWNpNTM1dlhNOVdwSkRKcTN4T9IBYEFVX3lxTE5RZ3ptV0pkWWJielVobEhLdlc5TlpES1E5RElqTVFSZk1sRG1ZbXRNQzV6TDlZQV9zRWFKOEI5Y1M3UGN4M3Z1T2dIZ1RkdWNpNTM1dlhNOVdwSkRKcTN4Tw?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RZ3ptV0pkWWJielVobEhLdlc5TlpES1E5RElqTVFSZk1sRG1ZbXRNQzV6TDlZQV9zRWFKOEI5Y1M3UGN4M3Z1T2dIZ1RkdWNpNTM1dlhNOVdwSkRKcTN4T9IBYEFVX3lxTE5RZ3ptV0pkWWJielVobEhLdlc5TlpES1E5RElqTVFSZk1sRG1ZbXRNQzV6TDlZQV9zRWFKOEI5Y1M3UGN4M3Z1T2dIZ1RkdWNpNTM1dlhNOVdwSkRKcTN4Tw?oc=5"
-        }
-      ],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "연합인포맥스",
-      "title_ko": "BOC, 기준금리 2.25%로 동결…7회 연속(상보)",
-      "title_en": "",
-      "summary_ko": "BOC, 기준금리 2.25%로 동결…7회 연속(상보) 연합인포맥스. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 연합인포맥스에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEWEZaUzB2Tm5CSTJLYTJzRjRGYzNwOXluWENZVzBCVGs1RWRLcl9uMHZXbUlVUlhQRXlCMElMdUdOZGhVSm9odnp2X3Y5QVZxeHBiN3pTWmFybURvSkZXbldmVWo2UWVVUEE2cU9MbFA?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEWEZaUzB2Tm5CSTJLYTJzRjRGYzNwOXluWENZVzBCVGs1RWRLcl9uMHZXbUlVUlhQRXlCMElMdUdOZGhVSm9odnp2X3Y5QVZxeHBiN3pTWmFybURvSkZXbldmVWo2UWVVUEE2cU9MbFA?oc=5",
-      "category": "korea_economy",
-      "section_no": 5,
-      "section_title": "국내 경제 관련 주요 뉴스 요약",
-      "section_icon": "📈",
-      "importance_score": 25,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Wed, 02 Sep 2026 16:37:48 GMT",
-      "related_articles": [],
-      "crawled_at": "2026-09-02 20:01:32"
-    },
-    {
-      "source": "연합인포맥스",
-      "title_ko": "8월 소비자물가 3.1% 상승…근원물가 3.4%·생활물가 3.2%↑",
-      "title_en": "",
-      "summary_ko": "8월 소비자물가 3.1% 상승…근원물가 3.4%·생활물가 3.2%↑ 연합인포맥스. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 연합인포맥스뿐만 아니라 매일경제 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aQkItdVcxZWctS0ZTRU5sN3gzZkszUl9TUEJ4VjFzeVFITU82ZVlUeGpIUmJjVTFqeEpESW1fWGJ1WG5Vc2xDN1NQNW1naGdPX0VYRjdmeFowNjNQVHFDRzJSMXZoVTRQYkJnVUlEeXY?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aQkItdVcxZWctS0ZTRU5sN3gzZkszUl9TUEJ4VjFzeVFITU82ZVlUeGpIUmJjVTFqeEpESW1fWGJ1WG5Vc2xDN1NQNW1naGdPX0VYRjdmeFowNjNQVHFDRzJSMXZoVTRQYkJnVUlEeXY?oc=5",
-      "category": "korea_economy",
-      "section_no": 5,
-      "section_title": "국내 경제 관련 주요 뉴스 요약",
-      "section_icon": "📈",
-      "importance_score": 25,
-      "badge_label": "📌 체크",
-      "badge_class": "tier-check",
-      "pub_date": "Tue, 01 Sep 2026 23:00:00 GMT",
+      "pub_date": "Thu, 03 Sep 2026 06:45:46 GMT",
       "related_articles": [
         {
           "source": "매일경제",
-          "title_ko": "[속보] 8월 소비자물가 상승률 3.1%…두 달 만에 다시 3%대",
-          "original_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaNklPN0t2ZllXNm50enphc0Y3M0M0ODhaM3ByanFHSFpyUmViSktJRTRNSzY1R1lZS2pDUmV5bFhRaHpBSUlUR3h4REozcEpiQVlFOQ?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaNklPN0t2ZllXNm50enphc0Y3M0M0ODhaM3ByanFHSFpyUmViSktJRTRNSzY1R1lZS2pDUmV5bFhRaHpBSUlUR3h4REozcEpiQVlFOQ?oc=5"
+          "title_ko": "[표] 코스닥 외국인 순매수도 상위종목(31일)",
+          "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNmtqVzVwQWJiZm5NNklVYUx6UjZsWTRad2dJdzljVGdkajNGbFlESF9JTFFESFdpbXFrWEt0TmNoYkNYWnhNTUd0VlY1X2d5Nmc?oc=5",
+          "translated_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lNmtqVzVwQWJiZm5NNklVYUx6UjZsWTRad2dJdzljVGdkajNGbFlESF9JTFFESFdpbXFrWEt0TmNoYkNYWnhNTUd0VlY1X2d5Nmc?oc=5"
+        },
+        {
+          "source": "연합뉴스",
+          "title_ko": "한은 \"해외 거래소 스테이블코인 거래, 환율에도 영향\"",
+          "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MR0JUbU91eWVDOTRnZTdJbmNrM25LZHBCOFNqRHRiMk5NSFV5d0c3QlpXcTJqZWw5MVpmeV9aRGRJc2d5RjdGSVZ1WHM1WVVJclp2dUJzc0ltWjQ1dFotWG9FQVM2YURZWHlDd0FVYldUTXIw?oc=5",
+          "translated_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MR0JUbU91eWVDOTRnZTdJbmNrM25LZHBCOFNqRHRiMk5NSFV5d0c3QlpXcTJqZWw5MVpmeV9aRGRJc2d5RjdGSVZ1WHM1WVVJclp2dUJzc0ltWjQ1dFotWG9FQVM2YURZWHlDd0FVYldUTXIw?oc=5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:32"
+      "crawled_at": "2026-09-03 20:01:35"
+    },
+    {
+      "source": "KB Think",
+      "title_ko": "한은 \"스테이블코인 시장 개방 시 달러-원 연계 강화…수요 충격 환율로\"",
+      "title_en": "",
+      "summary_ko": "한은 \"스테이블코인 시장 개방 시 달러-원 연계 강화…수요 충격 환율로\" KB Think. 외국인 투자자의 국내 증시(코스피/반도체 대형주) 순매수 유입 및 원/달러 환율 1년·3년 평균선 회복 여부를 가늠하는 핵심 대외 지표입니다. KB Think뿐만 아니라 뉴스핌 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90bVV6VTZSckpBUUs2Qk0wNmZkYkY2LXFtZzFWUWF0WkV0TnQtS0RNamhRczRoTzBUd1Y2ekJZNldlc3hNTGM4N3M5M0h4OGFhRVUtV2xQa2hWbmM1c0lHSGl0ZVhzUGpIZVJzTkRvc3pIZw?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90bVV6VTZSckpBUUs2Qk0wNmZkYkY2LXFtZzFWUWF0WkV0TnQtS0RNamhRczRoTzBUd1Y2ekJZNldlc3hNTGM4N3M5M0h4OGFhRVUtV2xQa2hWbmM1c0lHSGl0ZVhzUGpIZVJzTkRvc3pIZw?oc=5",
+      "category": "foreign_flows_korea",
+      "section_no": 4,
+      "section_title": "한국 외국인 투자자 수급 및 국내 증시 영향",
+      "section_icon": "🇰🇷",
+      "importance_score": 35,
+      "badge_label": "📌 체크",
+      "badge_class": "tier-check",
+      "pub_date": "Thu, 03 Sep 2026 03:00:20 GMT",
+      "related_articles": [
+        {
+          "source": "뉴스핌",
+          "title_ko": "스테이블코인 수요 충격, 환율로 전이…한은 \"외환시장 확충 필요\"",
+          "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90bXBNTmtuaDFVcmVGbkdxZGxRdjJVTDA3eVJHY1FoTUlmQzlxdVpyNXl0MnJ1SG43ak84ZlpKUzRkZWc5T1FTaE1qU3Q1ckRmZ2t6US16ZkJyYUpu?oc=5",
+          "translated_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90bXBNTmtuaDFVcmVGbkdxZGxRdjJVTDA3eVJHY1FoTUlmQzlxdVpyNXl0MnJ1SG43ak84ZlpKUzRkZWc5T1FTaE1qU3Q1ckRmZ2t6US16ZkJyYUpu?oc=5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:35"
+    },
+    {
+      "source": "Chosunbiz",
+      "title_ko": "한국은행 “스테이블코인 시장 개방하면 외환시장에 영향 미친다” - 조선비즈",
+      "title_en": "",
+      "summary_ko": "한국은행 “스테이블코인 시장 개방하면 외환시장에 영향 미친다” - 조선비즈 관련 핵심 동향이 발표되었습니다. 한국은행의 금리 결정 및 국내 수출입 펀더멘털, 가계부채와 부동산 경기에 미치는 파급 효과를 주목할 필요가 있습니다. Chosunbiz에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQblpqc2ltLS1xT1p6S1l3R19LcnpZNUJhN2xDclRwUk1qS1dPYlNubjRDLWNHd2pfWGg3emQzOC1EbFBJdWxvb2R1c2h0WTVVTFlmb0U3N2VZUkVQNEN5MkR6c3RFU0M4aXlfTm1udHJkMWZwdkVZY1RBUDZuZm5aSjRsTFotd9IBmgFBVV95cUxQS2Y3bDR3VXlDOFN6LWpySndzRXR6NDFzV3hCUkNJWmV4aHJzNlE1b1M0WFZTdTJmMWQ4UGE4WW9vQTFqZGNqRER6eThQWHpxRFg0eW9Hak1MWGlNeVItREs3VWZtQU8zQ2xSQi14R1dHbTZvTGh3dzZ5Q191Z3hNYk44LXp0b0ZfdlJiQWlvUXZuYmZpTlVlTWpR?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQblpqc2ltLS1xT1p6S1l3R19LcnpZNUJhN2xDclRwUk1qS1dPYlNubjRDLWNHd2pfWGg3emQzOC1EbFBJdWxvb2R1c2h0WTVVTFlmb0U3N2VZUkVQNEN5MkR6c3RFU0M4aXlfTm1udHJkMWZwdkVZY1RBUDZuZm5aSjRsTFotd9IBmgFBVV95cUxQS2Y3bDR3VXlDOFN6LWpySndzRXR6NDFzV3hCUkNJWmV4aHJzNlE1b1M0WFZTdTJmMWQ4UGE4WW9vQTFqZGNqRER6eThQWHpxRFg0eW9Hak1MWGlNeVItREs3VWZtQU8zQ2xSQi14R1dHbTZvTGh3dzZ5Q191Z3hNYk44LXp0b0ZfdlJiQWlvUXZuYmZpTlVlTWpR?oc=5",
+      "category": "korea_economy",
+      "section_no": 5,
+      "section_title": "국내 경제 관련 주요 뉴스 요약",
+      "section_icon": "📈",
+      "importance_score": 35,
+      "badge_label": "📌 체크",
+      "badge_class": "tier-check",
+      "pub_date": "Thu, 03 Sep 2026 03:45:00 GMT",
+      "related_articles": [],
+      "crawled_at": "2026-09-03 20:01:35"
+    },
+    {
+      "source": "YTN",
+      "title_ko": "연준 '실세' 뉴욕 연은 총재, 기준금리 인상 신중론",
+      "title_en": "",
+      "summary_ko": "연준 '실세' 뉴욕 연은 총재, 기준금리 인상 신중론 YTN. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. YTN뿐만 아니라 대구MBC 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fTmRyb2RLLWE2VzA3V0tsaW1GRVNUeDJkM2RFdHAzeFFuYWtpODU2MnIta3lyVG1oc2JIY2dJa1RhNHlZRFZHRGt0RjBUaDZGODJFVVFReGNXR0YweHc?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fTmRyb2RLLWE2VzA3V0tsaW1GRVNUeDJkM2RFdHAzeFFuYWtpODU2MnIta3lyVG1oc2JIY2dJa1RhNHlZRFZHRGt0RjBUaDZGODJFVVFReGNXR0YweHc?oc=5",
+      "category": "korea_economy",
+      "section_no": 5,
+      "section_title": "국내 경제 관련 주요 뉴스 요약",
+      "section_icon": "📈",
+      "importance_score": 30,
+      "badge_label": "📌 체크",
+      "badge_class": "tier-check",
+      "pub_date": "Wed, 02 Sep 2026 23:32:00 GMT",
+      "related_articles": [
+        {
+          "source": "대구MBC",
+          "title_ko": "대구 기업 86% \"기준금리 인상, 경영에 부정적\"",
+          "original_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBwTnBnMmxoOHVmYjI3WkZ4Q3lqb0tNTTZ3eGNpYzA0MWhqamZkdGVDQTZLalAwcXZhbEJSQkFzcmpVanB1a1QteFZEeXc?oc=5",
+          "translated_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBwTnBnMmxoOHVmYjI3WkZ4Q3lqb0tNTTZ3eGNpYzA0MWhqamZkdGVDQTZLalAwcXZhbEJSQkFzcmpVanB1a1QteFZEeXc?oc=5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:35"
+    },
+    {
+      "source": "연합뉴스",
+      "title_ko": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+      "title_en": "",
+      "summary_ko": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합) 연합뉴스. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. 연합뉴스뿐만 아니라 연합인포맥스, YTN 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aRk9oR1BWMS0weEZ3Q2x2SHA4Ymp0dzhYMTZYekQtWUhKT3o2QmZtTTNFQWgtelo3d2FUSFMwa3NQVXVhRFNERFJsNlV1dHlwOUo2VFJWQ3ZMU00?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aRk9oR1BWMS0weEZ3Q2x2SHA4Ymp0dzhYMTZYekQtWUhKT3o2QmZtTTNFQWgtelo3d2FUSFMwa3NQVXVhRFNERFJsNlV1dHlwOUo2VFJWQ3ZMU00?oc=5",
+      "category": "korea_economy",
+      "section_no": 5,
+      "section_title": "국내 경제 관련 주요 뉴스 요약",
+      "section_icon": "📈",
+      "importance_score": 30,
+      "badge_label": "📌 체크",
+      "badge_class": "tier-check",
+      "pub_date": "Mon, 31 Aug 2026 08:02:21 GMT",
+      "related_articles": [
+        {
+          "source": "YTN",
+          "title_ko": "기준금리 인상에 주담대 오르나...이자 부담도 커져",
+          "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CVUpfSDVBc3V5TmFISHBNMkxFY0ltS2xmT0o5dWJpMDVDOEcwZTNiLWsxQ1BKRWRFZVNZR3JuMlh0UXRWcUdid1FyTnpZUlNrWmowalJhLU5FZEFjUlE?oc=5",
+          "translated_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CVUpfSDVBc3V5TmFISHBNMkxFY0ltS2xmT0o5dWJpMDVDOEcwZTNiLWsxQ1BKRWRFZVNZR3JuMlh0UXRWcUdid1FyTnpZUlNrWmowalJhLU5FZEFjUlE?oc=5"
+        },
+        {
+          "source": "연합인포맥스",
+          "title_ko": "BOC, 기준금리 2.25%로 동결…7회 연속(상보)",
+          "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEWEZaUzB2Tm5CSTJLYTJzRjRGYzNwOXluWENZVzBCVGs1RWRLcl9uMHZXbUlVUlhQRXlCMElMdUdOZGhVSm9odnp2X3Y5QVZxeHBiN3pTWmFybURvSkZXbldmVWo2UWVVUEE2cU9MbFA?oc=5",
+          "translated_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEWEZaUzB2Tm5CSTJLYTJzRjRGYzNwOXluWENZVzBCVGs1RWRLcl9uMHZXbUlVUlhQRXlCMElMdUdOZGhVSm9odnp2X3Y5QVZxeHBiN3pTWmFybURvSkZXbldmVWo2UWVVUEE2cU9MbFA?oc=5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:36"
+    },
+    {
+      "source": "v.daum.net",
+      "title_ko": "기업대출 70%가 변동금리…기준금리 인상에 TK 중기 ‘기존 빚’ 비상",
+      "title_en": "",
+      "summary_ko": "기업대출 70%가 변동금리…기준금리 인상에 TK 중기 ‘기존 빚’ 비상 v.daum.net. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. v.daum.net에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bc1ptendEbEFlRU50Ny1NaUJ6YkVnZVBiZ0VKb1dWR2lRc2ppNm9heDdWekNpWFg5dkowd0l5X2lteTJXNWp4NEFLZ3VYU0E?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bc1ptendEbEFlRU50Ny1NaUJ6YkVnZVBiZ0VKb1dWR2lRc2ppNm9heDdWekNpWFg5dkowd0l5X2lteTJXNWp4NEFLZ3VYU0E?oc=5",
+      "category": "korea_economy",
+      "section_no": 5,
+      "section_title": "국내 경제 관련 주요 뉴스 요약",
+      "section_icon": "📈",
+      "importance_score": 30,
+      "badge_label": "📌 체크",
+      "badge_class": "tier-check",
+      "pub_date": "Wed, 02 Sep 2026 06:35:03 GMT",
+      "related_articles": [],
+      "crawled_at": "2026-09-03 20:01:36"
+    },
+    {
+      "source": "KBS 뉴스",
+      "title_ko": "[경제톡톡] 한국은행 2달 연속 금리 인상…자산 배분 전략은?",
+      "title_en": "",
+      "summary_ko": "[경제톡톡] 한국은행 2달 연속 금리 인상…자산 배분 전략은? KBS 뉴스. 연준(Fed)의 기준금리 경로 및 인플레이션 둔화 속도와 직결되는 사안으로, 향후 글로벌 채권 금리 안정과 주식 밸류에이션 부담 완화 여부에 핵심 변수로 작용합니다. KBS 뉴스에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXNnB0aDM1UlBpVnlDcUtMU1dsWU5OYWIwbGdMRHU1VW5BaTlIelF6UWZnbzU2RGduV1Jqem1EWFlVQ29QM1RJNmJHYXFONTZmVUxlUFRwRmVMWDNpWm1jMTVGdi1Cdw?oc=5",
+      "translated_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXNnB0aDM1UlBpVnlDcUtMU1dsWU5OYWIwbGdMRHU1VW5BaTlIelF6UWZnbzU2RGduV1Jqem1EWFlVQ29QM1RJNmJHYXFONTZmVUxlUFRwRmVMWDNpWm1jMTVGdi1Cdw?oc=5",
+      "category": "korea_economy",
+      "section_no": 5,
+      "section_title": "국내 경제 관련 주요 뉴스 요약",
+      "section_icon": "📈",
+      "importance_score": 30,
+      "badge_label": "📌 체크",
+      "badge_class": "tier-check",
+      "pub_date": "Mon, 31 Aug 2026 10:35:00 GMT",
+      "related_articles": [],
+      "crawled_at": "2026-09-03 20:01:36"
     },
     {
       "source": "Bloomberg",
       "title_ko": "AI 지출 모멘텀의 새로운 신호로 TSMC 매출 36% 급증",
       "title_en": "TSMC Sales Surge 36% in Fresh Sign of AI Spending Momentum",
-      "summary_ko": "AI 지출 모멘텀의 새로운 신호로 TSMC 매출 36% 급증 Bloomberg.com. 빅테크 AI 데이터센터 확장 사이클과 HBM 반도체 수요, 그리고 전력망·변압기·구리 등 핵심 인프라 및 원자재 공급 병목 현상과 밀접하게 연계된 이슈입니다. Bloomberg뿐만 아니라 Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "summary_ko": "AI 지출 모멘텀의 새로운 신호로 TSMC 매출 36% 급증 Bloomberg.com. 빅테크 AI 데이터센터 확장 사이클과 HBM 반도체 수요, 그리고 전력망·변압기·구리 등 핵심 인프라 및 원자재 공급 병목 현상과 밀접하게 연계된 이슈입니다. Bloomberg뿐만 아니라 Reuters, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
       "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQUFMWnQ1VUVhNVhROTlOVDgwNnA2VVgtaElBd1paY0lCT3dybEI0ay1yTmRiNVhFTGFmSGtZOXlacDVjaFg5c1ZKQThUeXgwYmFidjBUOUZFYU9EeXo4dlMtWW1HQ2lQLW84QjRmRlJQZzZuMU5wSDFKU1FJX0VKdWFZYkJxdHJqSkNqX2hFdFYtbnZGcEdNdWZvM3l0STRSQVZBSnUwV3BzN1BJ?oc=5",
       "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirAFBVV95cUxOQUFMWnQ1VUVhNVhROTlOVDgwNnA2VVgtaElBd1paY0lCT3dybEI0ay1yTmRiNVhFTGFmSGtZOXlacDVjaFg5c1ZKQThUeXgwYmFidjBUOUZFYU9EeXo4dlMtWW1HQ2lQLW84QjRmRlJQZzZuMU5wSDFKU1FJX0VKdWFZYkJxdHJqSkNqX2hFdFYtbnZGcEdNdWZvM3l0STRSQVZBSnUwV3BzN1BJ%3Foc%3D5",
       "category": "ai_hegemony",
@@ -1155,68 +1076,99 @@ window.__BRIEFING_DATA__ = {
       "pub_date": "Mon, 13 Jul 2026 07:00:00 GMT",
       "related_articles": [
         {
-          "source": "Bloomberg",
-          "title_ko": "Nvidia는 고객에게 새로운 Rubin 디자인을 제공하는 과정을 홍보합니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNk9DR20yVlp0dThjRlo3SE1qc3FtTXpYODBRY2ZGRHlCUHBvY1ZpM2lCYkpyNmRfdFdXZzJ6ZmxSdXlnSlFDSGZiZkJSQ1FHX3F3UUtTV1RxT0hyWlkyNExqY250LVZkWXNGaEljWE9sbU9aekRQeGxwaUk2MEgzWEt4VkJKTFZZTE56MWlxWlRzRHNmaFpGcnBSbXZjcDF3QmlydHdVR3RTRUxaSHhF?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirwFBVV95cUxPNk9DR20yVlp0dThjRlo3SE1qc3FtTXpYODBRY2ZGRHlCUHBvY1ZpM2lCYkpyNmRfdFdXZzJ6ZmxSdXlnSlFDSGZiZkJSQ1FHX3F3UUtTV1RxT0hyWlkyNExqY250LVZkWXNGaEljWE9sbU9aekRQeGxwaUk2MEgzWEt4VkJKTFZZTE56MWlxWlRzRHNmaFpGcnBSbXZjcDF3QmlydHdVR3RTRUxaSHhF%3Foc%3D5"
+          "source": "Reuters",
+          "title_ko": "Nvidia는 내년에 70%의 매출 성장을 예측하며 AI 지출 붐이 앞으로 몇 년 남았다는 신호입니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVTdJRXVOXzFrQjZXaG1XeVpHNUg0UzBHMnZ0b3lUT1hCZktWajJhbkJfSmcweHEyVE9sNVdrOGx2MlFhUlZ2Z0xna3Jzd0gzWUJCdHR2MHN3Y0pqYURLQ0JQUmxfYVJpT3h3TEV4amE3TkR5SnlIa3A1NlRvcE16Y3NZbnNzQUVuRFlfS2lvUE81ajBta2hYaEp5Wk94c014b3lkQmg5S3N6WlMyWWc?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirgFBVV95cUxNVTdJRXVOXzFrQjZXaG1XeVpHNUg0UzBHMnZ0b3lUT1hCZktWajJhbkJfSmcweHEyVE9sNVdrOGx2MlFhUlZ2Z0xna3Jzd0gzWUJCdHR2MHN3Y0pqYURLQ0JQUmxfYVJpT3h3TEV4amE3TkR5SnlIa3A1NlRvcE16Y3NZbnNzQUVuRFlfS2lvUE81ajBta2hYaEp5Wk94c014b3lkQmg5S3N6WlMyWWc%3Foc%3D5"
         },
         {
           "source": "Bloomberg",
-          "title_ko": "TSMC, 매출 증대·AI '메가트렌드' 잡기 위해 투자 전망",
-          "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeXFMd1QtVVYwTDVYNUFCTkppRGZ0OEFzbElVS2VpemNrN3VGTVhFMHROaFBVek5WUzRYYm1mYThXdG1QZ1F4SVZ4cklvbUV4MmttdWNMTDRxTEZWdHI4VDk0UEpKdEpycFQxMVpZT1labl84ZWdfNmVsVjh5aUszZEFUZHYzdjkwNXNqc19haDFaM1RYSHJVNXdQVExvN0tUY0JoNklHTGFQblhland2clpKZkNFdw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitgFBVV95cUxQeXFMd1QtVVYwTDVYNUFCTkppRGZ0OEFzbElVS2VpemNrN3VGTVhFMHROaFBVek5WUzRYYm1mYThXdG1QZ1F4SVZ4cklvbUV4MmttdWNMTDRxTEZWdHI4VDk0UEpKdEpycFQxMVpZT1labl84ZWdfNmVsVjh5aUszZEFUZHYzdjkwNXNqc19haDFaM1RYSHJVNXdQVExvN0tUY0JoNklHTGFQblhland2clpKZkNFdw%3Foc%3D5"
+          "title_ko": "AI 하드웨어에 대한 수요가 계속 강해지면서 TSMC 매출 45% 증가",
+          "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVNOYWwxVXNFbmZiMW51OV82OTM2TkVTeE5jSF80TF8wQm9MQ2RkOU5OdGJtU1pyZXZKUUhFdEs3MU9oNktjRXZaQlJwM3BxOGgxakFoQ25wel9GYnFtZUxYUXJrdUkxR2Zjazh3NDFpMmdSRmQwZUlaSDRzQ1o1VjlxUlgwSWpvZ0wycHQ5T1NMbEgxbnVyR1E2MzNVR0lXdU85ZVJRdmstY2Z4c3VKSC1n?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxPYVNOYWwxVXNFbmZiMW51OV82OTM2TkVTeE5jSF80TF8wQm9MQ2RkOU5OdGJtU1pyZXZKUUhFdEs3MU9oNktjRXZaQlJwM3BxOGgxakFoQ25wel9GYnFtZUxYUXJrdUkxR2Zjazh3NDFpMmdSRmQwZUlaSDRzQ1o1VjlxUlgwSWpvZ0wycHQ5T1NMbEgxbnVyR1E2MzNVR0lXdU85ZVJRdmstY2Z4c3VKSC1n%3Foc%3D5"
         },
         {
-          "source": "Bloomberg",
-          "title_ko": "TSMC, AI 수요에 대한 확신의 표시로 2026년 전망 상향",
-          "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLW1Vcjk3TkZFc0RSVXQzaXcyTkEyM0ZIc0kteUQ2TjBYT3EwUGRuWlJmUWJTYnBYSXpGaXNkZzZZRHhkQmNHZnFvOHhHTmtUTFBIZDhmYWowR1BnSUdPcWVjb3k3WlFRenRmTUV1WnNrZkRyWFAxbmhpR2RuUkpqVDhxcU5zanpkVFV0Y2ItWUhLX2lDMVkwQV8za1Q2N2l6ajVNSXZxLW5hTS1PcmZxMjJjYUhWdw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMitgFBVV95cUxNLW1Vcjk3TkZFc0RSVXQzaXcyTkEyM0ZIc0kteUQ2TjBYT3EwUGRuWlJmUWJTYnBYSXpGaXNkZzZZRHhkQmNHZnFvOHhHTmtUTFBIZDhmYWowR1BnSUdPcWVjb3k3WlFRenRmTUV1WnNrZkRyWFAxbmhpR2RuUkpqVDhxcU5zanpkVFV0Y2ItWUhLX2lDMVkwQV8za1Q2N2l6ajVNSXZxLW5hTS1PcmZxMjJjYUhWdw%3Foc%3D5"
+          "source": "CNBC",
+          "title_ko": "9월 3일 주목 종목: ICICI Bank, Meesho, 전력망, HUDCO 등",
+          "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMWdid2VTMFRwXzlBNXVyRXI3dXpJWUlOY3RlS291SV90d3BzZzNNVDdSYVQxT21veGFTUkROZHM3WEE0eU0ydTc5VU03NDljR0ZBc2Q4RGFCckNYalpnVl9NWnFZM2ZsV2xUS21VUWVyUVEtQ25qQTNFUm92d09zNkxCME1aNTFIUzN0dGJoRUtxNkFlYmhBZDNrczBPRWt2OHk5ajVqSF9MZXE3VlBoa01YeXhxckNBYldfN25vUmhBbW1mRy1Xa3UweV9GQdIB0wFBVV95cUxNb0lodDZyZVFiYnV0ODExVTlrQmZZN0RLVzNyQ0xFdnA1eDNXb3BPMTcxSXdQMnBXWFVnbmhHbTFNSU04Q3ZjRlRwcWVTSzZDdWluanU4cnhSc0N0aEN0bE5raWhPLW5GRjFNa0lYTy1NVjBVT1FBVEczclFEMzdOUFNMaEFQdnA0SGRzY05QOVpvUi1rdlJtQ2JIaTlocDEzUUg3dzJCbU1uWkFPMTJFZ3VxZXZHX0FQR3BqbVhZcmVRb2JHOTJMdl9HWDV0RnJYQkQw?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMizgFBVV95cUxOMWdid2VTMFRwXzlBNXVyRXI3dXpJWUlOY3RlS291SV90d3BzZzNNVDdSYVQxT21veGFTUkROZHM3WEE0eU0ydTc5VU03NDljR0ZBc2Q4RGFCckNYalpnVl9NWnFZM2ZsV2xUS21VUWVyUVEtQ25qQTNFUm92d09zNkxCME1aNTFIUzN0dGJoRUtxNkFlYmhBZDNrczBPRWt2OHk5ajVqSF9MZXE3VlBoa01YeXhxckNBYldfN25vUmhBbW1mRy1Xa3UweV9GQdIB0wFBVV95cUxNb0lodDZyZVFiYnV0ODExVTlrQmZZN0RLVzNyQ0xFdnA1eDNXb3BPMTcxSXdQMnBXWFVnbmhHbTFNSU04Q3ZjRlRwcWVTSzZDdWluanU4cnhSc0N0aEN0bE5raWhPLW5GRjFNa0lYTy1NVjBVT1FBVEczclFEMzdOUFNMaEFQdnA0SGRzY05QOVpvUi1rdlJtQ2JIaTlocDEzUUg3dzJCbU1uWkFPMTJFZ3VxZXZHX0FQR3BqbVhZcmVRb2JHOTJMdl9HWDV0RnJYQkQw%3Foc%3D5"
         },
         {
-          "source": "Bloomberg",
-          "title_ko": "전쟁 후 TSMC의 판매 추정치가 AI 수요를 감소시키지 못함",
-          "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzk0SnlzendjeFVXVTVNaWs5aGx3UThMckp2MmtFMDdfMmF0eEYzMVlCel9fZ2NhaWd4WDJ0aGxKQ2p6SWNRR0dpQ3h1V1daOHNnX05HQXMxZUMwcVp0dzB5SVM3Rlh2MmtMcnVLQTBWd0s0MjFNYU5qcmgwUmRPaTJjT01sVnBDVk9pb18tZ2l5WlhBTDNCblNQdkF2bVdrSG5naEdxZG9QejlaSUwteVhn?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxNQzk0SnlzendjeFVXVTVNaWs5aGx3UThMckp2MmtFMDdfMmF0eEYzMVlCel9fZ2NhaWd4WDJ0aGxKQ2p6SWNRR0dpQ3h1V1daOHNnX05HQXMxZUMwcVp0dzB5SVM3Rlh2MmtMcnVLQTBWd0s0MjFNYU5qcmgwUmRPaTJjT01sVnBDVk9pb18tZ2l5WlhBTDNCblNQdkF2bVdrSG5naEdxZG9QejlaSUwteVhn%3Foc%3D5"
+          "source": "Reuters",
+          "title_ko": "미국, G20 국가에 창작자 작업에 대한 AI 교육 허용 촉구",
+          "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYTRRRFloNlZWNUJwamZCOEJrcGRwQ0JzaS1DeExVS3JOQ21pRi1yRFdyOEsyVlpCSHNobWExOENjRmJEU2dZV1BHY1hVNm9idkdTMGRZQS1YYnhHR1JGNW5mUlJMMGJiQ3E1bDVOWENLTkc2dnZHdUVvZzllWXJpd21KQXZ1TU1ScUJCWkdDd0ppTWZRcnhGQmw4ZkZGTG44SlNJdDcwdGVOVzA2djhfOE93?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxOYTRRRFloNlZWNUJwamZCOEJrcGRwQ0JzaS1DeExVS3JOQ21pRi1yRFdyOEsyVlpCSHNobWExOENjRmJEU2dZV1BHY1hVNm9idkdTMGRZQS1YYnhHR1JGNW5mUlJMMGJiQ3E1bDVOWENLTkc2dnZHdUVvZzllWXJpd21KQXZ1TU1ScUJCWkdDd0ppTWZRcnhGQmw4ZkZGTG44SlNJdDcwdGVOVzA2djhfOE93%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:39"
+      "crawled_at": "2026-09-03 20:01:38"
     },
     {
-      "source": "더나은미래",
-      "title_ko": "삼성전자·SK하이닉스, 중동발 악재에 4%대 동반 폭락",
-      "title_en": "",
-      "summary_ko": "삼성전자·SK하이닉스, 중동발 악재에 4%대 동반 폭락 더나은미래. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. 더나은미래뿐만 아니라 한국경제, 2news.co.kr 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FMV9PUmVDRVBiQ1NnbjV2d0lIdlhucTdiYW1tcldsb0xPcktSc0dyQWx3OW16UVpfSlo2R01XSC1iRGd2MmY5TDFsS29FbzFmQ1E?oc=5",
-      "translated_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FMV9PUmVDRVBiQ1NnbjV2d0lIdlhucTdiYW1tcldsb0xPcktSc0dyQWx3OW16UVpfSlo2R01XSC1iRGd2MmY5TDFsS29FbzFmQ1E?oc=5",
+      "source": "Reuters",
+      "title_ko": "뉴스레터: 호르무즈의 불확실성으로 인해 세계는 인플레이션 불황에 빠지게 됩니다.",
+      "title_en": "NEWSLETTER: Hormuz uncertainty keeps world in inflation limbo",
+      "summary_ko": "뉴스레터: 호르무즈의 불확실성으로 인해 세계는 인플레이션 불황에 빠지게 됩니다 reuters.com. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Reuters뿐만 아니라 Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJbHdiazVfNkZfZjBmdXNYQ2JnbU5DSFFsclpYNlk4M25mdm5Kekk0RVl0S01xUGl0cjUteG1GSHlWNmZ1S3BsUmVaMExtZldtT0tSbzNvb0kxd3V0X01BbThUSWx1SDY4V0IwR3JySGRsZ1I1VklPX2xn?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiekFVX3lxTFBJbHdiazVfNkZfZjBmdXNYQ2JnbU5DSFFsclpYNlk4M25mdm5Kekk0RVl0S01xUGl0cjUteG1GSHlWNmZ1S3BsUmVaMExtZldtT0tSbzNvb0kxd3V0X01BbThUSWx1SDY4V0IwR3JySGRsZ1I1VklPX2xn%3Foc%3D5",
       "category": "ai_hegemony",
       "section_no": 6,
       "section_title": "AI 패권 전쟁 & 반도체·전력 인프라 동향",
       "section_icon": "🤖",
-      "importance_score": 55,
+      "importance_score": 50,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Wed, 02 Sep 2026 09:15:00 GMT",
+      "pub_date": "Thu, 16 Jul 2026 07:00:00 GMT",
       "related_articles": [
         {
-          "source": "2news.co.kr",
-          "title_ko": "국제유가 폭등과 국채금리 상승에 삼성·SK하이닉스 4%대 급락",
-          "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pRlpTanBkQ3dxVDFWaWRyemJGRDE4ekgxOGpVQlJrQkJkQ2oxMnQ0X1RyNVhBRTFCWk9NTEJvd3QtZU1ycTNRRGZSTEVCNXdyTzRjMmktQWZSOHNkMnphTS1rLXBnOEd1?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pRlpTanBkQ3dxVDFWaWRyemJGRDE4ekgxOGpVQlJrQkJkQ2oxMnQ0X1RyNVhBRTFCWk9NTEJvd3QtZU1ycTNRRGZSTEVCNXdyTzRjMmktQWZSOHNkMnphTS1rLXBnOEd1?oc=5"
+          "source": "Bloomberg",
+          "title_ko": "트럼프의 전쟁 논평으로 인플레이션 불안이 완화되면서 금은 상승세를 유지합니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbnU2aWcxcE90Sm9GS2Z5UUxIdlJKUVc2bEZXcnpWNEZrVXkyQ2tUeXM5NkVVRE1MS1gwZFBEVDVtTm1WbURaMkdqb2Z5dmVhems3dGhRakpBaWw0cGhfWWFfWHc5aGJ4MEg5UXYxQlNXYlFXYW5ubW1sMHdIdjVsZlI4c3hRV1ROWWxlSWRWbWtvTENUa0h0Y3NwNk1wak81bVBYTmUyU2Zta3A0aC1HRzRTTQ?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiswFBVV95cUxQbnU2aWcxcE90Sm9GS2Z5UUxIdlJKUVc2bEZXcnpWNEZrVXkyQ2tUeXM5NkVVRE1MS1gwZFBEVDVtTm1WbURaMkdqb2Z5dmVhems3dGhRakpBaWw0cGhfWWFfWHc5aGJ4MEg5UXYxQlNXYlFXYW5ubW1sMHdIdjVsZlI4c3hRV1ROWWxlSWRWbWtvTENUa0h0Y3NwNk1wak81bVBYTmUyU2Zta3A0aC1HRzRTTQ%3Foc%3D5"
         },
         {
-          "source": "한국경제",
-          "title_ko": "SK하이닉스, 일본에 공장?...최태원 대답은",
-          "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQSzZvSVdCbE1la3hJeERNX0NkVXE1dmZwZm5iQVEyQVNFYmZBLW9VZmlYa1huLUZ5RF8wd1BwWUlqRTVmRER5bklsQzI5RWNTUzBUZWpwWGxOc2xqQk9xaWdnNk9YbWJwWjV3eA?oc=5",
-          "translated_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQSzZvSVdCbE1la3hJeERNX0NkVXE1dmZwZm5iQVEyQVNFYmZBLW9VZmlYa1huLUZ5RF8wd1BwWUlqRTVmRER5bklsQzI5RWNTUzBUZWpwWGxOc2xqQk9xaWdnNk9YbWJwWjV3eA?oc=5"
+          "source": "Bloomberg",
+          "title_ko": "연준(Fed)의 Musalem, 인플레이션에 대한 의미 있는 억제 촉구",
+          "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLWZCNmlnZjZlUnZqLThTandqb3lQVWhlaHUwNGZOWEd2bndrMmJZNWt5YmhROElEektnSE01UHZSQl96Qk9KN29qckZlcTBkWUZESU9ublFVcVZaQVdyaU9MeldVdGZTSVJBY3VRbDF1Sl83YU10QjY4V2RKeVUtWm5CRDhHRzhvc2Jnd1ZzNElsdnFuVWsyT0J1Uk1GajB6OGRNTnFTejF4Sm1N?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirAFBVV95cUxNLWZCNmlnZjZlUnZqLThTandqb3lQVWhlaHUwNGZOWEd2bndrMmJZNWt5YmhROElEektnSE01UHZSQl96Qk9KN29qckZlcTBkWUZESU9ublFVcVZaQVdyaU9MeldVdGZTSVJBY3VRbDF1Sl83YU10QjY4V2RKeVUtWm5CRDhHRzhvc2Jnd1ZzNElsdnFuVWsyT0J1Uk1GajB6OGRNTnFTejF4Sm1N%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:39"
+      "crawled_at": "2026-09-03 20:01:42"
+    },
+    {
+      "source": "Bloomberg",
+      "title_ko": "Bessent는 우크라이나의 러시아 파업에 높은 에너지 가격을 비난합니다",
+      "title_en": "Bessent Blames High Energy Prices on Ukraine’s Russia Strikes",
+      "summary_ko": "Bessent, 우크라이나 러시아 파업의 높은 에너지 가격 비난 Bloomberg.com. 중동 및 동유럽 지정학적 긴장 고조에 따른 국제 유가·원자재 공급망 충격과 인플레이션 재점화 가능성에 유의할 필요가 있습니다. Bloomberg뿐만 아니라 Reuters, Bloomberg 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSTNBTEJEWE1BUVFKYjNUOGEzRTA3MXd6NlJqZlByV0JhTEI3bks5U1lQLTJSd3RwZURDMHJaa1NrS3BVdF9pZ19OekVGbmNrbzJmRk4tMVJ5SklGQjBqekxuNHRUbzAzNFp0akR4Nnlacld0UHBNUFc1T0JaMFB0bVVuaG5ENVdGUk8tMjJMeFU2SjNVYTZobzhOWnJvcVpnUlUxMFVRcmZLLUNIMWtYcXBB?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxNSTNBTEJEWE1BUVFKYjNUOGEzRTA3MXd6NlJqZlByV0JhTEI3bks5U1lQLTJSd3RwZURDMHJaa1NrS3BVdF9pZ19OekVGbmNrbzJmRk4tMVJ5SklGQjBqekxuNHRUbzAzNFp0akR4Nnlacld0UHBNUFc1T0JaMFB0bVVuaG5ENVdGUk8tMjJMeFU2SjNVYTZobzhOWnJvcVpnUlUxMFVRcmZLLUNIMWtYcXBB%3Foc%3D5",
+      "category": "ai_hegemony",
+      "section_no": 6,
+      "section_title": "AI 패권 전쟁 & 반도체·전력 인프라 동향",
+      "section_icon": "🤖",
+      "importance_score": 50,
+      "badge_label": "⭐ 주요 파도",
+      "badge_class": "tier-wave",
+      "pub_date": "Wed, 02 Sep 2026 19:10:55 GMT",
+      "related_articles": [
+        {
+          "source": "Reuters",
+          "title_ko": "베센트는 엔화가 '매우 억제적'이며 무질서하게 움직이지 않는다고 말했습니다.",
+          "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemhvR29KUUI0VU1FYmFvbE9CWHhadUtxNWsxQU5uSWxkdVNVNVFDQjhFOHgyaXRnbUFvTjBGd1lwSEtaTGFua0lzQ3B6c1J5enpTQmNaVUlRZEx1VHRfR25qdnRMRlU4bGZzb1h4LTdpdnFqSVJPd1dhZHBvcnZYNTRVM2w0eWdteU52ejJQdzlNaDBsQ2lzQTdkeUZCNjAzSnJIZWRaMUxIWkR0WkE?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirgFBVV95cUxOemhvR29KUUI0VU1FYmFvbE9CWHhadUtxNWsxQU5uSWxkdVNVNVFDQjhFOHgyaXRnbUFvTjBGd1lwSEtaTGFua0lzQ3B6c1J5enpTQmNaVUlRZEx1VHRfR25qdnRMRlU4bGZzb1h4LTdpdnFqSVJPd1dhZHBvcnZYNTRVM2w0eWdteU52ejJQdzlNaDBsQ2lzQTdkeUZCNjAzSnJIZWRaMUxIWkR0WkE%3Foc%3D5"
+        },
+        {
+          "source": "Bloomberg",
+          "title_ko": "베센트, BOJ에 금리 인상 압력 강화",
+          "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejVQaVFpejVVNUFJazJ2Q1N2cTFYUEx3NjdqcENpR1FDUmZ3aUNoMGdsakZsaVdERWt3OWtzQll5M2JRU1ZrV2hxV25pUno0ak10LVU5OTV5Nnd1X3ktZHloZ200aENaRjZCT18zbUZzLVNOSko5eDBKMGVmcGdVdm9Ma1pkakxaZnhqZktwS3F1cWZXRk54UVp2VlV2YkJkendNUXZUb0pXYmpMSmZPeG05Zmd1MzBfY2t4Qg?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMivAFBVV95cUxPejVQaVFpejVVNUFJazJ2Q1N2cTFYUEx3NjdqcENpR1FDUmZ3aUNoMGdsakZsaVdERWt3OWtzQll5M2JRU1ZrV2hxV25pUno0ak10LVU5OTV5Nnd1X3ktZHloZ200aENaRjZCT18zbUZzLVNOSko5eDBKMGVmcGdVdm9Ma1pkakxaZnhqZktwS3F1cWZXRk54UVp2VlV2YkJkendNUXZUb0pXYmpMSmZPeG05Zmd1MzBfY2t4Qg%3Foc%3D5"
+        }
+      ],
+      "crawled_at": "2026-09-03 20:01:46"
     },
     {
       "source": "Reuters",
       "title_ko": "트럼프는 재정 자제를 약속했다. 대신 차입 비용이 증가하면서 부채가 40조 달러를 넘어섰습니다.",
       "title_en": "Trump pledged fiscal restraint. Instead, debt tops $40 trillion as borrowing costs rise",
-      "summary_ko": "트럼프는 재정 자제를 약속했다. 대신 차입 비용이 증가하면서 부채가 40조 달러를 넘어섰습니다. 관련 핵심 동향이 발표되었습니다. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Reuters뿐만 아니라 Reuters 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "summary_ko": "트럼프는 재정 자제를 약속했다. 대신 차입 비용이 증가하면서 부채가 40조 달러를 넘어섰습니다. reuters.com. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Reuters뿐만 아니라 Reuters 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
       "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWkE3SEY4Mk1STzZZZXp0NGtSNXh3NV96RVBHQTlqRGVGZml6YWRKaVdqRnZHN1N4LUJrdms4UG9zY0NLVFJiMnZqUkNad1A0YVUteGxNdVdHU2JLOUFPeVI4TmtQT2xmZUhWRmZrcVE1bUlpdXRFd2ZNSGJjQUMxNEVTa3FwYU9pcnFCa3RiemZoWU5hcjYzaXEzbDVBaDFqNGV0R1lLVXhYaVJmbWxHbkdUVW1rX21ubzM1UVl3?oc=5",
       "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMivgFBVV95cUxOWkE3SEY4Mk1STzZZZXp0NGtSNXh3NV96RVBHQTlqRGVGZml6YWRKaVdqRnZHN1N4LUJrdms4UG9zY0NLVFJiMnZqUkNad1A0YVUteGxNdVdHU2JLOUFPeVI4TmtQT2xmZUhWRmZrcVE1bUlpdXRFd2ZNSGJjQUMxNEVTa3FwYU9pcnFCa3RiemZoWU5hcjYzaXEzbDVBaDFqNGV0R1lLVXhYaVJmbWxHbkdUVW1rX21ubzM1UVl3%3Foc%3D5",
       "category": "ai_hegemony",
@@ -1226,24 +1178,24 @@ window.__BRIEFING_DATA__ = {
       "importance_score": 50,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Wed, 02 Sep 2026 10:31:33 GMT",
+      "pub_date": "Wed, 02 Sep 2026 10:03:00 GMT",
       "related_articles": [
         {
           "source": "Reuters",
-          "title_ko": "Nvidia는 월가 거대 기업과 파트너십을 맺고 AI 구축을 위해 5천억 달러를 모금했습니다.",
+          "title_ko": "Nvidia, AI 구축을 위해 5,000억 달러 모금 위해 월가 거대 기업과 파트너십 체결",
           "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNC15TDEteDI0VXNtbnFkb016anJWMDJqVHRSTDlRNVNkTXFIS2NVWWlDVVVldmN1Qld0ZWIyeXowZ3d6WkFQR2YtQWN6SUU1Tzl3VFR2YmphekZzUWtCZGpsQmFWQVR4bzhEdGI1Tkxfby15cy1xVWVhWXYzQUU5WTlYWDRHc2d1azhzYXJaMHcyeGxJT0pBdU5RRXpfZG15QTJrdmRBd3hrSnlDLV9wTUdiU3U5NW5PYXBUbGJoZEdmVHBY?oc=5",
           "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMixAFBVV95cUxNNC15TDEteDI0VXNtbnFkb016anJWMDJqVHRSTDlRNVNkTXFIS2NVWWlDVVVldmN1Qld0ZWIyeXowZ3d6WkFQR2YtQWN6SUU1Tzl3VFR2YmphekZzUWtCZGpsQmFWQVR4bzhEdGI1Tkxfby15cy1xVWVhWXYzQUU5WTlYWDRHc2d1azhzYXJaMHcyeGxJT0pBdU5RRXpfZG15QTJrdmRBd3hrSnlDLV9wTUdiU3U5NW5PYXBUbGJoZEdmVHBY%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:42"
+      "crawled_at": "2026-09-03 20:01:47"
     },
     {
-      "source": "Reuters",
-      "title_ko": "베센트는 러시아 장관에게 우크라이나 전쟁이 끝날 때까지 경제적 구제가 없을 것이라고 말했다고 소식통은 전했다.",
-      "title_en": "Bessent told Russian minister no economic relief until Ukraine war ends, source says",
-      "summary_ko": "베센트는 러시아 장관에게 우크라이나 전쟁이 끝날 때까지 경제적 구제가 없을 것이라고 말했다고 소식통은 로이터에 말했습니다. 미 재무부의 TGA 현금 잔고 방출과 40조 달러 국가부채 조달(QRA) 사이클에 따른 국채 기간 프리미엄 및 글로벌 달러 유동성 환경에 직접적인 영향을 미칠 수 있습니다. Reuters뿐만 아니라 Bloomberg, uatv.ua 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNmFhem94cGh1dF9LbEJGWFptV094TFA2S0dwWFBadjFBTTdTa2p3a1RZMHY4UkVPeE5DVkVabG1JWVdtd19zSWg3MFVZZDFzUFJ1djd0UXFOQ1cyV2RmVkFhSWpKbFJvQlowUkp4Y29ndU5Pc3Z0b1VjVFFBOFpNMnBKQkx5d2RiS0Y2QWNaUFZVaE4xc0RFOTFBQ3VWemZSYVdXOUJiOVZsSU5TemRNdlM5T3BsZVprazgyejBR?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMivgFBVV95cUxQNmFhem94cGh1dF9LbEJGWFptV094TFA2S0dwWFBadjFBTTdTa2p3a1RZMHY4UkVPeE5DVkVabG1JWVdtd19zSWg3MFVZZDFzUFJ1djd0UXFOQ1cyV2RmVkFhSWpKbFJvQlowUkp4Y29ndU5Pc3Z0b1VjVFFBOFpNMnBKQkx5d2RiS0Y2QWNaUFZVaE4xc0RFOTFBQ3VWemZSYVdXOUJiOVZsSU5TemRNdlM5T3BsZVprazgyejBR%3Foc%3D5",
+      "source": "Wall Street Journal",
+      "title_ko": "전력망을 손으로 짓는 공장 노동자들",
+      "title_en": "The Factory Workers Who Build the Power Grid by Hand",
+      "summary_ko": "전력망을 손으로 짓는 공장 노동자들 관련 핵심 동향이 발표되었습니다. 빅테크 AI 데이터센터 확장 사이클과 HBM 반도체 수요, 그리고 전력망·변압기·구리 등 핵심 인프라 및 원자재 공급 병목 현상과 밀접하게 연계된 이슈입니다. Wall Street Journal뿐만 아니라 CNBC, Wall Street Journal 등 주요 외신에서도 시장 파급력을 집중 분석하고 있습니다.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTVdjMVRMZ255d0MxaGNhN2lUWnEybHlhc3JEaEp6b2phVklJbzVweFVkUjUzd2Vua1AwTlZiTE4wUlVrQ0JFOEFYRldFdU5LbWpIa1E4SGNCRkU3dVh6MFdXWl9OTWdJZFV6TlE1SHUyRlRHVGVCSml6MnNYd0lZenduZy1jUm52VWl1ZVNJV0ZaSFRj?oc=5",
+      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMilAFBVV95cUxNTVdjMVRMZ255d0MxaGNhN2lUWnEybHlhc3JEaEp6b2phVklJbzVweFVkUjUzd2Vua1AwTlZiTE4wUlVrQ0JFOEFYRldFdU5LbWpIa1E4SGNCRkU3dVh6MFdXWl9OTWdJZFV6TlE1SHUyRlRHVGVCSml6MnNYd0lZenduZy1jUm52VWl1ZVNJV0ZaSFRj%3Foc%3D5",
       "category": "ai_hegemony",
       "section_no": 6,
       "section_title": "AI 패권 전쟁 & 반도체·전력 인프라 동향",
@@ -1251,46 +1203,28 @@ window.__BRIEFING_DATA__ = {
       "importance_score": 50,
       "badge_label": "⭐ 주요 파도",
       "badge_class": "tier-wave",
-      "pub_date": "Mon, 31 Aug 2026 23:33:57 GMT",
+      "pub_date": "Tue, 16 Dec 2025 08:00:00 GMT",
       "related_articles": [
         {
-          "source": "Bloomberg",
-          "title_ko": "월요일에 이란 경제를 고립시키려는 미국의 계획을 자세히 설명할 예정",
-          "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQnFHTUU1Y1hCWmJfYmVfM2VUdE5kR3czc0ZfRUFmMzNVWElXcTFvV096REotZHBIMi05REh6MU5PZk5GT0Z4YlFSTWVoZDVDaS1oTVpCMmVSSm9JQXA4SzU4ckZKRHB2dHBCSGY0S2NOa3BMMHdzX3M0ZXR6MWNHTE42V3BxTG5aY1d6SG53UjdFVmlBQjhxdFpRQ1BPWW5veGFLQnB4NzlPU3dMNkJaZk10dw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiswFBVV95cUxPQnFHTUU1Y1hCWmJfYmVfM2VUdE5kR3czc0ZfRUFmMzNVWElXcTFvV096REotZHBIMi05REh6MU5PZk5GT0Z4YlFSTWVoZDVDaS1oTVpCMmVSSm9JQXA4SzU4ckZKRHB2dHBCSGY0S2NOa3BMMHdzX3M0ZXR6MWNHTE42V3BxTG5aY1d6SG53UjdFVmlBQjhxdFpRQ1BPWW5veGFLQnB4NzlPU3dMNkJaZk10dw%3Foc%3D5"
+          "source": "Wall Street Journal",
+          "title_ko": "전력망 붕괴를 해결하기 위한 시간과의 경쟁",
+          "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkN5SHJiYTU4R1JXZWJsSE4zck9XTHh0bHQ1eXJWOHotQm1ISVlWajJ3Mi1ZazI2TVVkd0V3bTR6bGVEczc3c19kdDJ4UkNHT0xwOGxqVXFaNzB2Y18tVFM5aEptUnJwMWYyQk5rcVlxamtxS2lJYmxETi16MUVTX29hSk1IMUM5NmZXTWZ5T2dNaFVVQ1RLZDFCamh2emNoQW5fTnVLSGZyZGpsdkhRTlVn?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxPZkN5SHJiYTU4R1JXZWJsSE4zck9XTHh0bHQ1eXJWOHotQm1ISVlWajJ3Mi1ZazI2TVVkd0V3bTR6bGVEczc3c19kdDJ4UkNHT0xwOGxqVXFaNzB2Y18tVFM5aEptUnJwMWYyQk5rcVlxamtxS2lJYmxETi16MUVTX29hSk1IMUM5NmZXTWZ5T2dNaFVVQ1RLZDFCamh2emNoQW5fTnVLSGZyZGpsdkhRTlVn%3Foc%3D5"
         },
         {
-          "source": "uatv.ua",
-          "title_ko": "Bessent, 우크라이나와의 전쟁이 끝나기 전에 미국-러시아 거래 배제 — Reuters",
-          "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObDRIQ3hwS2Vvc0cyZHczVE5mZG9lVmVLMC14dXFZc3ZkSjZBc3oxTTdDaXptb2NHakxPQWZQVVhHUl9aS1lVRXNRcmxNZ3hTQ2lpVGI1RWdiaEhWXzBPM05tQlRaT0plZmlVRmZKWjdYZ1VRRktJNlBaZ3pFRG1jODcyZUlLN1BzQ0N6VnpGUjFwT1hzQl9kVWZFdw?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMimwFBVV95cUxObDRIQ3hwS2Vvc0cyZHczVE5mZG9lVmVLMC14dXFZc3ZkSjZBc3oxTTdDaXptb2NHakxPQWZQVVhHUl9aS1lVRXNRcmxNZ3hTQ2lpVGI1RWdiaEhWXzBPM05tQlRaT0plZmlVRmZKWjdYZ1VRRktJNlBaZ3pFRG1jODcyZUlLN1BzQ0N6VnpGUjFwT1hzQl9kVWZFdw%3Foc%3D5"
+          "source": "Wall Street Journal",
+          "title_ko": "텍사스 전력을 강화하려는 Dell Scion",
+          "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU3N4bGp0RGJBdHNUR0xTWXVGQ0JoS1Ytcm42eW9ieUFaTE45bG9Uc3VoeFN2TUoxYmxKazAySVhBekR0b3ZIdTJGdzFIdjRVd09jWk9NLXFpWld3WmFSN1I3WlFEV0VSd1kxREJBaVBYRG40V203WU9fYmlodGpoRFRQc0dVM283VWRLQlJGY1hsUXFWOW42Z1M4VmxTR3BIZ1VJT05GWFB6Zw?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMiqgFBVV95cUxOU3N4bGp0RGJBdHNUR0xTWXVGQ0JoS1Ytcm42eW9ieUFaTE45bG9Uc3VoeFN2TUoxYmxKazAySVhBekR0b3ZIdTJGdzFIdjRVd09jWk9NLXFpWld3WmFSN1I3WlFEV0VSd1kxREJBaVBYRG40V203WU9fYmlodGpoRFRQc0dVM283VWRLQlJGY1hsUXFWOW42Z1M4VmxTR3BIZ1VJT05GWFB6Zw%3Foc%3D5"
         },
         {
-          "source": "Reuters",
-          "title_ko": "베센트는 엔화가 '매우 억제적'이며 무질서하게 움직이지 않는다고 말했습니다.",
-          "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemhvR29KUUI0VU1FYmFvbE9CWHhadUtxNWsxQU5uSWxkdVNVNVFDQjhFOHgyaXRnbUFvTjBGd1lwSEtaTGFua0lzQ3B6c1J5enpTQmNaVUlRZEx1VHRfR25qdnRMRlU4bGZzb1h4LTdpdnFqSVJPd1dhZHBvcnZYNTRVM2w0eWdteU52ejJQdzlNaDBsQ2lzQTdkeUZCNjAzSnJIZWRaMUxIWkR0WkE?oc=5",
-          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMirgFBVV95cUxOemhvR29KUUI0VU1FYmFvbE9CWHhadUtxNWsxQU5uSWxkdVNVNVFDQjhFOHgyaXRnbUFvTjBGd1lwSEtaTGFua0lzQ3B6c1J5enpTQmNaVUlRZEx1VHRfR25qdnRMRlU4bGZzb1h4LTdpdnFqSVJPd1dhZHBvcnZYNTRVM2w0eWdteU52ejJQdzlNaDBsQ2lzQTdkeUZCNjAzSnJIZWRaMUxIWkR0WkE%3Foc%3D5"
+          "source": "CNBC",
+          "title_ko": "덴마크, 전력망 긴장 속에 데이터센터 위기 직면",
+          "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY2lQWFpRdHNJT3dCdkxnSk0wRnNtX2NwT3hvakhoUXNFRHhhT014dV9qZ1RTM3ZPb1JYbGsxUGRwZGxWdDZNNUNqOVIxdTJkSkpVLVc5bktRWWFVSmtjUDhoUjNKTFNZXzFJdFVLV0VEZk1ZRXFBTXFqVjVYQWlwUTFPa3Q4STN4X2NNbkVOU3RNbnp0MmJ5cV8xMXNrYi1NQmdzag?oc=5",
+          "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMipAFBVV95cUxOY2lQWFpRdHNJT3dCdkxnSk0wRnNtX2NwT3hvakhoUXNFRHhhT014dV9qZ1RTM3ZPb1JYbGsxUGRwZGxWdDZNNUNqOVIxdTJkSkpVLVc5bktRWWFVSmtjUDhoUjNKTFNZXzFJdFVLV0VEZk1ZRXFBTXFqVjVYQWlwUTFPa3Q4STN4X2NNbkVOU3RNbnp0MmJ5cV8xMXNrYi1NQmdzag%3Foc%3D5"
         }
       ],
-      "crawled_at": "2026-09-02 20:01:49"
-    },
-    {
-      "source": "Bloomberg",
-      "title_ko": "구리는 미국으로의 흐름이 시장을 강화함에 따라 $ 14,000에 가까워졌습니다.",
-      "title_en": "Copper Marches Closer to $14,000 as Flows to US Tighten Market",
-      "summary_ko": "구리는 미국으로의 자금 유입으로 시장이 14,000달러에 가까워졌습니다. Bloomberg.com. 빅테크 AI 데이터센터 확장 사이클과 HBM 반도체 수요, 그리고 전력망·변압기·구리 등 핵심 인프라 및 원자재 공급 병목 현상과 밀접하게 연계된 이슈입니다. Bloomberg에 따르면 시장 참여자들의 기대치 변화와 향후 정책 발표 일정에 관심이 집중되고 있습니다.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONU1WRFVQSTFqVFJnRHFJVnVzcFloRzdybUFtc3pUTktvM2tzRW9HYUwydnNxa2s3Y094QkVsNWxkNlhObFM4MzBPTEtqWGYxZkRabjkwY2dqTkFFd2RPbmxoVGh3ZDVCQmM1WGxWelY0bzlKOEM3a0ZiVWt4WkRXaDhLTUZEZkNDaWdmbG8wSmxlYmZTR1E3Z0tUMGFEOVM2eEFzOHFOSUVWLWJuMXBLc2Fn?oc=5",
-      "translated_url": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A//news.google.com/rss/articles/CBMisgFBVV95cUxONU1WRFVQSTFqVFJnRHFJVnVzcFloRzdybUFtc3pUTktvM2tzRW9HYUwydnNxa2s3Y094QkVsNWxkNlhObFM4MzBPTEtqWGYxZkRabjkwY2dqTkFFd2RPbmxoVGh3ZDVCQmM1WGxWelY0bzlKOEM3a0ZiVWt4WkRXaDhLTUZEZkNDaWdmbG8wSmxlYmZTR1E3Z0tUMGFEOVM2eEFzOHFOSUVWLWJuMXBLc2Fn%3Foc%3D5",
-      "category": "ai_hegemony",
-      "section_no": 6,
-      "section_title": "AI 패권 전쟁 & 반도체·전력 인프라 동향",
-      "section_icon": "🤖",
-      "importance_score": 50,
-      "badge_label": "⭐ 주요 파도",
-      "badge_class": "tier-wave",
-      "pub_date": "Tue, 04 Aug 2026 07:00:00 GMT",
-      "related_articles": [],
-      "crawled_at": "2026-09-02 20:01:51"
+      "crawled_at": "2026-09-03 20:01:52"
     }
   ]
 };
